@@ -1,0 +1,17 @@
+---
+title: Výuka
+description: "Kurzy na Institutu ekonomických studií Univerzity Karlovy."
+---
+
+<!-- CONFIRM: Czech course name and description -->
+
+::: {.project}
+::: {.project-head}
+## Mikroekonomie I
+:::
+
+[Bakalářský kurz · Institut ekonomických studií, Fakulta sociálních věd UK]{.role}
+
+[Základní bakalářský kurz pro více než 150 studentů: teorie spotřebitele, teorie firmy a tržní
+struktury.]{.summary}
+:::

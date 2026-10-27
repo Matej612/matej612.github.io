@@ -1,0 +1,4 @@
+# Czech pages: Quarto translates its own interface strings and sets <html lang="cs">.
+lang: cs
+open-graph:
+  locale: cs_CZ

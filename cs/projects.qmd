@@ -1,0 +1,15 @@
+---
+title: Projekty
+description: "Výzkumné projekty a projekty pro veřejnou správu."
+listing:
+  - id: projects
+    contents: ../data/projects.yml
+    template: ../templates/project.ejs.md
+    template-params:
+      lang: cs
+---
+
+<!-- CONFIRM: Czech project descriptions (summary_cs in data/projects.yml) -->
+
+::: {#projects}
+:::

@@ -1,0 +1,61 @@
+---
+title: Životopis
+description: "Pozice, vzdělání, výzkumné pobyty a prezentace. Úplný životopis je ke stažení v PDF."
+listing:
+  - id: talks
+    contents: ../data/talks.yml
+    template: ../templates/talk.ejs.md
+    template-params:
+      lang: cs
+---
+
+```{=html}
+<div class="cv-download">
+  <a class="btn-primary-solid" href="../files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Stáhnout CV (PDF, anglicky)</a>
+  <p>Úplný životopis s publikacemi, projekty a dovednostmi.</p>
+</div>
+```
+
+<!-- CONFIRM every line below (Czech mirror of cv.qmd). -->
+
+## Pozice
+
+::: {.timeline-wrap}
+- [2021–dosud]{.when} [[Výzkumník]{.what} · Centrum pro otázky životního prostředí UK, Praha]{}
+- [Současnost]{.when} [[Institut ekonomických studií]{.what}, Fakulta sociálních věd UK · výuka Mikroekonomie I]{}
+:::
+
+## Vzdělání
+
+::: {.timeline-wrap}
+- [2017–2021]{.when} [[Ph.D. v oboru ekonomie]{.what} · Institut ekonomických studií UK, Praha]{}
+:::
+
+## Výzkumné pobyty
+
+::: {.timeline-wrap}
+- [leden 2027 (plánováno)]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago · stáž v projektu M4G]{}
+- [leden 2026]{.when} [[Společné výzkumné centrum Evropské komise (JRC)]{.what}, Sevilla]{}
+- [březen–květen 2024]{.when} [[University of California, Berkeley]{.what}, Department of Agricultural and Resource Economics · hostitel: prof. David Zilberman]{}
+- [pros. 2019–čvc. 2020]{.when} [[The University of Auckland]{.what}, Nový Zéland]{}
+- [čvc.–říj. 2018]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago]{}
+:::
+
+## Spolupráce s veřejnou správou
+
+::: {.timeline-wrap}
+- [únor 2025]{.when} [[Zvaný expert]{.what}, Research for Just Transition Policy Workshop · Evropská komise, GŘ pro zaměstnanost, sociální věci a sociální začleňování, Brusel]{}
+- [2021–dosud]{.when} [[Analytická podpora]{.what} Ministerstvu životního prostředí a Ministerstvu zemědělství (SEEPIA)]{}
+:::
+
+## Praxe mimo akademickou sféru
+
+::: {.timeline-wrap}
+- [2018–2019]{.when} [[Ekonomický analytik]{.what} · Expobank, Praha]{}
+- [ ]{.when} [[McKinsey & Company]{.what}]{}
+:::
+
+## Prezentace
+
+::: {#talks}
+:::

@@ -1,0 +1,93 @@
+---
+pagetitle: "Ekonom na Univerzitě Karlově, Praha"
+image: ../assets/img/og.jpg
+description: "Matej Opatrný je ekonom na Institutu ekonomických studií a v Centru pro otázky životního prostředí Univerzity Karlovy. Zabývá se distribučními analýzami, mikrosimulacemi a environmentální a zemědělskou politikou."
+listing:
+  - id: featured
+    contents: ../data/publications.yml
+    template: ../templates/featured.ejs.md
+    template-params:
+      lang: cs
+    include:
+      featured: true
+      visible: true
+  - id: latest-notes
+    contents: "../notes/*/index.qmd"
+    template: ../templates/notes.ejs.md
+    template-params:
+      lang: cs
+    sort: "date desc"
+    max-items: 3
+---
+
+<!-- CONFIRM: Czech wording of the bio and research interests -->
+
+```{=html}
+<section class="hero" aria-label="Úvod">
+  <div class="hero-photo">
+    <img src="../assets/img/profile.jpg" alt="Portrét Mateje Opatrného" width="600" height="800" fetchpriority="high">
+  </div>
+  <div class="hero-text">
+    <span class="eyebrow">Ekonom · Univerzita Karlova, Praha</span>
+    <h1>Matej Opatrný <span class="titles">Mgr., Ph.D.</span></h1>
+    <p class="bio">
+      Matej Opatrný je ekonom na Institutu ekonomických studií Fakulty sociálních věd Univerzity
+      Karlovy a výzkumník Centra pro otázky životního prostředí UK. Zabývá se mikroekonomií,
+      environmentální ekonomií, hodnocením zemědělské politiky a mikrosimulačním modelováním,
+      především distribučními dopady klimatické a fiskální politiky na domácnosti. Jeho mikrosimulační
+      modely domácností slouží jako analytická podpora Ministerstvu životního prostředí a Ministerstvu
+      zemědělství. Mimo akademickou sféru pracoval ve společnosti McKinsey &amp; Company a jako
+      ekonomický analytik v Expobank.
+    </p>
+    <ul class="affiliations">
+      <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institut ekonomických studií</a>, Fakulta sociálních věd UK</span></li>
+      <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Centrum pro otázky životního prostředí UK</span></li>
+    </ul>
+    <div class="hero-actions">
+      <a class="btn-primary-solid" href="../files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Stáhnout CV</a>
+      <a class="btn-outline" href="research.html">Výzkum</a>
+      <span class="icon-row">
+        <a class="icon-btn" href="#contact" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+        <a class="icon-btn" href="https://orcid.org/0000-0003-2322-6187" aria-label="ORCID"><i class="bi bi-orcid" aria-hidden="true"></i></a>
+        <a class="icon-btn" href="https://scholar.google.com/citations?user=sQzpsG8AAAAJ" aria-label="Google Scholar"><i class="bi bi-google-scholar" aria-hidden="true"></i></a>
+        <a class="icon-btn" href="https://ideas.repec.org/e/pop35.html" aria-label="RePEc / IDEAS"><i class="bi bi-ideas-repec" aria-hidden="true"></i></a>
+      </span>
+    </div>
+    <p class="contact-line" id="contact">
+      <i class="bi bi-envelope" aria-hidden="true"></i>
+      <a class="js-email" href="#contact">matej.opatrny [zavináč] gmail [tečka] com</a>
+    </p>
+  </div>
+</section>
+```
+
+::: {.section-head}
+## Výzkumné zájmy
+:::
+
+::: {.chips}
+- Distribuční analýzy a mikrosimulace
+- Energetická a dopravní chudoba
+- Hodnocení environmentální a zemědělské politiky
+- Odhalené preference a spotřebitelská poptávka
+- Měření blahobytu a nerovnosti
+- Metaanalýzy a syntéza výzkumu
+:::
+
+::: {.section-head}
+## Vybrané práce
+
+[Veškerý výzkum →](research.qmd)
+:::
+
+::: {#featured}
+:::
+
+::: {.section-head}
+## Nejnovější poznámky
+
+[Všechny poznámky →](notes.qmd)
+:::
+
+::: {#latest-notes}
+:::
