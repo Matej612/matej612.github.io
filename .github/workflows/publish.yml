@@ -1,0 +1,45 @@
+# Render the site and publish it to the gh-pages branch on every push to main.
+# One-time setup (see README): run `quarto publish gh-pages` locally once, then set
+# Settings → Pages → Source to the gh-pages branch, and Settings → Actions → General →
+# Workflow permissions to "Read and write".
+name: Publish site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install helper-script dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate data
+        run: python scripts/validate.py
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.19
+
+      - name: Render and publish to gh-pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

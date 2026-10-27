@@ -1,0 +1,16 @@
+# Link-checker settings, used by .github/workflows/checks.yml.
+max_retries = 3
+timeout = 30
+no_progress = true
+
+# Publishers (Wiley, Elsevier, Springer, …) and Google Scholar often answer automated
+# requests with 403 or 429 although the page exists; count those as alive.
+# A real 404 still fails the check.
+accept = [200, 203, 204, 206, 403, 429]
+
+exclude = [
+  "^mailto:",
+  "^https://scholar\\.google\\.com/",
+]
+
+exclude_path = ["_site/site_libs"]
