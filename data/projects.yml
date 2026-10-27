@@ -1,0 +1,65 @@
+# Research and policy projects, rendered on projects.qmd and cs/projects.qmd.
+# Fields ending in _cs are shown on the Czech page; leave them empty to fall back to English.
+
+- id: seepia
+  name: SEEPIA
+  years: "2021–"
+  start: 2021
+  visible: true
+  url: https://seepia.cz/en/
+  role_en: Work-package leader
+  role_cs: Vedoucí pracovního balíčku
+  summary_en: >-
+    Leads the consortium's microsimulation modelling of household-level impacts of environmental
+    policy under the EU's ‘Fit for 55’ package, and the work package ‘Analysis of Tool Settings in
+    Relation to Adaptation and Biodiversity Protection’, coordinating six institutions and
+    delivering results to the Czech Ministry of the Environment and the Ministry of Agriculture.
+  summary_cs: >-
+    Vede mikrosimulační modelování dopadů environmentálních opatření balíčku Fit for 55 na
+    domácnosti a pracovní balíček „Analýza nastavení nástrojů ve vztahu k adaptaci a ochraně
+    biodiverzity“, v němž koordinuje šest institucí a dodává výsledky Ministerstvu životního
+    prostředí a Ministerstvu zemědělství.
+
+- id: marches
+  name: MARCHES
+  years: "2023–2026"
+  start: 2023
+  visible: true
+  url: https://projects.au.dk/marches
+  role_en: ""
+  role_cs: ""
+  summary_en: >-
+    Develops and refines a methodology for assessing the health costs of environmental stressors –
+    air pollution and nitrate in drinking water – in six European regions (Czech Republic, Denmark,
+    Estonia, Kosovo, Spain and Sweden), counting both premature deaths and years lived with
+    disability. Contributes the Czech nitrate case study.
+  summary_cs: >-
+    Vyvíjí a zpřesňuje metodiku oceňování zdravotních nákladů environmentálních stresorů –
+    znečištění ovzduší a dusičnanů v pitné vodě – v šesti evropských regionech (Česko, Dánsko,
+    Estonsko, Kosovo, Španělsko a Švédsko), a to jak předčasných úmrtí, tak let prožitých se
+    zdravotním omezením. Zpracovává českou případovou studii dusičnanů.
+
+- id: fe3m
+  name: GAČR EXPRO FE3M
+  years: "2019–2023"
+  start: 2019
+  visible: true
+  url: https://czp.cuni.cz/cz/projekty/fe3m-gacr-expro-2019-2023
+  role_en: ""
+  role_cs: ""
+  summary_en: >-
+    Czech Science Foundation (GAČR) EXPRO project on energy efficiency, consumer behaviour
+    modelling and regulatory impact analysis: the causes of the energy-efficiency gap, how
+    households choose and substitute the capital goods behind their energy services, and how far
+    consumers are willing to shift energy demand to make the energy system more flexible. It
+    combined revealed and stated preferences and linked energy-system optimisation, CGE,
+    multi-regional environmentally extended input–output and impact-pathway models in one
+    modelling framework.
+  summary_cs: >-
+    Projekt GAČR EXPRO posouval hranice výzkumu energetické účinnosti, modelování chování
+    spotřebitelů a analýzy dopadů regulací: příčiny mezery energetické účinnosti, výběr a substituci
+    kapitálových statků, s nimiž domácnosti uspokojují své energetické služby, a ochotu spotřebitelů
+    měnit poptávku po energiích ve prospěch flexibility energetického systému. Kombinoval odhalené a
+    projevené preference a propojil modely optimalizace energetického systému, CGE, multiregionální
+    environmentálně rozšířené input-output modely a analýzu drah dopadu do jednoho modelovacího
+    nástroje.

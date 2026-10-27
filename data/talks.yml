@@ -1,0 +1,113 @@
+# Conference and seminar presentations, rendered on cv.qmd and cs/cv.qmd (newest first).
+# Only presentations with a documented title are listed. "source" records where each entry
+# came from (trip reports in the shared drive "Cesťáky/Matej_O"); it is not shown on the site.
+#
+# - id: 2027-01-short-name
+#   month: 2027-01              # YYYY-MM
+#   event: "Official event name"
+#   place: "City, Country"
+#   place_cs: "Město, Země"
+#   title: "Exact title of the paper presented"
+#   coauthors: [Ščasný]        # surnames, shown as "with …"
+#   role: presenter            # presenter | discussant | invited
+#   visible: true
+#   source: "folder/file"
+
+- id: 2026-06-wcere
+  month: 2026-06
+  event: "7th World Congress of Environmental and Resource Economists (WCERE 2026)"
+  place: "Lisbon, Portugal"
+  place_cs: "Lisabon, Portugalsko"
+  title: "Effects of Agro-Environmental Schemes on Biodiversity Potential: A Field-Level Data Analysis of Czech Agricultural Area"
+  coauthors: [Zvěřinová, Spyropoulou, Ščasný, Okwoche]
+  role: presenter
+  visible: true
+  source: "Lisabon_6_2026/WCERE 2026_ Notification of acceptance.pdf; Zapis (WCERE).docx"
+
+- id: 2025-06-iew
+  month: 2025-06
+  event: "International Energy Workshop (IEW 2025)"
+  place: "Nara, Japan"
+  place_cs: "Nara, Japonsko"
+  title: "Bridging the Gap: A Novel M2/LIHC Hybrid Indicator Unveils Energy Poverty Dynamics – Case Study of the Czech Republic"
+  coauthors: []
+  role: presenter
+  visible: true
+  source: "Nara_6_2025/Invitation_email.pdf; Zapis_Opatrny.docx"
+
+- id: 2025-06-waseda
+  month: 2025-06
+  event: "Waseda University"
+  place: "Tokyo, Japan"
+  place_cs: "Tokio, Japonsko"
+  title: "Impacts of decarbonisation on households, focused on measurement of energy/transportation poverty"
+  coauthors: []
+  role: presenter
+  visible: true
+  source: "Nara_6_2025/Zapis_Opatrny.docx (report: 'Schůzka a prezentace výstupu'; whether it was an invited seminar is not stated)"
+
+- id: 2024-11-fsr-climate
+  month: 2024-11
+  event: "FSR Climate Annual Conference 2024, Florence School of Regulation, European University Institute"
+  place: "Florence, Italy"
+  place_cs: "Florencie, Itálie"
+  title: "Bridging the Gap: A Novel M2/LIHC Hybrid Indicator Unveils Energy Poverty Dynamics – Case Study of the Czech Republic"
+  coauthors: []
+  role: presenter
+  visible: true
+  source: "Florence_11_2024/Zapis_Florencie_Opatrny.docx; Florence_acceptance.pdf"
+
+- id: 2024-10-south-caucasus
+  month: 2024-10
+  event: "Agri-food value chains in the South Caucasus (IAMO and ISET Policy Institute)"
+  place: "Tbilisi, Georgia"
+  place_cs: "Tbilisi, Gruzie"
+  title: "Impact of Agricultural Subsidies on Biodiversity"
+  coauthors: []
+  role: presenter
+  visible: true
+  source: "Gruzie_9_2024/Gruzie_Zaver_zprava_MO_MSc.docx"
+
+- id: 2024-02-ponacee
+  month: 2024-02
+  event: "PONACEE Copenhagen Workshop"
+  place: "Copenhagen, Denmark"
+  place_cs: "Kodaň, Dánsko"
+  title: "The Impact of Agricultural Subsidies on Land Use Diversity"
+  coauthors: [Čechura, et al.]
+  role: presenter
+  visible: true
+  source: "Kodan_2_2024/Zpráva o zahraniční pracovní cestě_Kodan.pdf"
+
+- id: 2023-06-eaere
+  month: 2023-06
+  event: "28th Annual Conference of the European Association of Environmental and Resource Economists (EAERE 2023)"
+  place: "Limassol, Cyprus"
+  place_cs: "Limassol, Kypr"
+  title: "Assessment of the impact of agricultural support on crop diversity"
+  coauthors: []
+  role: presenter
+  visible: true
+  source: "Limassol - June 2023/Acceptance_email_confirmation.pdf (the trip report says 'land use diversity'); Certificate_Opatrny.pdf"
+
+- id: 2023-03-eu-microdata
+  month: 2023-03
+  event: "8th European User Conference for EU-Microdata (GESIS and Eurostat)"
+  place: "Mannheim, Germany"
+  place_cs: "Mannheim, Německo"
+  title: "Elasticity of Marginal Utility of Consumption in Europe: The Absolute Equal-Sacrifice Approach"
+  coauthors: [Ščasný]
+  role: presenter
+  visible: true
+  source: "Mannheim_3_2023/Zpráva o zahraniční pracovní cestě_Mannheim.docx (the preliminary programme lists a different title under Ščasný)"
+
+- id: 2022-06-eaere
+  month: 2022-06
+  event: "Annual Conference of the European Association of Environmental and Resource Economists (EAERE 2022)"
+  place: "Rimini, Italy"
+  place_cs: "Rimini, Itálie"
+  title: "Elasticity of Marginal Utility of Consumption in the European Region: The Absolute Equal-Sacrifice Approach"
+  coauthors: [Ščasný]
+  role: presenter
+  visible: true
+  source: "Rimini_6_2022/Zpráva o zahraniční pracovní cestě_Rimini.docx"

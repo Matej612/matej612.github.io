@@ -1,0 +1,525 @@
+# SINGLE SOURCE OF TRUTH for research outputs, rendered on research.qmd and cs/research.qmd.
+#
+# Paper with a DOI:     python scripts/add_paper.py 10.xxxx/yyyy
+# Paper without a DOI:  copy the template below, delete the leading "# " on each line, fill it in.
+# After any edit:       python scripts/validate.py
+#
+# type:   article | working_paper | report | chapter | book
+# status: published | forthcoming | rr | under_review | wip
+# visible: true       -> shown on the site (nothing is shown until you set this)
+# needs_review: true  -> filled automatically from Crossref, not yet checked by you
+# categories          -> research topics; they become the filter chips on the Research page
+# journal             -> journal; or series / institution for working papers and reports.
+#                        For under_review / rr it shows as "Under review at <journal>";
+#                        leave it empty to show just "Under review".
+#
+# - id: opatrny-2026-short-slug          # unique, lowercase letters, digits and hyphens
+#   type: working_paper
+#   status: wip
+#   visible: false
+#   needs_review: false
+#   featured: false                      # true = shown under "Selected work" on the home page
+#   title: "Title of the paper"
+#   authors: [Matej Opatrný, Milan Ščasný]
+#   coauthors_display: with Milan Ščasný # leave "" for solo papers
+#   journal: ""
+#   year: 2026
+#   volume: ""
+#   issue: ""
+#   pages: ""
+#   article_number: ""
+#   doi: ""                              # bare DOI, without https://doi.org/
+#   url: ""                              # where the title links when there is no DOI
+#   abstract: ""
+#   categories: [Energy poverty]
+#   links: {pdf: files/papers/opatrny-2026.pdf, data: "", code: "", slides: "", video: "", media: ""}
+
+# ── Working papers and manuscripts ──────────────────────────────────────────
+
+- id: opatrny-2026-one-mistake
+  type: working_paper
+  status: under_review
+  visible: true
+  needs_review: false
+  featured: false
+  title: "How Much Measured Irrationality Is One Mistake? Combining the Critical Cost Efficiency and Houtman–Maks Indices"
+  authors: [Matej Opatrný]
+  coauthors_display: ""
+  journal: Research in Economics
+  year: 2026
+  volume: ""
+  issue: ""
+  pages: ""
+  article_number: ""
+  doi: ""
+  url: ""
+  abstract: ""
+  categories: [Preferences & choice]
+  links: {}
+
+- id: opatrny-2026-benefit-cost-precision
+  type: working_paper
+  status: under_review
+  visible: true
+  needs_review: false
+  featured: false
+  title: "Benefit-Cost Analysis of Precision Agriculture for Nitrogen Pollution Reduction: Evidence from the Zelivka Catchment"
+  authors: [Matej Opatrný, Milan Ščasný, Csilla Farkas, Mikael Skou Andersen, David Zilberman]
+  coauthors_display: with Milan Ščasný, Csilla Farkas, Mikael Skou Andersen and David Zilberman
+  journal: Journal of Benefit-Cost Analysis
+  year: 2026
+  volume: ""
+  issue: ""
+  pages: ""
+  article_number: ""
+  doi: ""
+  url: ""
+  abstract: >-
+    This paper presents a social benefit-cost analysis (BCA) of Precision Agriculture (PA) and
+    Enhanced Efficiency Fertilizers (EEF) for reducing nitrate pollution in the Zelivka catchment,
+    the drinking-water source for 1.5 million people in Prague and surrounding regions. The analysis
+    combines field-level data (50,309 ha, 729 farms), meta-analytical biophysical parameters, a
+    dynamic heterogeneous-agent adoption model, and cross-validation against an independent SWAT+
+    hydrological simulation.
+  categories: [Agricultural & environmental policy]
+  links: {}
+
+- id: opatrny-2026-agri-environment-money
+  type: working_paper
+  status: under_review
+  visible: true
+  needs_review: false
+  featured: false
+  title: "Where agri-environment money goes: biodiversity potential, soil productivity and the Common Agricultural Policy"
+  authors: [Matej Opatrný, Milan Ščasný]
+  coauthors_display: with Milan Ščasný
+  journal: European Review of Agricultural Economics
+  year: 2026
+  volume: ""
+  issue: ""
+  pages: ""
+  article_number: ""
+  doi: ""
+  url: ""
+  abstract: ""
+  categories: [Agricultural & environmental policy]
+  links: {}
+
+- id: opatrny-2026-optimal-inflation-rate
+  type: working_paper
+  status: under_review
+  visible: true
+  needs_review: false
+  featured: false
+  title: "Optimal Inflation Rate: A Meta-Analysis"
+  authors: [Matej Opatrný, Martin Opatrný, Tomáš Havránek, Z. Havránková, M. Hampl]
+  coauthors_display: with Martin Opatrný, Tomáš Havránek, Z. Havránková and M. Hampl
+  journal: Journal of Economic Surveys
+  year: 2026
+  volume: ""
+  issue: ""
+  pages: ""
+  article_number: ""
+  doi: ""
+  url: ""
+  abstract: ""
+  categories: [Meta-analysis]
+  links: {}
+
+- id: opatrny-2026-measured-not-moved
+  type: working_paper
+  status: wip
+  visible: true
+  needs_review: false
+  featured: false
+  title: "Measured but not moved: what energy poverty indicators record when they evaluate a Social Climate Plan"
+  authors: [Matej Opatrný, Milan Ščasný]
+  coauthors_display: with Milan Ščasný
+  journal: ""
+  year: 2026
+  volume: ""
+  issue: ""
+  pages: ""
+  article_number: ""
+  doi: ""
+  url: ""
+  abstract: ""
+  categories: [Energy poverty]
+  links: {}
+
+- id: opatrny-2026-coherent-homogeneous-llm
+  type: working_paper
+  status: wip
+  visible: true
+  needs_review: false
+  featured: false
+  title: "Coherent but Homogeneous: Large Language Model Households in a Budget Microsimulation"
+  authors: [Matej Opatrný, Milan Ščasný]
+  coauthors_display: with Milan Ščasný
+  journal: ""
+  year: 2026
+  volume: ""
+  issue: ""
+  pages: ""
+  article_number: ""
+  doi: ""
+  url: ""
+  abstract: ""
+  categories: [Microsimulation]
+  links: {}
+
+- id: opatrny-2025-bridging-gap-m2lihc
+  type: working_paper
+  status: wip
+  visible: true
+  needs_review: false
+  featured: false
+  title: "Bridging the Gap: A Novel M2/LIHC Hybrid Indicator Unveils Energy Poverty Dynamics – Case Study of the Czech Republic"
+  authors: [Matej Opatrný, Milan Ščasný]
+  coauthors_display: with Milan Ščasný
+  journal: IES Working Papers
+  year: 2025
+  volume: ""
+  issue: "6/2025"
+  pages: ""
+  article_number: ""
+  doi: ""
+  url: "https://ies.fsv.cuni.cz/en/bridging-gap-novel-m2/lihc-hybrid-indicator-unveils-energy-poverty-dynamics-case-study-czech"
+  abstract: >-
+    This paper introduces a novel composite energy poverty indicator, the M2LIHC, which combines
+    elements of the twice-median expenditure share (2M) and Low Income High Cost (LIHC) measures.
+    Using a unique dataset merging the Czech Household Budget Survey and EU-SILC data from
+    2017-2022, we demonstrate how this hybrid approach provides new insights into energy poverty
+    dynamics. The M2LIHC indicator addresses key limitations of existing metrics, avoiding the LIHC
+    measure’s counterintuitive response to income changes in the lowest decile and mitigating the 2M
+    indicator’s potential overestimation of energy poverty among higher-income households with high
+    energy costs. Our comparative analysis reveals significant differences in energy poverty rates
+    and household characteristics identified by each indicator. The M2LIHC measure proves more
+    robust to income fluctuations than LIHC while maintaining sensitivity to both income and energy
+    cost components. We find energy poverty in the Czech Republic has increased across all
+    indicators from 2017 to 2022, with the M2LIHC indicator suggesting a rise from 8.9% to 13.5%. To
+    further validate our approach, we employ the DASMOD (Distributional And Social Impact Model) to
+    simulate various energy and climate policy scenarios. These simulations demonstrate the complex
+    effects of compensation policies on energy poverty measures, with M2LIHC providing a more
+    nuanced view of policy impacts. By providing a more comprehensive and theoretically consistent
+    measure of energy poverty, coupled with policy simulation capabilities, the M2LIHC indicator
+    offers policymakers an improved tool for targeting support and assessing the effectiveness of
+    energy poverty alleviation strategies in the context of energy transitions and climate policies.
+  categories: [Energy poverty, Microsimulation]
+  links: {}
+
+# ── Journal articles ────────────────────────────────────────────────────────
+# Entries with needs_review: true were filled from Crossref; years and status were
+# corrected against Opatrny_seznam_publikaci_2026.pdf. Check, then set needs_review: false.
+
+- id: opatrny-2025-publication-bias-model
+  type: article
+  status: forthcoming
+  visible: true
+  needs_review: true
+  featured: true
+  title: "Publication Bias and Model Uncertainty in Measuring the Effect of Class Size on Achievement"
+  authors: [Matej Opatrny, Tomas Havranek, Zuzana Irsova, Milan Scasny]
+  coauthors_display: with Tomáš Havránek, Zuzana Irsova and Milan Ščasný
+  journal: Journal of Labor Economics
+  year: 2025
+  volume: ""
+  issue: ""
+  pages: ""
+  article_number: ""
+  doi: 10.1086/737989
+  url: ""
+  abstract: >-
+    Class size reduction mandates are routinely justified by studies reporting positive effects on
+    student achievement. Yet other studies report no effects, and the literature as a whole awaits
+    correction for potential publication bias. Moreover, if identification drives results
+    systematically, the relevance of individual studies will vary. We build a sample of 2,819
+    estimates collected from 66 studies and for each estimate classify 42 factors that reflect
+    estimation context. We employ nonlinear techniques for publication bias correction and model
+    averaging techniques to address model uncertainty. The results are consistent with little
+    publication bias. The implied class size effect is negligible for all identification approaches
+    except Tennessee’s Student/Teacher Achievement Ratio project and for all contexts except classes
+    of fewer than 15 students.
+  categories: [Meta-analysis]
+  links: {}
+
+- id: scasny-2026-new-estimates-elasticity
+  type: article
+  status: published
+  visible: true
+  needs_review: true
+  featured: true
+  title: "New estimates of the elasticity of marginal utility of consumption for Europe"
+  authors: [Milan Ščasný, Matěj Opatrný]
+  coauthors_display: with Milan Ščasný
+  journal: Empirical Economics
+  year: 2026
+  volume: "70"
+  issue: "6"
+  pages: ""
+  article_number: "91"
+  doi: 10.1007/s00181-026-02936-z
+  url: ""
+  abstract: >-
+    We estimate the elasticity of marginal utility of consumption (μ) for Europe and 32 individual
+    European countries using household-level income tax data. Specifically, we rely on the absolute
+    equal-sacrifice approach to elicit the revealed preferences of income taxpayers on their
+    political preference for income redistribution. Our central estimate of μ equals 1.43. With few
+    exceptions, μ’s for European countries exceed unity, ranging between 1.2 and 1.94. We discuss
+    the implications of our estimates for inequality measurement, benefit transfer, and the social
+    discount rate.
+  categories: [Welfare & inequality]
+  links: {}
+
+- id: opatrny-2025-elasticity-marginal-utility
+  type: article
+  status: published
+  visible: true
+  needs_review: true
+  featured: true
+  title: "Elasticity of marginal utility of consumption: the equal-sacrifice approach applied for the Czech Republic"
+  authors: [Matěj Opatrný, Milan Ščasný]
+  coauthors_display: with Milan Ščasný
+  journal: The Journal of Economic Inequality
+  year: 2026
+  volume: "24"
+  issue: "1"
+  pages: 261-281
+  article_number: ""
+  doi: 10.1007/s10888-025-09671-y
+  url: ""
+  abstract: >-
+    We provide the first estimate of the elasticity of marginal utility of consumption, μ, for a
+    post-transition economy in the Central & Eastern European region – the Czech Republic – based on
+    household-level data. Using the absolute equal-sacrifice income tax approach, we obtain a central
+    estimate of μ at 1.47, which varies between 1.32 to 1.66 within the study period covering
+    2005–2022. Moreover, the estimate of the elasticity of marginal utility of consumption differs
+    between various income groups, indicating that this approach is suitable only for those who pay
+    income tax. Including the non-taxpayers segment means ceteris paribus negative μ, and hence its
+    smaller value for the entire population. Importantly, the μ estimate increases when social
+    benefits are included in gross income, and it decreases when social and health insurance
+    contributions are included in the definition of taxes. Since parameter μ is a crucial component
+    of the social discount rate, our result provides useful input for policies that affect
+    intertemporal allocations.
+  categories: [Welfare & inequality]
+  links: {}
+
+- id: cook-2026-reporting-guidelines-metaanalysis
+  type: article
+  status: published
+  visible: true
+  needs_review: true
+  featured: false
+  title: "Reporting Guidelines for Meta-Analysis in Economics—Updated for AI"
+  authors: [Nikolai Cook, František Bartoš, Pedro R. D. Bom, Sebastian Gechert, Klára Kantová,
+    Jerome Geyer-Klingeberg, Tomáš Havránek, Zuzana Irsova, Martina Luskova, Matěj Opatrný,
+    Franz Prante, Heiko J. Rachinger, T. D. Stanley]
+  coauthors_display: with Nikolai Cook, František Bartoš and 10 others
+  journal: Journal of Economic Surveys
+  year: 2026
+  volume: ""
+  issue: ""
+  pages: ""
+  article_number: ""
+  doi: 10.1111/joes.70116
+  url: ""
+  abstract: >-
+    Meta-analysis is how science takes stock of its vast research output. The advent of
+    increasingly capable artificial intelligence (AI) promises an unprecedented ability to identify
+    and synthesize relevant research and its findings. In this document, the meta-analysis of
+    economics research network (MAER-Net) updates existing Reporting Guidelines to be consistent
+    with community-driven best practices for the responsible use and disclosure of AI-assistance in
+    meta-analysis research. This update is meant to further improve the transparency, replicability,
+    and quality of meta-analyses by building upon the 2020 and 2013 Reporting Guidelines published
+    by this Journal. Cook et al. (2026) describe the guiding principles behind the update. Future
+    meta-analyses, whether or not they use AI, are expected to follow these updated guidelines or to
+    be prepared to give reasons if they deviate from them.
+  categories: [Meta-analysis]
+  links: {}
+
+- id: budzinski-2026-volumetric-choice-experiments
+  type: article
+  status: published
+  visible: true
+  needs_review: true
+  featured: true
+  title: "Volumetric choice experiments and welfare measures in a subsidy-driven context"
+  authors: [Wiktor Budziński, Mikołaj Czajkowski, Solen Le Clec’h, Olimpia Markiewicz,
+    Bettina Matzdorf, Matěj Opatrný, Jens Rommel, Julian Sagebiel, Christoph Schulze,
+    Milan Ščasný, Lenny van Bussel, Katarzyna Zagórska, Wojciech Zawadzki]
+  coauthors_display: with Wiktor Budziński, Mikołaj Czajkowski and 10 others
+  journal: Resource and Energy Economics
+  year: 2026
+  volume: "86"
+  issue: ""
+  pages: ""
+  article_number: "101572"
+  doi: 10.1016/j.reseneeco.2026.101572
+  url: ""
+  abstract: >-
+    Volumetric Choice Experiments (VCE) offer a novel approach to studying individual behavior,
+    traditionally explored through Discrete Choice Experiments. This study assesses the efficacy of
+    VCE in understanding farmers' preferences regarding new results-based and practice-based
+    agri-environmental contracts, using a comprehensive international stated preference survey.
+    Recognizing that farmers often act as households maximizing utility rather than purely
+    profit-driven producers, we provide justification for applying a utility-based framework in
+    this context. The subsidy-driven nature of agri-environmental contracts poses a challenge for
+    the use of multiple discrete-continuous choice models suited for VCE data. Conventionally, these
+    models utilize an income-based budget equation, which would not be binding given the
+    willingness-to-accept format of the experiment. To operationalize our model, we adopt a
+    land-based budget equation, facilitating the development of a novel compensating variation
+    measure for welfare analysis. Our findings reveal insightful contrasts between VCE-derived data
+    and traditional DCE results, highlighting the complexities encountered and the comparability of
+    outcomes. By delving into the distinct attributes of VCE and justifying the utility-based
+    approach for farmers, this research not only bridges a critical gap in the literature but also
+    enhances our understanding of farmer behavior, with significant implications for the design and
+    implementation of future agri-environmental policies.
+  categories: [Agricultural & environmental policy, Preferences & choice]
+  links: {}
+
+- id: gechert-2024-conventional-wisdom-metaanalysis
+  type: article
+  status: published
+  visible: true
+  needs_review: true
+  featured: false
+  title: "Conventional wisdom, meta-analysis, and research revision in economics"
+  authors: [Sebastian Gechert, Bianka Mey, Matej Opatrny, Tomas Havranek, T. D. Stanley,
+    Pedro R. D. Bom, Hristos Doucouliagos, Philipp Heimberger, Zuzana Irsova, Heiko J. Rachinger]
+  coauthors_display: with Sebastian Gechert, Bianka Mey and 7 others
+  journal: Journal of Economic Surveys
+  year: 2025
+  volume: "39"
+  issue: "3"
+  pages: 980-999
+  article_number: ""
+  doi: 10.1111/joes.12630
+  url: ""
+  abstract: >-
+    Over the past several decades, meta-analysis has emerged as a widely accepted tool to understand
+    economics research. Meta-analyses often challenge the established conventional wisdom of their
+    respective fields. We systematically review a wide range of influential meta-analyses in
+    economics and compare them to “conventional wisdom.” After correcting for observable biases, the
+    empirical economic effects are typically much closer to zero and sometimes switch signs.
+    Typically, the relative reduction in effect sizes is 45%–60%.
+  categories: [Meta-analysis]
+  links: {}
+
+- id: kroupova-2023-assessment-impact-agricultural
+  type: article
+  status: published
+  visible: true
+  needs_review: true
+  featured: false
+  title: "Assessment of the impact of agricultural support on crop diversity"
+  authors: [Zdeňka Žáková Kroupová, Lukáš Čechura, Matěj Opatrný, Zuzana Hloušková, Iveta Mlezivová]
+  coauthors_display: with Zdeňka Žáková Kroupová, Lukáš Čechura, Zuzana Hloušková and Iveta Mlezivová
+  journal: Agricultural Economics (Zemědělská ekonomika)
+  year: 2023
+  volume: "69"
+  issue: "3"
+  pages: 89-100
+  article_number: ""
+  doi: 10.17221/387/2022-agricecon
+  url: ""
+  abstract: >-
+    This study examines the impact of agricultural support on crop diversity measured by a diversity
+    index. Our results indicate that agricultural subsidies have a limited effect on agricultural
+    biodiversity. By using unique farm-level data, we show that subsidies support the income of
+    farmers rather than the agricultural biodiversity. The results are robust regarding the size,
+    practice management and altitude of the agricultural holdings' operations and various measures
+    of agricultural biodiversity. However, when interpreting the results, the limitations of
+    biodiversity indices should be considered.
+  categories: [Agricultural & environmental policy, Policy evaluation]
+  links: {}
+
+- id: opatrny-2020-impact-brexit-vote
+  type: article
+  status: published
+  visible: true
+  needs_review: true
+  featured: false
+  title: "The impact of the Brexit vote on UK financial markets: a synthetic control method approach"
+  authors: [Matej Opatrny]
+  coauthors_display: ""
+  journal: Empirica
+  year: 2021
+  volume: "48"
+  issue: "2"
+  pages: 559-587
+  article_number: ""
+  doi: 10.1007/s10663-020-09481-7
+  url: ""
+  abstract: >-
+    We estimate how the UK financial markets would have evolved if the Remain camp had won the
+    referendum. To construct the counterfactual, we use the synthetic control method. Our results
+    suggest that there would not have been any significant change in the development of the FTSE
+    100 Index in the medium to long term if there had not been a referendum. On the other hand, we
+    find a significantly negative effect of 1.2 percentage points on the 10-year bond yield. Given
+    the geopolitical circumstances in mid 2016, financial agents investing in the pound could have
+    sought safer investment options represented by longer-term government bonds, which consequently
+    could result in lower bond yields.
+  categories: [Policy evaluation]
+  links: {}
+
+# Entered by hand from Opatrny_seznam_publikaci_2026.pdf: this DOI is registered
+# with mEDRA, not Crossref, so add_paper.py cannot fetch it.
+- id: opatrny-2020-eu-accession-farm
+  type: article
+  status: published
+  visible: true
+  needs_review: false
+  featured: false
+  title: "The Impact of EU Accession on Farm Production in the Czech Republic: A Synthetic Control Method Approach"
+  authors: [Matej Opatrný]
+  coauthors_display: ""
+  journal: Czech Journal of Economics and Finance
+  year: 2020
+  volume: "70"
+  issue: "3"
+  pages: 281-307
+  article_number: ""
+  doi: 10.32065/CJEF.2020.03.05
+  url: ""
+  abstract: >-
+    Czech farmers experienced an enormous exogenous shock when they joined the common agricultural
+    market (CAM) and the Common Agricultural Policy (CAP) in 2004. Using the World Bank's dataset,
+    we apply the synthetic control method to establish a counterfactual case of the Czech Republic
+    food production index in the absence of the CAM and CAP. The results show that the Czech
+    Republic would have had a higher food index if it had not entered the CAM and CAP. Moreover, we
+    show that the CAP and CAM had different impacts on farms in the Czech Republic and Bulgaria,
+    which have the most comparable agriculture according to the results of the synthetic control
+    method.
+  categories: [Agricultural & environmental policy, Policy evaluation]
+  links: {}
+
+# Entered by hand from Opatrny_seznam_publikaci_2026.pdf (no DOI).
+- id: opatrny-2017-cnb-exchange-rate
+  type: article
+  status: published
+  visible: true
+  needs_review: false
+  featured: false
+  title: "Quantifying the Effects of the CNB's Exchange Rate Commitment: A Synthetic Control Method Approach"
+  authors: [Matej Opatrný]
+  coauthors_display: ""
+  journal: Czech Journal of Economics and Finance
+  year: 2017
+  volume: "67"
+  issue: "6"
+  pages: 539-577
+  article_number: ""
+  doi: ""
+  url: "https://journal.fsv.cuni.cz/mag/article/show/id/1396"
+  abstract: >-
+    In this paper I evaluate the quantitative effects of the Czech National Bank's commitment to keep
+    the Koruna from appreciating that were put in place in 2013. I focus on the policy's impact on
+    output, unemployment, and inflation. I use the synthetic control method, which allows me to
+    compute the counter-factual development of the Czech economy in the absence of the commitment. I
+    find that the commitment helped decrease unemployment substantially. The effect on overall
+    output is also strongly positive, almost 2 percentage points for growth in 2015, but only
+    marginally statistically significant, which might be connected to disturbances created by
+    changes in excise taxes. The effect of the commitment on inflation is positive but not
+    statistically significant at standard levels.
+  categories: [Policy evaluation]
+  links: {}
