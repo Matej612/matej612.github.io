@@ -1,0 +1,17 @@
+# Quarto build output and caches
+/.quarto/
+/_site/
+/_build.yml
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+**/*.quarto_ipynb

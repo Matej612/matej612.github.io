@@ -1,0 +1,93 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "cs/*.qmd"
+    - "notes/**/*.qmd"
+  resources:
+    - "files/**"
+    - "assets/fonts/**"
+    - "assets/img/**"
+  post-render: scripts/build_stamp.py
+  preview:
+    port: 4321
+    browser: true
+
+execute:
+  freeze: auto
+
+lang: en-GB
+
+website:
+  title: "Matej Opatrný"
+  description: "Economist at Charles University, Prague: distributional analysis and microsimulation, environmental and agricultural policy, welfare measurement."
+  site-url: "https://matej612.github.io"
+  repo-url: "https://github.com/matej612/matej612.github.io"
+  favicon: assets/img/favicon.svg
+  image: assets/img/og.jpg
+  open-graph:
+    locale: en_GB
+  search: false
+  page-navigation: false
+  back-to-top-navigation: false
+  navbar:
+    title: "Matej Opatrný"
+    collapse-below: lg
+    toggle-position: right
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - href: teaching.qmd
+        text: Teaching
+      - href: notes/index.qmd
+        text: Notes
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: "index.qmd#contact"
+        aria-label: Email
+      - icon: orcid
+        href: "https://orcid.org/0000-0003-2322-6187"
+        aria-label: ORCID
+      - icon: google-scholar
+        href: "https://scholar.google.com/citations?user=sQzpsG8AAAAJ"
+        aria-label: Google Scholar
+      - icon: ideas-repec
+        href: "https://ideas.repec.org/e/pop35.html"
+        aria-label: RePEc / IDEAS
+      - text: "CS"
+        href: cs/index.qmd
+        aria-label: "Česky"
+  page-footer:
+    left: '<span class="build-stamp"></span>'
+    right:
+      - text: RSS
+        href: notes/index.xml
+        aria-label: RSS feed of notes
+      - text: Source
+        href: "https://github.com/matej612/matej612.github.io"
+        aria-label: Source code of this website
+
+format:
+  html:
+    theme:
+      light: [assets/styles/base.scss, assets/styles/light.scss]
+      dark: [assets/styles/base.scss, assets/styles/dark.scss]
+    respect-user-color-scheme: true
+    css: assets/styles/site.css
+    include-after-body: assets/html/site-script.html
+    toc: false
+    anchor-sections: false
+    smooth-scroll: false
+    link-external-newwindow: false
+    email-obfuscation: javascript
+    grid:
+      body-width: 860px
+      margin-width: 0px
+      sidebar-width: 0px

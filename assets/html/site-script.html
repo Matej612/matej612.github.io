@@ -1,0 +1,81 @@
+<script>
+// Small progressive enhancements; the site works without JavaScript.
+(() => {
+  // 1. Email links. The address is assembled here so it never appears as one string in
+  //    the HTML. If you change your address, also change email_user/email_domain in
+  //    _variables.yml.
+  const email = ["matej.opatrny", "gmail.com"].join("@");
+  const emailLinks = new Set(document.querySelectorAll('a.js-email, a[aria-label="Email"]'));
+  document.querySelectorAll('[aria-label="Email"]').forEach((el) => el.closest("a") && emailLinks.add(el.closest("a")));
+  emailLinks.forEach((a) => {
+    a.href = "mailto:" + email;
+    if (a.classList.contains("js-email")) a.textContent = email;
+  });
+
+  // 2. Czech pages: translate the shared navbar and point it at the Czech pages.
+  //    English and Czech pages share file names: research.html <-> cs/research.html,
+  //    except the notes page (notes/ <-> cs/notes.html).
+  const brand = document.querySelector("a.navbar-brand")?.getAttribute("href") || "./";
+  const root = new URL(".", new URL(brand, location.href));
+  const rel = (url) => decodeURI(new URL(url, location.href).pathname)
+    .slice(decodeURI(root.pathname).length).replace(/index\.html$/, "");
+  const here = rel(location.href);
+  const isCs = here === "cs/" || here.startsWith("cs/");
+  const pages = ["", "research.html", "projects.html", "teaching.html", "notes/", "cv.html"];
+  const toCs = (p) => (p === "notes/" ? "cs/notes.html" : "cs/" + p);
+  const toEn = (p) => (p === "cs/notes.html" ? "notes/" : p.replace(/^cs\//, ""));
+  const labels = { Home: "Domů", Research: "Výzkum", Projects: "Projekty", Teaching: "Výuka",
+                   Notes: "Poznámky", CV: "Životopis", Source: "Zdrojový kód" };
+
+  const counterpart = isCs
+    ? (pages.includes(toEn(here)) ? toEn(here) : "")
+    : (pages.includes(here) ? toCs(here) : here.startsWith("notes/") ? "cs/notes.html" : "cs/");
+
+  // The language switch is the text-only navbar link pointing at the Czech home page.
+  const langLink = [...document.querySelectorAll("#quarto-header a.nav-link")]
+    .find((a) => rel(a.href) === "cs/" && !a.querySelector(".bi"));
+  if (langLink) {
+    langLink.classList.add("lang-switch");
+    langLink.classList.remove("active");
+    langLink.removeAttribute("aria-current");
+    langLink.href = new URL(counterpart, root).href;
+    langLink.setAttribute("hreflang", isCs ? "en" : "cs");
+    langLink.setAttribute("lang", isCs ? "en" : "cs");
+    langLink.setAttribute("aria-label", isCs ? "English version" : "Česká verze");
+    const t = langLink.querySelector(".menu-text");
+    if (t) t.textContent = isCs ? "EN" : "CS";
+  }
+
+  document.querySelectorAll("#quarto-header a.nav-link, #quarto-header a.navbar-brand, .nav-footer a").forEach((a) => {
+    if (!isCs || a === langLink) return;
+    const target = rel(a.href);
+    if (a.origin === location.origin && (pages.includes(target) || a.classList.contains("navbar-brand"))) {
+      a.href = new URL(toCs(target), root).href;
+      a.classList.toggle("active", toCs(target) === here);
+      if (toCs(target) === here) a.setAttribute("aria-current", "page");
+      else a.removeAttribute("aria-current");
+    }
+    const t = a.querySelector(".menu-text");
+    if (t && labels[t.textContent.trim()]) t.textContent = labels[t.textContent.trim()];
+  });
+
+  // 3. Topic filter chips: mirror Quarto's .active class into aria-pressed, keep the
+  //    section counts in step with the filter and hide sections left empty.
+  const bar = document.querySelector(".topic-bar");
+  if (bar) {
+    const sync = () => {
+      bar.querySelectorAll("button").forEach((b) =>
+        b.setAttribute("aria-pressed", b.classList.contains("active") ? "true" : "false"));
+      document.querySelectorAll(".pub-section").forEach((s) => {
+        const n = s.querySelectorAll(".pub-list > li").length;
+        const c = s.querySelector("h2 .count");
+        if (c) c.textContent = n;
+        s.hidden = n === 0;
+      });
+    };
+    bar.addEventListener("click", () => setTimeout(sync));
+    window.addEventListener("load", () => setTimeout(sync));
+    window.addEventListener("popstate", () => setTimeout(sync));
+  }
+})();
+</script>
