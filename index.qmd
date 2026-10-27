@@ -92,3 +92,24 @@ listing:
 
 ::: {#latest-notes}
 :::
+
+::: {.section-head}
+## Beyond research
+:::
+
+<!-- CONFIRM wording -->
+Matej keeps cattle. His family runs a small farm of around 20 hectares in Šumava (the Bohemian
+Forest), where the cows are his own and he looks after them himself.
+
+```{=html}
+<div class="photo-grid">
+  <figure>
+    <img src="assets/img/farm-pasture.jpg" alt="Brown cows grazing on a green pasture below wooded hills in Šumava" width="1200" height="900" loading="lazy" decoding="async">
+    <figcaption>On pasture in Šumava</figcaption>
+  </figure>
+  <figure>
+    <img src="assets/img/farm-cow.jpg" alt="Matej Opatrný reaching over a metal cattle fence to touch a brown cow" width="1200" height="900" loading="lazy" decoding="async">
+    <figcaption>With one of the cows</figcaption>
+  </figure>
+</div>
+```

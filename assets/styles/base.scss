@@ -107,7 +107,7 @@ p, li { max-width: 72ch; }
   max-width: 62ch;
   margin-top: 0.6rem;
 }
-main.content { padding-top: 1.25rem; }
+main.content { padding-top: 1.25rem; padding-bottom: 3.5rem; }
 
 // ── Shared atoms ────────────────────────────────────────────────────────────
 .eyebrow {
@@ -280,6 +280,25 @@ main.content { padding-top: 1.25rem; }
   .hero-photo img { width: 150px; border-radius: 16px; }
   .icon-row { margin-left: 0; width: 100%; }
 }
+
+// ── Home: beyond research (farm photos) ─────────────────────────────────────
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+  figure { margin: 0; }
+  img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 16px;
+    background: var(--c-surface-2);
+  }
+  figcaption { font-size: 0.88rem; color: var(--c-muted); margin-top: 0.5rem; }
+}
+@media (max-width: 575.98px) { .photo-grid { grid-template-columns: 1fr; } }
 
 // ── Featured work cards ─────────────────────────────────────────────────────
 .card-grid {
@@ -470,7 +489,7 @@ details.abstract {
   border-top: 1px solid var(--c-border);
   font-size: 0.85rem;
   color: var(--c-muted);
-  margin-top: 4rem;
+  margin-top: 0;
   a { color: var(--c-muted); }
   a:hover { color: var(--c-accent); }
 }

@@ -29,6 +29,7 @@ Open points from the initial build (27 Oct 2026). Pages mark them with `<!-- CON
 ## Please confirm (drafted by Claude)
 
 - [ ] Bio (index.qmd) and its Czech translation (cs/index.qmd).
+- [ ] "Beyond research" farm paragraph and photo captions (index.qmd, cs/index.qmd).
 - [ ] Research interests (index.qmd, cs/index.qmd); "Meta-analysis and research synthesis" was added.
 - [ ] Featured papers: JOLE, JEI, Empirical Economics, Resource and Energy Economics (`featured: true`).
 - [ ] Topic categories and their Czech labels (data/publications.yml, cs/research.qmd).

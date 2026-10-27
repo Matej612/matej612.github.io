@@ -91,3 +91,24 @@ listing:
 
 ::: {#latest-notes}
 :::
+
+::: {.section-head}
+## Mimo výzkum
+:::
+
+<!-- CONFIRM wording -->
+Matej chová krávy. Jeho rodina hospodaří na malém zemědělském podniku na Šumavě o rozloze zhruba
+20 hektarů. Krávy jsou jeho vlastní a sám se o ně stará.
+
+```{=html}
+<div class="photo-grid">
+  <figure>
+    <img src="../assets/img/farm-pasture.jpg" alt="Hnědé krávy na zelené pastvině pod zalesněnými šumavskými kopci" width="1200" height="900" loading="lazy" decoding="async">
+    <figcaption>Na pastvě na Šumavě</figcaption>
+  </figure>
+  <figure>
+    <img src="../assets/img/farm-cow.jpg" alt="Matej Opatrný natahuje ruku přes kovovou ohradu ke hnědé krávě" width="1200" height="900" loading="lazy" decoding="async">
+    <figcaption>S jednou z krav</figcaption>
+  </figure>
+</div>
+```
