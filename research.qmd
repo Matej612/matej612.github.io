@@ -1,0 +1,64 @@
+---
+title: Research
+description: "Working papers, journal articles and policy reports. Titles link to the published version; abstracts open in place."
+listing:
+  - id: topics
+    contents: data/publications.yml
+    template: templates/topics.ejs.md
+    template-params:
+      lang: en
+    include:
+      visible: true
+  - id: working-papers
+    contents: data/publications.yml
+    template: templates/publication.ejs.md
+    template-params:
+      lang: en
+      heading: Working papers
+      anchor: working-papers-section
+      order: status
+    include:
+      type: working_paper
+      visible: true
+    exclude:
+      status: published
+  - id: publications
+    contents: data/publications.yml
+    template: templates/publication.ejs.md
+    template-params:
+      lang: en
+      heading: Publications
+      anchor: publications-section
+      order: status
+    include:
+      type: "{article,chapter,book}"
+      status: "{published,forthcoming}"
+      visible: true
+  - id: reports
+    contents: data/publications.yml
+    template: templates/publication.ejs.md
+    template-params:
+      lang: en
+      heading: Policy reports
+      anchor: reports-section
+    include:
+      type: report
+      visible: true
+---
+
+::: {#topics}
+:::
+
+::: {#working-papers}
+:::
+
+::: {#publications}
+:::
+
+::: {#reports}
+:::
+
+::: {.muted}
+Citation profiles: [Google Scholar](https://scholar.google.com/citations?user=sQzpsG8AAAAJ) ·
+[RePEc/IDEAS](https://ideas.repec.org/e/pop35.html) · [ORCID](https://orcid.org/0000-0003-2322-6187)
+:::

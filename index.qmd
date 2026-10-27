@@ -1,0 +1,94 @@
+---
+pagetitle: "Economist at Charles University, Prague"
+image: assets/img/og.jpg
+description: "Matej Opatrný is an economist at the Institute of Economic Studies and the Environment Centre, Charles University, Prague, working on distributional analysis, microsimulation and environmental and agricultural policy."
+listing:
+  - id: featured
+    contents: data/publications.yml
+    template: templates/featured.ejs.md
+    template-params:
+      lang: en
+    include:
+      featured: true
+      visible: true
+  - id: latest-notes
+    contents: "notes/*/index.qmd"
+    template: templates/notes.ejs.md
+    template-params:
+      lang: en
+    sort: "date desc"
+    max-items: 3
+---
+
+<!-- CONFIRM: bio wording, research interests and the choice of featured papers (featured: true in data/publications.yml) -->
+
+```{=html}
+<section class="hero" aria-label="Introduction">
+  <div class="hero-photo">
+    <img src="assets/img/profile.jpg" alt="Portrait of Matej Opatrný" width="600" height="800" fetchpriority="high">
+  </div>
+  <div class="hero-text">
+    <span class="eyebrow">Economist · Charles University, Prague</span>
+    <h1>Matej Opatrný <span class="titles">MSc, PhD</span></h1>
+    <p class="bio">
+      Matej Opatrný is an economist at the Institute of Economic Studies, Faculty of Social Sciences,
+      Charles University, Prague, and a researcher at the Charles University Environment Centre.
+      His research spans microeconomics, environmental economics, agricultural policy evaluation and
+      microsimulation modelling, with a focus on the distributional effects of climate and fiscal
+      policy on households. His household microsimulation work provides analytical support to the
+      Czech Ministry of the Environment and the Ministry of Agriculture. Outside academia, he has
+      worked at McKinsey &amp; Company and as an economic analyst at Expobank.
+    </p>
+    <ul class="affiliations">
+      <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institute of Economic Studies</a>, Faculty of Social Sciences, Charles University</span></li>
+      <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Charles University Environment Centre</span></li>
+    </ul>
+    <div class="hero-actions">
+      <a class="btn-primary-solid" href="files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Download CV</a>
+      <a class="btn-outline" href="research.html">Research</a>
+      <span class="icon-row">
+        <a class="icon-btn" href="#contact" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+        <a class="icon-btn" href="https://orcid.org/0000-0003-2322-6187" aria-label="ORCID"><i class="bi bi-orcid" aria-hidden="true"></i></a>
+        <a class="icon-btn" href="https://scholar.google.com/citations?user=sQzpsG8AAAAJ" aria-label="Google Scholar"><i class="bi bi-google-scholar" aria-hidden="true"></i></a>
+        <a class="icon-btn" href="https://ideas.repec.org/e/pop35.html" aria-label="RePEc / IDEAS"><i class="bi bi-ideas-repec" aria-hidden="true"></i></a>
+      </span>
+    </div>
+    <p class="contact-line" id="contact">
+      <i class="bi bi-envelope" aria-hidden="true"></i>
+      <a class="js-email" href="#contact">matej.opatrny [at] gmail [dot] com</a>
+    </p>
+  </div>
+</section>
+```
+
+::: {.section-head}
+## Research interests
+:::
+
+<!-- CONFIRM -->
+::: {.chips}
+- Distributional analysis and microsimulation
+- Energy and transport poverty
+- Environmental and agricultural policy evaluation
+- Revealed preference and consumer demand
+- Welfare measurement and inequality
+- Meta-analysis and research synthesis
+:::
+
+::: {.section-head}
+## Selected work
+
+[All research →](research.qmd)
+:::
+
+::: {#featured}
+:::
+
+::: {.section-head}
+## Latest notes
+
+[All notes →](notes/index.qmd)
+:::
+
+::: {#latest-notes}
+:::

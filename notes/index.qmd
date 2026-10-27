@@ -1,0 +1,16 @@
+---
+title: Notes & Commentary
+description: "Short pieces on policy and research for a general audience."
+listing:
+  - id: notes
+    contents: "*/index.qmd"
+    template: ../templates/notes.ejs.md
+    template-params:
+      lang: en
+    sort: "date desc"
+    feed:
+      type: partial
+---
+
+::: {#notes}
+:::

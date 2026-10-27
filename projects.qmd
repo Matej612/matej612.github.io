@@ -1,0 +1,15 @@
+---
+title: Projects
+description: "Research and policy projects."
+listing:
+  - id: projects
+    contents: data/projects.yml
+    template: templates/project.ejs.md
+    template-params:
+      lang: en
+---
+
+<!-- CONFIRM: project descriptions (data/projects.yml) and your role in MARCHES and FE3M -->
+
+::: {#projects}
+:::

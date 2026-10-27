@@ -1,0 +1,17 @@
+---
+title: Teaching
+description: "Courses at the Institute of Economic Studies, Charles University."
+---
+
+<!-- CONFIRM: course description; TODO: link to the course page in SIS or Moodle, if public -->
+
+::: {.project}
+::: {.project-head}
+## Microeconomics I
+:::
+
+[Bachelor's course · Institute of Economic Studies, Faculty of Social Sciences, Charles University]{.role}
+
+[A foundational bachelor's course for more than 150 students, covering consumer theory, producer
+theory and market structures.]{.summary}
+:::

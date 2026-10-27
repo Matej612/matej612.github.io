@@ -1,0 +1,3 @@
+# Applies to every note in notes/.
+title-block-categories: true
+date-format: "D MMMM YYYY"

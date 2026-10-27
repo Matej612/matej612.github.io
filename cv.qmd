@@ -1,0 +1,61 @@
+---
+title: Curriculum vitae
+description: "Positions, education, research stays and presentations. The full CV is a PDF download."
+listing:
+  - id: talks
+    contents: data/talks.yml
+    template: templates/talk.ejs.md
+    template-params:
+      lang: en
+---
+
+```{=html}
+<div class="cv-download">
+  <a class="btn-primary-solid" href="files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Download CV (PDF)</a>
+  <p>Full CV with publications, projects and skills.</p>
+</div>
+```
+
+<!-- CONFIRM every line below. TODO: your position title at IES and since when; MSc (institution, year); McKinsey (role, years). -->
+
+## Positions
+
+::: {.timeline-wrap}
+- [2021–present]{.when} [[Researcher]{.what} · Charles University Environment Centre, Prague]{}
+- [Current]{.when} [[Institute of Economic Studies]{.what}, Faculty of Social Sciences, Charles University · teaching Microeconomics I]{}
+:::
+
+## Education
+
+::: {.timeline-wrap}
+- [2017–2021]{.when} [[PhD in Economics]{.what} · Institute of Economic Studies, Charles University, Prague]{}
+:::
+
+## Research stays
+
+::: {.timeline-wrap}
+- [Jan 2027 (planned)]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago · M4G secondment]{}
+- [Jan 2026]{.when} [[European Commission Joint Research Centre (JRC)]{.what}, Seville]{}
+- [Mar–May 2024]{.when} [[University of California, Berkeley]{.what}, Department of Agricultural and Resource Economics · host: Prof. David Zilberman]{}
+- [Dec 2019–Jul 2020]{.when} [[The University of Auckland]{.what}, New Zealand]{}
+- [Jul–Oct 2018]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago]{}
+:::
+
+## Policy engagement
+
+::: {.timeline-wrap}
+- [Feb 2025]{.when} [[Invited expert]{.what}, Research for Just Transition Policy Workshop · European Commission, DG Employment, Social Affairs and Inclusion, Brussels]{}
+- [2021–present]{.when} [[Analytical support]{.what} to the Czech Ministry of the Environment and the Ministry of Agriculture (SEEPIA)]{}
+:::
+
+## Experience outside academia
+
+::: {.timeline-wrap}
+- [2018–2019]{.when} [[Economic analyst]{.what} · Expobank, Prague]{}
+- [ ]{.when} [[McKinsey & Company]{.what}]{}
+:::
+
+## Presentations
+
+::: {#talks}
+:::
