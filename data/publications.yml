@@ -20,7 +20,7 @@
 #   needs_review: false
 #   featured: false                      # true = shown under "Selected work" on the home page
 #   title: "Title of the paper"
-#   authors: [Matej Opatrný, Milan Ščasný]
+#   authors: [Matej Opatrny, Milan Ščasný]
 #   coauthors_display: with Milan Ščasný # leave "" for solo papers
 #   journal: ""
 #   year: 2026
@@ -43,7 +43,7 @@
   needs_review: false
   featured: false
   title: "How Much Measured Irrationality Is One Mistake? Combining the Critical Cost Efficiency and Houtman–Maks Indices"
-  authors: [Matej Opatrný]
+  authors: [Matej Opatrny]
   coauthors_display: ""
   journal: Research in Economics
   year: 2026
@@ -64,7 +64,7 @@
   needs_review: false
   featured: false
   title: "Benefit-Cost Analysis of Precision Agriculture for Nitrogen Pollution Reduction: Evidence from the Zelivka Catchment"
-  authors: [Matej Opatrný, Milan Ščasný, Csilla Farkas, Mikael Skou Andersen, David Zilberman]
+  authors: [Matej Opatrny, Milan Ščasný, Csilla Farkas, Mikael Skou Andersen, David Zilberman]
   coauthors_display: with Milan Ščasný, Csilla Farkas, Mikael Skou Andersen and David Zilberman
   journal: Journal of Benefit-Cost Analysis
   year: 2026
@@ -91,7 +91,7 @@
   needs_review: false
   featured: false
   title: "Where agri-environment money goes: biodiversity potential, soil productivity and the Common Agricultural Policy"
-  authors: [Matej Opatrný, Milan Ščasný]
+  authors: [Matej Opatrny, Milan Ščasný]
   coauthors_display: with Milan Ščasný
   journal: European Review of Agricultural Economics
   year: 2026
@@ -112,7 +112,7 @@
   needs_review: false
   featured: false
   title: "Optimal Inflation Rate: A Meta-Analysis"
-  authors: [Matej Opatrný, Martin Opatrný, Tomáš Havránek, Z. Havránková, M. Hampl]
+  authors: [Matej Opatrny, Martin Opatrný, Tomáš Havránek, Z. Havránková, M. Hampl]
   coauthors_display: with Martin Opatrný, Tomáš Havránek, Z. Havránková and M. Hampl
   journal: Journal of Economic Surveys
   year: 2026
@@ -128,14 +128,14 @@
 
 - id: opatrny-2026-measured-not-moved
   type: working_paper
-  status: wip
+  status: under_review
   visible: true
   needs_review: false
   featured: false
   title: "Measured but not moved: what energy poverty indicators record when they evaluate a Social Climate Plan"
-  authors: [Matej Opatrný, Milan Ščasný]
+  authors: [Matej Opatrny, Milan Ščasný]
   coauthors_display: with Milan Ščasný
-  journal: ""
+  journal: Energy Policy
   year: 2026
   volume: ""
   issue: ""
@@ -154,7 +154,7 @@
   needs_review: false
   featured: false
   title: "Coherent but Homogeneous: Large Language Model Households in a Budget Microsimulation"
-  authors: [Matej Opatrný, Milan Ščasný]
+  authors: [Matej Opatrny, Milan Ščasný]
   coauthors_display: with Milan Ščasný
   journal: ""
   year: 2026
@@ -175,7 +175,7 @@
   needs_review: false
   featured: false
   title: "Bridging the Gap: A Novel M2/LIHC Hybrid Indicator Unveils Energy Poverty Dynamics – Case Study of the Czech Republic"
-  authors: [Matej Opatrný, Milan Ščasný]
+  authors: [Matej Opatrny, Milan Ščasný]
   coauthors_display: with Milan Ščasný
   journal: IES Working Papers
   year: 2025
@@ -471,7 +471,7 @@
   needs_review: false
   featured: false
   title: "The Impact of EU Accession on Farm Production in the Czech Republic: A Synthetic Control Method Approach"
-  authors: [Matej Opatrný]
+  authors: [Matej Opatrny]
   coauthors_display: ""
   journal: Czech Journal of Economics and Finance
   year: 2020
@@ -501,7 +501,7 @@
   needs_review: false
   featured: false
   title: "Quantifying the Effects of the CNB's Exchange Rate Commitment: A Synthetic Control Method Approach"
-  authors: [Matej Opatrný]
+  authors: [Matej Opatrny]
   coauthors_display: ""
   journal: Czech Journal of Economics and Finance
   year: 2017
@@ -522,4 +522,5 @@
     changes in excise taxes. The effect of the commitment on inflation is positive but not
     statistically significant at standard levels.
   categories: [Policy evaluation]
-  links: {}
+  # Video: ČNB vlog interview about the award-winning bachelor's thesis behind this paper.
+  links: {video: "https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku"}

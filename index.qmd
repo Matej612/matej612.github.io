@@ -1,7 +1,7 @@
 ---
 pagetitle: "Economist at Charles University, Prague"
 image: assets/img/og.jpg
-description: "Matej Opatrný is an economist at the Institute of Economic Studies and the Environment Centre, Charles University, Prague, working on distributional analysis, microsimulation and environmental and agricultural policy."
+description: "Matej Opatrny is an economist at the Institute of Economic Studies and the Environment Centre, Charles University, Prague, working on distributional analysis, microsimulation and environmental and agricultural policy."
 listing:
   - id: featured
     contents: data/publications.yml
@@ -25,13 +25,13 @@ listing:
 ```{=html}
 <section class="hero" aria-label="Introduction">
   <div class="hero-photo">
-    <img src="assets/img/profile.jpg" alt="Portrait of Matej Opatrný" width="600" height="800" fetchpriority="high">
+    <img src="assets/img/profile.jpg" alt="Portrait of Matej Opatrny" width="600" height="800" fetchpriority="high">
   </div>
   <div class="hero-text">
     <span class="eyebrow">Economist · Charles University, Prague</span>
-    <h1>Matej Opatrný <span class="titles">MSc, PhD</span></h1>
+    <h1>Matej Opatrny <span class="titles">MSc, PhD</span></h1>
     <p class="bio">
-      Matej Opatrný is an economist at the Institute of Economic Studies, Faculty of Social Sciences,
+      Matej Opatrny is an economist at the Institute of Economic Studies, Faculty of Social Sciences,
       Charles University, Prague, and a researcher at the Charles University Environment Centre.
       His research spans microeconomics, environmental economics, agricultural policy evaluation and
       microsimulation modelling, with a focus on the distributional effects of climate and fiscal
@@ -39,9 +39,16 @@ listing:
       Czech Ministry of the Environment and the Ministry of Agriculture. Outside academia, he has
       worked at McKinsey &amp; Company and as an economic analyst at Expobank.
     </p>
+    <p class="bio">
+      He also knows agricultural policy from the other side of the fence. Together with his parents,
+      his brother and sister-in-law, he runs a small family farm of around 20 hectares in Šumava,
+      where the cows are his own and looking after them is his job. He is married and has two
+      children.
+    </p>
     <ul class="affiliations">
       <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institute of Economic Studies</a>, Faculty of Social Sciences, Charles University</span></li>
       <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Charles University Environment Centre</span></li>
+      <li><i class="bi bi-award" aria-hidden="true"></i><span>Award, Mladý ekonom roku 2016 (Young Economist of the Year) · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">ČNB video interview</a></span></li>
     </ul>
     <div class="hero-actions">
       <a class="btn-primary-solid" href="files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Download CV</a>
@@ -94,12 +101,11 @@ listing:
 :::
 
 ::: {.section-head}
-## Beyond research
+## On the farm
 :::
 
-<!-- CONFIRM wording -->
-Matej keeps cattle. His family runs a small farm of around 20 hectares in Šumava (the Bohemian
-Forest), where the cows are his own and he looks after them himself.
+<!-- CONFIRM wording; the farm and family are described in the bio above -->
+A look at the family farm in Šumava, the Bohemian Forest.
 
 ```{=html}
 <div class="photo-grid">
@@ -108,7 +114,7 @@ Forest), where the cows are his own and he looks after them himself.
     <figcaption>On pasture in Šumava</figcaption>
   </figure>
   <figure>
-    <img src="assets/img/farm-cow.jpg" alt="Matej Opatrný reaching over a metal cattle fence to touch a brown cow" width="1200" height="900" loading="lazy" decoding="async">
+    <img src="assets/img/farm-cow.jpg" alt="Matej Opatrny reaching over a metal cattle fence to touch a brown cow" width="1200" height="900" loading="lazy" decoding="async">
     <figcaption>With one of the cows</figcaption>
   </figure>
 </div>

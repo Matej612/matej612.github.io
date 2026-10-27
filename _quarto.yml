@@ -20,7 +20,7 @@ execute:
 lang: en-GB
 
 website:
-  title: "Matej Opatrný"
+  title: "Matej Opatrny"
   description: "Economist at Charles University, Prague: distributional analysis and microsimulation, environmental and agricultural policy, welfare measurement."
   site-url: "https://matej612.github.io"
   repo-url: "https://github.com/matej612/matej612.github.io"
@@ -32,7 +32,7 @@ website:
   page-navigation: false
   back-to-top-navigation: false
   navbar:
-    title: "Matej Opatrný"
+    title: "Matej Opatrny"
     collapse-below: lg
     toggle-position: right
     left:
@@ -79,7 +79,6 @@ format:
     theme:
       light: [assets/styles/base.scss, assets/styles/light.scss]
       dark: [assets/styles/base.scss, assets/styles/dark.scss]
-    respect-user-color-scheme: true
     css: assets/styles/site.css
     include-after-body: assets/html/site-script.html
     toc: false

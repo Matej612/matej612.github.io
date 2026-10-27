@@ -1,7 +1,7 @@
 ---
 pagetitle: "Ekonom na Univerzitě Karlově, Praha"
 image: ../assets/img/og.jpg
-description: "Matej Opatrný je ekonom na Institutu ekonomických studií a v Centru pro otázky životního prostředí Univerzity Karlovy. Zabývá se distribučními analýzami, mikrosimulacemi a environmentální a zemědělskou politikou."
+description: "Matej Opatrny je ekonom na Institutu ekonomických studií a v Centru pro otázky životního prostředí Univerzity Karlovy. Zabývá se distribučními analýzami, mikrosimulacemi a environmentální a zemědělskou politikou."
 listing:
   - id: featured
     contents: ../data/publications.yml
@@ -25,13 +25,13 @@ listing:
 ```{=html}
 <section class="hero" aria-label="Úvod">
   <div class="hero-photo">
-    <img src="../assets/img/profile.jpg" alt="Portrét Mateje Opatrného" width="600" height="800" fetchpriority="high">
+    <img src="../assets/img/profile.jpg" alt="Portrét: Matej Opatrny" width="600" height="800" fetchpriority="high">
   </div>
   <div class="hero-text">
     <span class="eyebrow">Ekonom · Univerzita Karlova, Praha</span>
-    <h1>Matej Opatrný <span class="titles">Mgr., Ph.D.</span></h1>
+    <h1>Matej Opatrny <span class="titles">Mgr., Ph.D.</span></h1>
     <p class="bio">
-      Matej Opatrný je ekonom na Institutu ekonomických studií Fakulty sociálních věd Univerzity
+      Matej Opatrny je ekonom na Institutu ekonomických studií Fakulty sociálních věd Univerzity
       Karlovy a výzkumník Centra pro otázky životního prostředí UK. Zabývá se mikroekonomií,
       environmentální ekonomií, hodnocením zemědělské politiky a mikrosimulačním modelováním,
       především distribučními dopady klimatické a fiskální politiky na domácnosti. Jeho mikrosimulační
@@ -39,9 +39,15 @@ listing:
       zemědělství. Mimo akademickou sféru pracoval ve společnosti McKinsey &amp; Company a jako
       ekonomický analytik v Expobank.
     </p>
+    <p class="bio">
+      Zemědělskou politiku zná i z druhé strany plotu. S rodiči, bratrem a jeho ženou hospodaří na
+      malé rodinné farmě o rozloze zhruba 20 hektarů na Šumavě, kde chová vlastní krávy a sám se
+      o ně stará. Je ženatý a má dvě děti.
+    </p>
     <ul class="affiliations">
       <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institut ekonomických studií</a>, Fakulta sociálních věd UK</span></li>
       <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Centrum pro otázky životního prostředí UK</span></li>
+      <li><i class="bi bi-award" aria-hidden="true"></i><span>Ocenění v soutěži Mladý ekonom roku 2016 · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">rozhovor ve vlogu ČNB</a></span></li>
     </ul>
     <div class="hero-actions">
       <a class="btn-primary-solid" href="../files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Stáhnout CV</a>
@@ -93,12 +99,11 @@ listing:
 :::
 
 ::: {.section-head}
-## Mimo výzkum
+## Na farmě
 :::
 
-<!-- CONFIRM wording -->
-Matej chová krávy. Jeho rodina hospodaří na malém zemědělském podniku na Šumavě o rozloze zhruba
-20 hektarů. Krávy jsou jeho vlastní a sám se o ně stará.
+<!-- CONFIRM wording; farma a rodina jsou popsané v medailonku nahoře -->
+Pohled na rodinnou farmu na Šumavě.
 
 ```{=html}
 <div class="photo-grid">
@@ -107,7 +112,7 @@ Matej chová krávy. Jeho rodina hospodaří na malém zemědělském podniku na
     <figcaption>Na pastvě na Šumavě</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/farm-cow.jpg" alt="Matej Opatrný natahuje ruku přes kovovou ohradu ke hnědé krávě" width="1200" height="900" loading="lazy" decoding="async">
+    <img src="../assets/img/farm-cow.jpg" alt="Matej Opatrny natahuje ruku přes kovovou ohradu ke hnědé krávě" width="1200" height="900" loading="lazy" decoding="async">
     <figcaption>S jednou z krav</figcaption>
   </figure>
 </div>

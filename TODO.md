@@ -24,12 +24,18 @@ Open points from the initial build (27 Oct 2026). Pages mark them with `<!-- CON
       names, or show only "Under review" (empty the `journal` field)? Have co-authors agreed to
       the listing?
 - [ ] **"How Much Measured Irrationality Is One Mistake?"**: year 2026 assumed; abstract?
-- [ ] Abstracts are missing for the ERAE, JOES (optimal inflation), Economic Policy and IJF manuscripts.
+- [ ] Abstracts are missing for the ERAE, JOES (optimal inflation), Energy Policy and IJF manuscripts.
+- [ ] "Measured but not moved" is now listed as under review at *Energy Policy* (your message, 27 Oct
+      2026, said "sent to Energy Policy"; the Oct 2026 list said Economic Policy, in preparation).
 
 ## Please confirm (drafted by Claude)
 
-- [ ] Bio (index.qmd) and its Czech translation (cs/index.qmd).
-- [ ] "Beyond research" farm paragraph and photo captions (index.qmd, cs/index.qmd).
+- [ ] Bio (index.qmd) and its Czech translation (cs/index.qmd), including the second paragraph
+      about the family farm ("from the other side of the fence") and family.
+- [ ] "On the farm" photo section and captions (index.qmd, cs/index.qmd).
+- [ ] Award wording: "Mladý ekonom roku 2016 (Young Economist of the Year), award for the
+      bachelor's thesis" (from the ČNB vlog page; organiser and placing are not stated there).
+      Shown on the home page, the CV page and as a Video link on the CJEF 2017 article.
 - [ ] Research interests (index.qmd, cs/index.qmd); "Meta-analysis and research synthesis" was added.
 - [ ] Featured papers: JOLE, JEI, Empirical Economics, Resource and Energy Economics (`featured: true`).
 - [ ] Topic categories and their Czech labels (data/publications.yml, cs/research.qmd).
@@ -37,7 +43,7 @@ Open points from the initial build (27 Oct 2026). Pages mark them with `<!-- CON
       title are translations.
 - [ ] Teaching text; Czech course name "Mikroekonomie I"; link to the course page, if public.
 - [ ] CV page entries (cv.qmd, cs/cv.qmd), including "Invited expert" for the EC DG EMPL workshop.
-- [ ] Czech page name "Mgr. Matej Opatrný, Ph.D." (English pages: "MSc, PhD").
+- [ ] Czech page name "Mgr. Matej Opatrny, Ph.D." (English pages: "MSc, PhD").
 - [ ] Abstracts were copied from Opatrny_2026_CV_OPJAK.pdf ("mju" written as μ, as in the
       published versions).
 - [ ] The published CV (files/cv.pdf = Opatrny_2026_CV_OPJAK.pdf) shows date of birth, gender

@@ -1,9 +1,9 @@
 # Single place for names, contact details and IDs.
 # Pages read these with {{< var key >}}; scripts in scripts/ read them too.
 
-name: "Matej Opatrný"
+name: "Matej Opatrny"
 titles_en: "MSc, PhD"
-name_cs: "Mgr. Matej Opatrný, Ph.D."
+name_cs: "Mgr. Matej Opatrny, Ph.D."
 
 # The email is split so it never appears as one string in the HTML (anti-scraper).
 email_user: "matej.opatrny"

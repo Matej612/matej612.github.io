@@ -31,6 +31,12 @@ listing:
 - [2017–2021]{.when} [[PhD in Economics]{.what} · Institute of Economic Studies, Charles University, Prague]{}
 :::
 
+## Awards
+
+::: {.timeline-wrap}
+- [2016]{.when} [[Mladý ekonom roku 2016]{.what} (Young Economist of the Year) · award for the bachelor's thesis on the effects of the Czech National Bank's exchange-rate commitment · [Video interview, ČNB vlog (in Czech)](https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku)]{}
+:::
+
 ## Research stays
 
 ::: {.timeline-wrap}

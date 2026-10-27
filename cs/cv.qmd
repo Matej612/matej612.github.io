@@ -31,6 +31,12 @@ listing:
 - [2017–2021]{.when} [[Ph.D. v oboru ekonomie]{.what} · Institut ekonomických studií UK, Praha]{}
 :::
 
+## Ocenění
+
+::: {.timeline-wrap}
+- [2016]{.when} [[Mladý ekonom roku 2016]{.what} · ocenění bakalářské práce o dopadech kurzového závazku ČNB · [rozhovor ve vlogu ČNB](https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku)]{}
+:::
+
 ## Výzkumné pobyty
 
 ::: {.timeline-wrap}

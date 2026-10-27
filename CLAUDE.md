@@ -1,6 +1,6 @@
 # Maintenance notes for Claude Code
 
-Personal academic website of Matej Opatrný (Quarto website → GitHub Pages, user site
+Personal academic website of Matej Opatrny (Quarto website → GitHub Pages, user site
 `matej612.github.io`). The owner is the only author; he reviews every change.
 
 ## Ground rules
@@ -52,6 +52,6 @@ quarto preview                             # local preview on port 4321
   *Journal*, Vol(Issue), pages / pills for DOI · PDF · Data · Code · Slides, then the abstract.
 - Status labels: Forthcoming, Under review (journal shown only if `journal` is filled), Work in
   progress. In `coauthors_display` the owner is left out.
-- Names: English pages "Matej Opatrný, MSc, PhD"; Czech pages "Mgr. Matej Opatrný, Ph.D.".
+- Names: English pages "Matej Opatrny, MSc, PhD"; Czech pages "Mgr. Matej Opatrny, Ph.D.".
 - One accent colour (teal); colours only via the `--c-*` tokens in `light.scss` / `dark.scss`.
   No new JavaScript frameworks, CMS or trackers.

@@ -1,6 +1,6 @@
 # matej612.github.io
 
-Personal academic website of Matej Opatrný, built with [Quarto](https://quarto.org) and
+Personal academic website of Matej Opatrny, built with [Quarto](https://quarto.org) and
 published on GitHub Pages at <https://matej612.github.io>. English pages sit in the root and
 Czech pages in `cs/`; the **CS / EN** button in the menu switches between the two.
 
