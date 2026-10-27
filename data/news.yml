@@ -1,0 +1,139 @@
+# News, shown on the home page ("News") and on news.qmd / cs/news.qmd (all items).
+# Keep it to the highlights: major conferences, new publications, research stays, awards.
+# The site sorts the items itself and works out from the dates whether something is
+# upcoming, happening now or past, so nothing needs changing when an event is over.
+#
+# - id: 2027-01-short-name
+#   start: 2027-01-05           # YYYY-MM-DD, or YYYY-MM if the day does not matter
+#   end: 2027-01-19             # optional; same format as start
+#   kind: conference            # conference | talk | publication | stay | award | policy | other
+#   title_en: "What happened"
+#   title_cs: "Co se stalo"     # optional; the English title is used if empty (e.g. paper titles)
+#   detail_en: "One short line"  # optional
+#   detail_cs: "Jeden krátký řádek"
+#   url: https://…              # optional; makes the title a link
+#   visible: true
+
+# CONFIRM: which paper will you present at the CES conference? Add it to talks.yml afterwards.
+- id: 2026-11-ces-biennial
+  start: 2026-11-27
+  end: 2026-11-28
+  kind: conference
+  title_en: "14th Biennial Conference of the Czech Economic Society"
+  title_cs: "14. bienální konference České společnosti ekonomické"
+  detail_en: "Paper accepted · Prague University of Economics and Business (VŠE), Prague"
+  detail_cs: "Přijatý příspěvek · Vysoká škola ekonomická v Praze"
+  url: https://cse.cz/en/news/14th-biennial-conference-of-the-ces
+  visible: true
+
+- id: 2027-01-puc-chile
+  start: 2027-01
+  kind: stay
+  title_en: "Research stay at the Pontificia Universidad Católica de Chile, Santiago"
+  title_cs: "Výzkumný pobyt na Pontificia Universidad Católica de Chile, Santiago"
+  detail_en: "Secondment in the Horizon Europe project M4G, in the group of Prof. Juan-Pablo Montero"
+  detail_cs: "Stáž v projektu M4G (Horizont Evropa), hostitel prof. Juan-Pablo Montero"
+  url: ""
+  visible: true
+
+- id: 2026-06-wcere
+  start: 2026-06-29
+  end: 2026-07-03
+  kind: conference
+  title_en: "7th World Congress of Environmental and Resource Economists (WCERE 2026)"
+  title_cs: ""
+  detail_en: "Presented “Effects of Agro-Environmental Schemes on Biodiversity Potential” · Lisbon, Portugal"
+  detail_cs: "Prezentace „Effects of Agro-Environmental Schemes on Biodiversity Potential“ · Lisabon, Portugalsko"
+  url: ""
+  visible: true
+
+- id: 2026-06-empirical-economics
+  start: 2026-06
+  kind: publication
+  title_en: "New estimates of the elasticity of marginal utility of consumption for Europe"
+  title_cs: ""
+  detail_en: "Published in Empirical Economics"
+  detail_cs: "Vyšlo v časopise Empirical Economics"
+  url: https://doi.org/10.1007/s00181-026-02936-z
+  visible: true
+
+- id: 2026-05-joes-reporting-guidelines
+  start: 2026-05
+  kind: publication
+  title_en: "Reporting Guidelines for Meta-Analysis in Economics—Updated for AI"
+  title_cs: ""
+  detail_en: "Published in the Journal of Economic Surveys"
+  detail_cs: "Vyšlo v časopise Journal of Economic Surveys"
+  url: https://doi.org/10.1111/joes.70116
+  visible: true
+
+- id: 2026-05-ree-volumetric
+  start: 2026-05
+  kind: publication
+  title_en: "Volumetric choice experiments and welfare measures in a subsidy-driven context"
+  title_cs: ""
+  detail_en: "Published in Resource and Energy Economics"
+  detail_cs: "Vyšlo v časopise Resource and Energy Economics"
+  url: https://doi.org/10.1016/j.reseneeco.2026.101572
+  visible: true
+
+- id: 2026-01-jrc-seville
+  start: 2026-01
+  kind: stay
+  title_en: "Research visit to the European Commission's Joint Research Centre (JRC), Seville"
+  title_cs: "Výzkumná návštěva ve Společném výzkumném centru Evropské komise (JRC), Sevilla"
+  detail_en: ""
+  detail_cs: ""
+  url: ""
+  visible: true
+
+- id: 2025-08-jole
+  start: 2025-08
+  kind: publication
+  title_en: "Publication Bias and Model Uncertainty in Measuring the Effect of Class Size on Achievement"
+  title_cs: ""
+  detail_en: "Forthcoming in the Journal of Labor Economics, available online"
+  detail_cs: "Přijato do časopisu Journal of Labor Economics, dostupné online"
+  url: https://doi.org/10.1086/737989
+  visible: true
+
+- id: 2025-06-iew
+  start: 2025-06
+  kind: conference
+  title_en: "International Energy Workshop (IEW 2025)"
+  title_cs: ""
+  detail_en: "Presented “Bridging the Gap: A Novel M2/LIHC Hybrid Indicator Unveils Energy Poverty Dynamics” · Nara, Japan"
+  detail_cs: "Prezentace „Bridging the Gap: A Novel M2/LIHC Hybrid Indicator Unveils Energy Poverty Dynamics“ · Nara, Japonsko"
+  url: ""
+  visible: true
+
+- id: 2025-05-jei
+  start: 2025-05
+  kind: publication
+  title_en: "Elasticity of marginal utility of consumption: the equal-sacrifice approach applied for the Czech Republic"
+  title_cs: ""
+  detail_en: "Published online in The Journal of Economic Inequality"
+  detail_cs: "Vyšlo online v časopise The Journal of Economic Inequality"
+  url: https://doi.org/10.1007/s10888-025-09671-y
+  visible: true
+
+- id: 2025-02-ec-just-transition
+  start: 2025-02
+  kind: policy
+  title_en: "Invited expert at the European Commission's Research for Just Transition Policy Workshop"
+  title_cs: "Zvaný expert na workshopu Evropské komise Research for Just Transition Policy"
+  detail_en: "DG Employment, Social Affairs and Inclusion · Brussels"
+  detail_cs: "Generální ředitelství pro zaměstnanost, sociální věci a sociální začleňování · Brusel"
+  url: ""
+  visible: true
+
+- id: 2024-03-berkeley
+  start: 2024-03
+  end: 2024-05
+  kind: stay
+  title_en: "Research stay at the University of California, Berkeley"
+  title_cs: "Výzkumný pobyt na University of California, Berkeley"
+  detail_en: "Department of Agricultural and Resource Economics, hosted by Prof. David Zilberman"
+  detail_cs: "Department of Agricultural and Resource Economics, hostitel prof. David Zilberman"
+  url: ""
+  visible: true

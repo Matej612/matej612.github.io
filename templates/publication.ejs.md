@@ -47,18 +47,18 @@ const sorted = items.slice().sort((a, b) =>
   <li class="pub" <%= metadataAttrs(it) %>>
     <div class="pub-year"><%- it.status === 'forthcoming' ? (cs ? 'V tisku' : 'In press') : (it.year || '') %></div>
     <div class="pub-body">
-      <h3 class="pub-title"><% if (url) { %><a href="<%- esc(url) %>"><%- esc(it.title) %></a><% } else { %><%- esc(it.title) %><% } %></h3>
-      <% if (withLine(it)) { %><p class="pub-with"><%- esc(withLine(it)) %></p><% } %>
+      <h3 class="pub-title"><% if (url) { %><a href="<%= esc(url) %>"><%= esc(it.title) %></a><% } else { %><%= esc(it.title) %><% } %></h3>
+      <% if (withLine(it)) { %><p class="pub-with"><%= esc(withLine(it)) %></p><% } %>
       <p class="pub-venue"><%= venue(it) %></p>
       <div class="pub-links">
-        <% if (it.doi) { %><a class="pill" href="https://doi.org/<%- esc(it.doi) %>" aria-label="DOI <%- esc(it.doi) %>">DOI</a><% } %>
+        <% if (it.doi) { %><a class="pill" href="https://doi.org/<%= esc(it.doi) %>" aria-label="DOI <%= esc(it.doi) %>">DOI</a><% } %>
         <% for (const k of ['pdf', 'data', 'code', 'slides', 'video', 'ssrn', 'repec', 'media']) { if (links[k]) { %>
-        <a class="pill" href="<%- esc(links[k]) %>"><%- T.links[k] %></a>
+        <a class="pill" href="<%= esc(links[k]) %>"><%- T.links[k] %></a>
         <% } } %>
         <% if (it.abstract) { %>
         <details class="abstract">
           <summary class="pill"><%- T.abstract %></summary>
-          <div class="abstract-body" lang="en"><%- esc(it.abstract) %></div>
+          <div class="abstract-body" lang="en"><%= esc(it.abstract) %></div>
         </details>
         <% } %>
       </div>

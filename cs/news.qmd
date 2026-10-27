@@ -1,0 +1,14 @@
+---
+title: Novinky
+description: "Konference, nové publikace a výzkumné pobyty. Úplný seznam prezentací je v životopisu."
+listing:
+  - id: news
+    contents: ../data/news.yml
+    template: ../templates/news.ejs.md
+    template-params:
+      lang: cs
+      archive: true
+---
+
+::: {#news}
+:::

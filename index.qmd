@@ -3,6 +3,12 @@ pagetitle: "Economist at Charles University, Prague"
 image: assets/img/og.jpg
 description: "Matej Opatrny is an economist at the Institute of Economic Studies and the Environment Centre, Charles University, Prague, working on distributional analysis, microsimulation and environmental and agricultural policy."
 listing:
+  - id: news
+    contents: data/news.yml
+    template: templates/news.ejs.md
+    template-params:
+      lang: en
+      limit: 5
   - id: featured
     contents: data/publications.yml
     template: templates/featured.ejs.md
@@ -48,7 +54,8 @@ listing:
     <ul class="affiliations">
       <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institute of Economic Studies</a>, Faculty of Social Sciences, Charles University</span></li>
       <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Charles University Environment Centre</span></li>
-      <li><i class="bi bi-award" aria-hidden="true"></i><span>Award, Mladý ekonom roku 2016 (Young Economist of the Year) · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">ČNB video interview</a></span></li>
+      <li><i class="bi bi-award" aria-hidden="true"></i><span>Honourable mention, Young Economist of the Year 2016 (Czech Economic Society) · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">ČNB video interview</a></span></li>
+      <li><i class="bi bi-people" aria-hidden="true"></i><span>Full member, <a href="https://cse.cz/en">Czech Economic Society</a></span></li>
     </ul>
     <div class="hero-actions">
       <a class="btn-primary-solid" href="files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Download CV</a>
@@ -67,6 +74,15 @@ listing:
   </div>
 </section>
 ```
+
+::: {.section-head}
+## News
+
+[All news →](news.qmd)
+:::
+
+::: {#news}
+:::
 
 ::: {.section-head}
 ## Research interests

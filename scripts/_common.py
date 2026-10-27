@@ -14,6 +14,7 @@ DATA = ROOT / "data"
 PUBLICATIONS = DATA / "publications.yml"
 PROJECTS = DATA / "projects.yml"
 TALKS = DATA / "talks.yml"
+NEWS = DATA / "news.yml"
 VARIABLES = ROOT / "_variables.yml"
 
 TYPES = ("article", "working_paper", "report", "chapter", "book")

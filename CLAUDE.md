@@ -16,7 +16,7 @@ Personal academic website of Matej Opatrny (Quarto website → GitHub Pages, use
 
 ## Where things live
 
-- `data/publications.yml`, `data/projects.yml`, `data/talks.yml`: **single source of truth**,
+- `data/publications.yml`, `data/projects.yml`, `data/talks.yml`, `data/news.yml`: **single source of truth**,
   rendered by `templates/*.ejs.md` through Quarto listings. Pages never hard-code entries.
 - `_variables.yml`: name, email, IDs and URLs. The email is also hard-coded (split) in
   `assets/html/site-script.html`; change both together.
@@ -27,6 +27,11 @@ Personal academic website of Matej Opatrny (Quarto website → GitHub Pages, use
   label in `cs/research.qmd` (`template-params.labels`).
 - In `talks.yml` the date field is `month` (YYYY-MM). Don't call it `date`: Quarto listings
   reformat fields named `date`.
+- `news.yml` uses `start`/`end` (YYYY-MM-DD or YYYY-MM). `templates/news.ejs.md` splits items into
+  "Coming up" and past at build time; `site-script.html` re-checks against today's date in the
+  browser. Keep news to highlights (major conferences, publications, stays); talks.yml keeps the full list.
+- Listing templates are lodash templates: `<%= %>` outputs raw HTML, `<%- %>` HTML-escapes.
+  Text that already went through `esc()` must use `<%= %>`, or it is escaped twice.
 - `scripts/build_stamp.py` runs after every render and writes "Last updated" into the footers.
 - Notes: `notes/YYYY-MM-DD-slug/index.qmd`, created with `new_note.py`, `draft: true` until
   published. Code chunks are frozen (`_freeze/`, committed) so CI needs no R or Python packages.

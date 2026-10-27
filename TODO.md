@@ -19,7 +19,13 @@ Open points from the initial build (27 Oct 2026). Pages mark them with `<!-- CON
   - Mannheim 2023: the preliminary programme lists Ščasný with a different title.
   - Bergen 2025 (EAERE): no presentation is documented. Did you present?
   - Brno, Nov 2026: will you present?
-- [ ] **Chile, January 2027** is listed as a planned research stay. OK to show it before it happens?
+- [ ] **CES conference, 27–28 Nov 2026**: which paper will you present? It is in News as "Paper
+      accepted"; after the conference change that line to the title and add the talk to `data/talks.yml`.
+- [ ] **Czech Economic Society membership**: since when? With a date it can also go into News.
+- [ ] **News** (`data/news.yml`): check the selection. Conferences: only WCERE 2026, IEW 2025 and CES
+      2026 (FSR Climate, EAERE, Mannheim, Tbilisi and the others stay in the CV list only).
+- [ ] **Chile, January 2027** is shown as an upcoming research stay (News and CV), host from the
+      M4G pre-confirmation letter (group of Prof. Juan-Pablo Montero).
 - [ ] **Under-review papers** show the target journal ("Under review · Journal of …"). Keep the
       names, or show only "Under review" (empty the `journal` field)? Have co-authors agreed to
       the listing?
@@ -33,9 +39,9 @@ Open points from the initial build (27 Oct 2026). Pages mark them with `<!-- CON
 - [ ] Bio (index.qmd) and its Czech translation (cs/index.qmd), including the second paragraph
       about the family farm ("from the other side of the fence") and family.
 - [ ] "On the farm" photo section and captions (index.qmd, cs/index.qmd).
-- [ ] Award wording: "Mladý ekonom roku 2016 (Young Economist of the Year), award for the
-      bachelor's thesis" (from the ČNB vlog page; organiser and placing are not stated there).
-      Shown on the home page, the CV page and as a Video link on the CJEF 2017 article.
+- [ ] Award wording: "Young Economist of the Year 2016, honourable mention (Czech Economic
+      Society)" (cse.cz list of award winners: "ČU – Honorable Mention"; "bachelor's thesis" is from
+      the ČNB vlog page). Shown on the home page, the CV page and as a Video link on CJEF 2017.
 - [ ] Research interests (index.qmd, cs/index.qmd); "Meta-analysis and research synthesis" was added.
 - [ ] Featured papers: JOLE, JEI, Empirical Economics, Resource and Energy Economics (`featured: true`).
 - [ ] Topic categories and their Czech labels (data/publications.yml, cs/research.qmd).

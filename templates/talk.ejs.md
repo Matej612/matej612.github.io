@@ -29,9 +29,9 @@ let year = null;
   <li <%= metadataAttrs(it) %>>
     <span class="when"><%- mon[Number(m) - 1] %> <%- y %></span>
     <div>
-      <div class="talk-title" lang="en"><%- esc(it.title) %></div>
-      <div class="where"><%- esc(it.event) %> · <%- esc(cs ? (it.place_cs || it.place) : it.place) %><% if (role[it.role]) { %> · <%- role[it.role] %><% } %></div>
-      <% if (withLine(it.coauthors)) { %><div class="note"><%- esc(withLine(it.coauthors)) %></div><% } %>
+      <div class="talk-title" lang="en"><%= esc(it.title) %></div>
+      <div class="where"><%= esc(it.event) %> · <%= esc(cs ? (it.place_cs || it.place) : it.place) %><% if (role[it.role]) { %> · <%- role[it.role] %><% } %></div>
+      <% if (withLine(it.coauthors)) { %><div class="note"><%= esc(withLine(it.coauthors)) %></div><% } %>
     </div>
   </li>
 <% } %>

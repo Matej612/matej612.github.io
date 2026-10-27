@@ -21,7 +21,7 @@
     .slice(decodeURI(root.pathname).length).replace(/index\.html$/, "");
   const here = rel(location.href);
   const isCs = here === "cs/" || here.startsWith("cs/");
-  const pages = ["", "research.html", "projects.html", "teaching.html", "notes/", "cv.html"];
+  const pages = ["", "research.html", "projects.html", "teaching.html", "notes/", "cv.html", "news.html"];
   const toCs = (p) => (p === "notes/" ? "cs/notes.html" : "cs/" + p);
   const toEn = (p) => (p === "cs/notes.html" ? "notes/" : p.replace(/^cs\//, ""));
   const labels = { Home: "Domů", Research: "Výzkum", Projects: "Projekty", Teaching: "Výuka",
@@ -77,5 +77,32 @@
     window.addEventListener("load", () => setTimeout(sync));
     window.addEventListener("popstate", () => setTimeout(sync));
   }
+
+  // 4. News: the build sorted items into "Coming up" and past ones. Re-check against
+  //    today's date so that an event that has ended since the last build moves down.
+  const d = new Date();
+  const today = [d.getFullYear(), d.getMonth() + 1, d.getDate()].map((n) => String(n).padStart(2, "0")).join("-");
+  document.querySelectorAll(".news").forEach((box) => {
+    const coming = box.querySelector('ul[data-group="coming"]');
+    const past = box.querySelector('ul[data-group="past"]');
+    if (!coming || !past) return;
+    [...coming.children].forEach((li) => {
+      if (li.dataset.to < today) {
+        li.querySelector(".news-flag")?.remove();
+        past.prepend(li);
+      } else if (li.dataset.from <= today && !li.querySelector(".news-flag")) {
+        const flag = document.createElement("span");
+        flag.className = "news-flag";
+        flag.textContent = box.dataset.nowLabel;
+        li.querySelector(".news-kind")?.append(flag);
+      }
+    });
+    const limit = Number(box.dataset.limit) || 0;
+    if (limit) [...past.children].slice(limit).forEach((li) => li.remove());
+    [coming, past].forEach((ul) => {
+      ul.hidden = ul.children.length === 0;
+      ul.previousElementSibling.hidden = ul.hidden;
+    });
+  });
 })();
 </script>

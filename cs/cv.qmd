@@ -34,7 +34,13 @@ listing:
 ## Ocenění
 
 ::: {.timeline-wrap}
-- [2016]{.when} [[Mladý ekonom roku 2016]{.what} · ocenění bakalářské práce o dopadech kurzového závazku ČNB · [rozhovor ve vlogu ČNB](https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku)]{}
+- [2016]{.when} [[Mladý ekonom roku 2016, čestné uznání]{.what} · Česká společnost ekonomická · bakalářská práce „Quantifying the Effects of the CNB's Exchange Rate Commitment“ · [rozhovor ve vlogu ČNB](https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku)]{}
+:::
+
+## Členství
+
+::: {.timeline-wrap}
+- [ ]{.when} [[Česká společnost ekonomická]{.what} · řádný člen · [cse.cz](https://www.cse.cz/)]{}
 :::
 
 ## Výzkumné pobyty

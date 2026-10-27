@@ -13,6 +13,7 @@ Czech pages in `cs/`; the **CS / EN** button in the menu switches between the tw
 | see what is missing | `python scripts/sync_orcid.py` lists ORCID works not on the site (it changes nothing) |
 | write a note | `python scripts/new_note.py "Title"`, write in the new `notes/…/index.qmd`, set `draft: false` |
 | add a talk | add a block to `data/talks.yml` (template at the top) |
+| add news (conference, new paper, research stay) | add a block to `data/news.yml`; the home page shows what is coming up and the five latest past items, `news.qmd` shows all |
 | change a project | edit `data/projects.yml` (English and Czech text side by side) |
 | update the CV | replace `files/cv.pdf` (keep the name) |
 | link a PDF, data or slides | put the file in `files/papers/`, then e.g. `links: {pdf: files/papers/x.pdf, code: "https://github.com/…"}` |
@@ -43,7 +44,7 @@ On Windows with Python 3.15, run `$env:PYYAML_FORCE_LIBYAML = "0"` before `pip i
 
 ## How it fits together
 
-- `data/*.yml` is the single source of truth for publications, projects and talks.
+- `data/*.yml` is the single source of truth for publications, projects, talks and news.
   Pages turn it into HTML with the templates in `templates/`.
 - Look and feel: `assets/styles/` (`base.scss` layout, `light.scss` / `dark.scss` colours).
 - Every push to `main` runs two GitHub Actions. *Publish* renders the site to the `gh-pages`

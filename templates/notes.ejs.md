@@ -19,8 +19,8 @@ const iso = (d) => { const x = new Date(d); return isNaN(x) ? '' : x.toISOString
   <li class="note-item" <%= metadataAttrs(it) %>>
     <time class="note-date" datetime="<%- iso(it.date) %>"><%- fmt(it.date) %></time>
     <div>
-      <h3 class="note-title"><a href="<%- it.path %>"><%- esc(it.title) %></a></h3>
-      <% if (it.description) { %><p class="note-desc"><%- esc(it.description) %></p><% } %>
+      <h3 class="note-title"><a href="<%- it.path %>"><%= esc(it.title) %></a></h3>
+      <% if (it.description) { %><p class="note-desc"><%= esc(it.description) %></p><% } %>
     </div>
   </li>
 <% } %>

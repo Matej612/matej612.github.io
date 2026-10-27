@@ -9,11 +9,12 @@ but still flagged needs_review.
 
 from __future__ import annotations
 
+import datetime
 import re
 import sys
 
 from _common import (
-    DOI_RE, LINK_KEYS, PROJECTS, PUBLICATIONS, ROOT, STATUSES, TALKS, TYPES, load_yaml,
+    DOI_RE, LINK_KEYS, NEWS, PROJECTS, PUBLICATIONS, ROOT, STATUSES, TALKS, TYPES, load_yaml,
 )
 
 errors: list[str] = []
@@ -22,6 +23,8 @@ warnings: list[str] = []
 URL_RE = re.compile(r"^https?://\S+$")
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 MONTH_RE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])$")
+NEWS_DATE_RE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?$")
+NEWS_KINDS = ("conference", "talk", "publication", "stay", "award", "policy", "other")
 
 
 def err(where: str, msg: str) -> None:
@@ -158,10 +161,40 @@ def check_talks() -> None:
             err(where, "'coauthors' must be a list of surnames")
 
 
+def news_date(value) -> str:
+    """YAML reads 2026-11-27 as a date and 2026-11 as text; accept both."""
+    return value.isoformat() if isinstance(value, datetime.date) else str(value or "")
+
+
+def check_news() -> None:
+    news = load_list(NEWS)
+    check_ids(news, NEWS.name)
+    for n in news:
+        if not isinstance(n, dict):
+            continue
+        where = f"news.yml:{n.get('id')}"
+        start, end = news_date(n.get("start")), news_date(n.get("end"))
+        if not NEWS_DATE_RE.match(start):
+            err(where, "'start' must look like 2026-11-27 or 2026-11")
+        if end and not NEWS_DATE_RE.match(end):
+            err(where, "'end' must look like 2026-11-28 or 2026-11")
+        elif end and end[:len(start)] < start[:len(end)]:
+            err(where, "'end' is before 'start'")
+        if n.get("kind") not in NEWS_KINDS:
+            err(where, f"'kind' must be one of {', '.join(NEWS_KINDS)}")
+        if not str(n.get("title_en") or "").strip():
+            err(where, "'title_en' is required")
+        if not isinstance(n.get("visible"), bool):
+            err(where, "'visible' must be true or false")
+        if n.get("url"):
+            check_link(f"{where}.url", str(n["url"]))
+
+
 def main() -> None:
     check_publications()
     check_projects()
     check_talks()
+    check_news()
     for w in warnings:
         print(f"WARNING  {w}")
     for e in errors:

@@ -3,6 +3,12 @@ pagetitle: "Ekonom na Univerzitě Karlově, Praha"
 image: ../assets/img/og.jpg
 description: "Matej Opatrny je ekonom na Institutu ekonomických studií a v Centru pro otázky životního prostředí Univerzity Karlovy. Zabývá se distribučními analýzami, mikrosimulacemi a environmentální a zemědělskou politikou."
 listing:
+  - id: news
+    contents: ../data/news.yml
+    template: ../templates/news.ejs.md
+    template-params:
+      lang: cs
+      limit: 5
   - id: featured
     contents: ../data/publications.yml
     template: ../templates/featured.ejs.md
@@ -47,7 +53,8 @@ listing:
     <ul class="affiliations">
       <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institut ekonomických studií</a>, Fakulta sociálních věd UK</span></li>
       <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Centrum pro otázky životního prostředí UK</span></li>
-      <li><i class="bi bi-award" aria-hidden="true"></i><span>Ocenění v soutěži Mladý ekonom roku 2016 · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">rozhovor ve vlogu ČNB</a></span></li>
+      <li><i class="bi bi-award" aria-hidden="true"></i><span>Čestné uznání v soutěži Mladý ekonom roku 2016 (Česká společnost ekonomická) · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">rozhovor ve vlogu ČNB</a></span></li>
+      <li><i class="bi bi-people" aria-hidden="true"></i><span>Řádný člen <a href="https://www.cse.cz/">České společnosti ekonomické</a></span></li>
     </ul>
     <div class="hero-actions">
       <a class="btn-primary-solid" href="../files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Stáhnout CV</a>
@@ -66,6 +73,15 @@ listing:
   </div>
 </section>
 ```
+
+::: {.section-head}
+## Novinky
+
+[Všechny novinky →](news.qmd)
+:::
+
+::: {#news}
+:::
 
 ::: {.section-head}
 ## Výzkumné zájmy

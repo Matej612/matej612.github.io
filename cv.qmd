@@ -34,7 +34,13 @@ listing:
 ## Awards
 
 ::: {.timeline-wrap}
-- [2016]{.when} [[Mladý ekonom roku 2016]{.what} (Young Economist of the Year) · award for the bachelor's thesis on the effects of the Czech National Bank's exchange-rate commitment · [Video interview, ČNB vlog (in Czech)](https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku)]{}
+- [2016]{.when} [[Young Economist of the Year 2016, honourable mention]{.what} · Czech Economic Society · for the bachelor's thesis “Quantifying the Effects of the CNB's Exchange Rate Commitment” · [Video interview, ČNB vlog (in Czech)](https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku)]{}
+:::
+
+## Memberships
+
+::: {.timeline-wrap}
+- [ ]{.when} [[Czech Economic Society]{.what} (Česká společnost ekonomická) · full member · [cse.cz](https://cse.cz/en)]{}
 :::
 
 ## Research stays
