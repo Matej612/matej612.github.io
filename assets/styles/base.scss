@@ -277,17 +277,6 @@ main .hero.column-screen { z-index: 0; }  // Quarto gives .column-screen z-index
   border-radius: 24px;
   background: var(--c-accent-soft);
 }
-.hero-photo::after {  // small ring at the top right
-  content: "";
-  position: absolute;
-  z-index: 2;
-  top: -16px;
-  right: -16px;
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  border: 2px solid var(--c-accent);
-}
 .hero h1 {
   font-size: clamp(2.6rem, 1.5rem + 3.8vw, 4.25rem);
   font-weight: 650;
@@ -380,7 +369,6 @@ main .hero.column-screen { z-index: 0; }  // Quarto gives .column-screen z-index
   .hero-photo { width: 150px; margin: 0 12px 12px 0; }
   .hero-photo img { border-radius: 18px; }
   .hero-photo::before { inset: 12px -12px -12px 12px; border-radius: 18px; }
-  .hero-photo::after { width: 32px; height: 32px; top: -10px; right: -10px; }
 }
 
 // ── Home: the four numbers ──────────────────────────────────────────────────

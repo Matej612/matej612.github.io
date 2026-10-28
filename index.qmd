@@ -1,7 +1,7 @@
 ---
 pagetitle: "Economist at Charles University, Prague"
 image: assets/img/og.jpg
-description: "Matej Opatrny is an economist at the Institute of Economic Studies and the Environment Centre, Charles University, Prague, working on distributional analysis, microsimulation and environmental and agricultural policy."
+description: "Matej Opatrny is an economist at the Institute of Economic Studies and the Environment Centre, Charles University, Prague, a positive economist working on empirical methods, meta-analysis, microsimulation and policy evaluation."
 listing:
   - id: stats
     contents: data/publications.yml
@@ -57,15 +57,17 @@ listing:
     <div class="hero-main">
       <span class="eyebrow">Economist · Charles University, Prague</span>
       <h1>Matej Opatrny <span class="titles">MSc, PhD</span></h1>
-      <p class="lede">Who <em>pays</em> and who <em>gains</em> when climate and farm policy&nbsp;changes.</p>
+      <p class="lede">Using the right <em>methods</em> to find out what the <em>data</em> really&nbsp;show.</p>
       <p class="bio">
         Matej Opatrny is an economist at the Institute of Economic Studies, Faculty of Social Sciences,
         Charles University, Prague, and a researcher at the Charles University Environment Centre.
-        His research spans microeconomics, environmental economics, agricultural policy evaluation and
-        microsimulation modelling, with a focus on the distributional effects of climate and fiscal
-        policy on households. His household microsimulation work provides analytical support to the
-        Czech Ministry of the Environment and the Ministry of Agriculture. Outside academia, he has
-        worked at McKinsey &amp; Company and as an economic analyst at Expobank.
+        He is a positive economist: whatever the topic, the question is what the evidence actually
+        supports. His toolkit includes meta-analysis, synthetic control,
+        microsimulation and revealed-preference analysis, and his applications range from education,
+        monetary policy and household welfare to energy and agricultural policy. His household
+        microsimulation models provide analytical support to the Czech Ministry of the Environment and
+        the Ministry of Agriculture. Outside academia, he has worked at McKinsey &amp; Company and as an
+        economic analyst at Expobank.
       </p>
       <p class="bio">
         He also knows agricultural policy from the other side of the fence. Together with his parents,
@@ -77,12 +79,12 @@ listing:
         <h2 class="interests-label">Research interests</h2>
         <div class="chips">
           <ul>
-            <li>Distributional analysis and microsimulation</li>
-            <li>Energy and transport poverty</li>
-            <li>Environmental and agricultural policy evaluation</li>
+            <li>Meta-analysis and publication bias</li>
+            <li>Policy evaluation and causal inference</li>
+            <li>Microsimulation and distributional analysis</li>
             <li>Revealed preference and consumer demand</li>
             <li>Welfare measurement and inequality</li>
-            <li>Meta-analysis and research synthesis</li>
+            <li>Applications: education, monetary, energy and agricultural policy</li>
           </ul>
         </div>
       </div>

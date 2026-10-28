@@ -36,8 +36,9 @@ Open points from the initial build (27 Oct 2026). Pages mark them with `<!-- CON
 
 ## Please confirm (drafted by Claude)
 
-- [ ] **Home page redesign** (28 Oct 2026): the one-line lede "Who pays and who gains when climate and
-      farm policy changes" (CS "Kdo platí a kdo získá…") and the four numbers: articles (computed),
+- [ ] **Home page redesign** (28 Oct 2026): the lede "Using the right methods to find out what the data
+      really show" (CS "Správnými metodami zjistit, co v datech opravdu je"), the reworded bio (positive
+      economist, methods first; climate and energy as one application) and the four numbers: articles (computed),
       4 continents of research stays (Chile, California, New Zealand, Spain), 2 ministries, 20 ha.
 - [ ] **Sciencecon**: "Founder" (you wrote "hlavní zakladatel"; say if you prefer "Lead founder" or
       "Co-founder"), "2026–present" in the CV, the card text and the News item on Sciencecon #1

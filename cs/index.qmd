@@ -1,7 +1,7 @@
 ---
 pagetitle: "Ekonom na Univerzitě Karlově, Praha"
 image: ../assets/img/og.jpg
-description: "Matej Opatrny je ekonom na Institutu ekonomických studií a v Centru pro otázky životního prostředí Univerzity Karlovy. Zabývá se distribučními analýzami, mikrosimulacemi a environmentální a zemědělskou politikou."
+description: "Matej Opatrny je ekonom na Institutu ekonomických studií a v Centru pro otázky životního prostředí Univerzity Karlovy. Jako pozitivní ekonom se zabývá empirickými metodami, metaanalýzami, mikrosimulacemi a hodnocením politik."
 listing:
   - id: stats
     contents: ../data/publications.yml
@@ -56,14 +56,15 @@ listing:
     <div class="hero-main">
       <span class="eyebrow">Ekonom · Univerzita Karlova, Praha</span>
       <h1>Matej Opatrny <span class="titles">Mgr., Ph.D.</span></h1>
-      <p class="lede">Kdo <em>platí</em> a kdo <em>získá</em>, když se mění klimatická a zemědělská&nbsp;politika.</p>
+      <p class="lede">Správnými <em>metodami</em> zjistit, co v <em>datech</em> opravdu&nbsp;je.</p>
       <p class="bio">
         Matej Opatrny je ekonom na Institutu ekonomických studií Fakulty sociálních věd Univerzity
-        Karlovy a výzkumník Centra pro otázky životního prostředí UK. Zabývá se mikroekonomií,
-        environmentální ekonomií, hodnocením zemědělské politiky a mikrosimulačním modelováním,
-        především distribučními dopady klimatické a fiskální politiky na domácnosti. Jeho mikrosimulační
-        modely domácností slouží jako analytická podpora Ministerstvu životního prostředí a Ministerstvu
-        zemědělství. Mimo akademickou sféru pracoval ve společnosti McKinsey &amp; Company a jako
+        Karlovy a výzkumník Centra pro otázky životního prostředí UK. Je pozitivní ekonom: ať jde o
+        jakékoli téma, zajímá ho, co data skutečně dokládají. Pracuje
+        s metaanalýzami, metodou syntetické kontroly, mikrosimulacemi a analýzou odhalených preferencí
+        a jeho témata sahají od vzdělávání, měnové politiky a blahobytu domácností po energetickou
+        a zemědělskou politiku. Jeho mikrosimulační modely domácností slouží jako analytická podpora
+        Ministerstvu životního prostředí a Ministerstvu zemědělství. Mimo akademickou sféru pracoval ve společnosti McKinsey &amp; Company a jako
         ekonomický analytik v Expobank.
       </p>
       <p class="bio">
@@ -75,12 +76,12 @@ listing:
         <h2 class="interests-label">Výzkumné zájmy</h2>
         <div class="chips">
           <ul>
-            <li>Distribuční analýzy a mikrosimulace</li>
-            <li>Energetická a dopravní chudoba</li>
-            <li>Hodnocení environmentální a zemědělské politiky</li>
+            <li>Metaanalýzy a publikační zkreslení</li>
+            <li>Hodnocení politik a kauzální inference</li>
+            <li>Mikrosimulace a distribuční analýzy</li>
             <li>Odhalené preference a spotřebitelská poptávka</li>
             <li>Měření blahobytu a nerovnosti</li>
-            <li>Metaanalýzy a syntéza výzkumu</li>
+            <li>Aplikace: vzdělávání, měnová, energetická a zemědělská politika</li>
           </ul>
         </div>
       </div>
