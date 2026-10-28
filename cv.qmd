@@ -60,6 +60,13 @@ listing:
 - [2021–present]{.when} [[Analytical support]{.what} to the Czech Ministry of the Environment and the Ministry of Agriculture (SEEPIA)]{}
 :::
 
+## Science communication
+
+::: {.timeline-wrap}
+- [2026–present]{.when} [[Founder]{.what}, [Sciencecon](https://sciencecon.cz/en.html) · public science talks by researchers working in Czechia, pilot series in Klatovy]{}
+- [Mar 2026]{.when} [[Opening talk]{.what}, Sciencecon #1, Klatovy · “How class size affects student outcomes”]{}
+:::
+
 ## Experience outside academia
 
 ::: {.timeline-wrap}

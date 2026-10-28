@@ -24,7 +24,7 @@ URL_RE = re.compile(r"^https?://\S+$")
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 MONTH_RE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])$")
 NEWS_DATE_RE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?$")
-NEWS_KINDS = ("conference", "talk", "publication", "stay", "award", "policy", "other")
+NEWS_KINDS = ("conference", "talk", "publication", "stay", "award", "policy", "outreach", "other")
 
 
 def err(where: str, msg: str) -> None:

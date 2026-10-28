@@ -3,12 +3,30 @@ pagetitle: "Economist at Charles University, Prague"
 image: assets/img/og.jpg
 description: "Matej Opatrny is an economist at the Institute of Economic Studies and the Environment Centre, Charles University, Prague, working on distributional analysis, microsimulation and environmental and agricultural policy."
 listing:
+  - id: stats
+    contents: data/publications.yml
+    template: templates/stats.ejs.md
+    template-params:
+      lang: en
+      tiles:
+        - value: articles
+          unit: articles
+          label: "in peer-reviewed journals, including the Journal of Labor Economics"
+        - value: 4
+          unit: continents
+          label: "of research stays: Chile, California, New Zealand and Spain"
+        - value: 2
+          unit: ministries
+          label: "receive analytical support from his household microsimulation models"
+        - value: 20
+          unit: ha
+          label: "family farm in Šumava, with his own cows"
   - id: news
     contents: data/news.yml
     template: templates/news.ejs.md
     template-params:
       lang: en
-      limit: 5
+      limit: 6
   - id: featured
     contents: data/publications.yml
     template: templates/featured.ejs.md
@@ -22,58 +40,82 @@ listing:
     template: templates/notes.ejs.md
     template-params:
       lang: en
+      home: true
     sort: "date desc"
     max-items: 3
 ---
 
-<!-- CONFIRM: bio wording, research interests and the choice of featured papers (featured: true in data/publications.yml) -->
+<!-- CONFIRM: the one-line lede, bio wording, research interests, the four numbers
+     (the article count is computed from data/publications.yml) and the featured papers. -->
 
 ```{=html}
-<section class="hero" aria-label="Introduction">
-  <div class="hero-photo">
-    <img src="assets/img/profile.jpg" alt="Portrait of Matej Opatrny" width="600" height="800" fetchpriority="high">
-  </div>
-  <div class="hero-text">
-    <span class="eyebrow">Economist · Charles University, Prague</span>
-    <h1>Matej Opatrny <span class="titles">MSc, PhD</span></h1>
-    <p class="bio">
-      Matej Opatrny is an economist at the Institute of Economic Studies, Faculty of Social Sciences,
-      Charles University, Prague, and a researcher at the Charles University Environment Centre.
-      His research spans microeconomics, environmental economics, agricultural policy evaluation and
-      microsimulation modelling, with a focus on the distributional effects of climate and fiscal
-      policy on households. His household microsimulation work provides analytical support to the
-      Czech Ministry of the Environment and the Ministry of Agriculture. Outside academia, he has
-      worked at McKinsey &amp; Company and as an economic analyst at Expobank.
-    </p>
-    <p class="bio">
-      He also knows agricultural policy from the other side of the fence. Together with his parents,
-      his brother and sister-in-law, he runs a small family farm of around 20 hectares in Šumava,
-      where the cows are his own and looking after them is his job. He is married and has two
-      children.
-    </p>
-    <ul class="affiliations">
-      <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institute of Economic Studies</a>, Faculty of Social Sciences, Charles University</span></li>
-      <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Charles University Environment Centre</span></li>
-      <li><i class="bi bi-award" aria-hidden="true"></i><span>Honourable mention, Young Economist of the Year 2016 (Czech Economic Society) · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">ČNB video interview</a></span></li>
-      <li><i class="bi bi-people" aria-hidden="true"></i><span>Full member, <a href="https://cse.cz/en">Czech Economic Society</a></span></li>
-    </ul>
-    <div class="hero-actions">
-      <a class="btn-primary-solid" href="files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Download CV</a>
-      <a class="btn-outline" href="research.html">Research</a>
+<section class="hero column-screen" aria-label="Introduction">
+  <div class="hero-inner">
+    <div class="hero-photo">
+      <img src="assets/img/profile.jpg" alt="Portrait of Matej Opatrny" width="600" height="800" fetchpriority="high">
+    </div>
+    <div class="hero-main">
+      <span class="eyebrow">Economist · Charles University, Prague</span>
+      <h1>Matej Opatrny <span class="titles">MSc, PhD</span></h1>
+      <p class="lede">Who <em>pays</em> and who <em>gains</em> when climate and farm policy&nbsp;changes.</p>
+      <p class="bio">
+        Matej Opatrny is an economist at the Institute of Economic Studies, Faculty of Social Sciences,
+        Charles University, Prague, and a researcher at the Charles University Environment Centre.
+        His research spans microeconomics, environmental economics, agricultural policy evaluation and
+        microsimulation modelling, with a focus on the distributional effects of climate and fiscal
+        policy on households. His household microsimulation work provides analytical support to the
+        Czech Ministry of the Environment and the Ministry of Agriculture. Outside academia, he has
+        worked at McKinsey &amp; Company and as an economic analyst at Expobank.
+      </p>
+      <p class="bio">
+        He also knows agricultural policy from the other side of the fence. Together with his parents,
+        his brother and sister-in-law, he runs a small family farm of around 20 hectares in Šumava,
+        where the cows are his own and looking after them is his job. He is married and has two
+        children.
+      </p>
+      <div class="interests">
+        <h2 class="interests-label">Research interests</h2>
+        <div class="chips">
+          <ul>
+            <li>Distributional analysis and microsimulation</li>
+            <li>Energy and transport poverty</li>
+            <li>Environmental and agricultural policy evaluation</li>
+            <li>Revealed preference and consumer demand</li>
+            <li>Welfare measurement and inequality</li>
+            <li>Meta-analysis and research synthesis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hero-side">
+      <ul class="affiliations">
+        <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institute of Economic Studies</a>, Faculty of Social Sciences, Charles University</span></li>
+        <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Charles University Environment Centre</span></li>
+        <li><i class="bi bi-megaphone" aria-hidden="true"></i><span>Founder, <a href="https://sciencecon.cz/en.html">Sciencecon</a></span></li>
+        <li><i class="bi bi-people" aria-hidden="true"></i><span>Full member, <a href="https://cse.cz/en">Czech Economic Society</a></span></li>
+        <li><i class="bi bi-award" aria-hidden="true"></i><span>Honourable mention, Young Economist of the Year 2016 · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">ČNB video interview</a></span></li>
+      </ul>
+      <div class="hero-actions">
+        <a class="btn-primary-solid" href="files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Download CV</a>
+        <a class="btn-outline" href="research.html">Research</a>
+      </div>
       <span class="icon-row">
         <a class="icon-btn" href="#contact" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://orcid.org/0000-0003-2322-6187" aria-label="ORCID"><i class="bi bi-orcid" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://scholar.google.com/citations?user=sQzpsG8AAAAJ" aria-label="Google Scholar"><i class="bi bi-google-scholar" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://ideas.repec.org/e/pop35.html" aria-label="RePEc / IDEAS"><i class="bi bi-ideas-repec" aria-hidden="true"></i></a>
       </span>
+      <p class="contact-line" id="contact">
+        <i class="bi bi-envelope" aria-hidden="true"></i>
+        <a class="js-email" href="#contact">matej.opatrny [at] gmail [dot] com</a>
+      </p>
     </div>
-    <p class="contact-line" id="contact">
-      <i class="bi bi-envelope" aria-hidden="true"></i>
-      <a class="js-email" href="#contact">matej.opatrny [at] gmail [dot] com</a>
-    </p>
   </div>
 </section>
 ```
+
+::: {#stats}
+:::
 
 ::: {.section-head}
 ## News
@@ -82,20 +124,6 @@ listing:
 :::
 
 ::: {#news}
-:::
-
-::: {.section-head}
-## Research interests
-:::
-
-<!-- CONFIRM -->
-::: {.chips}
-- Distributional analysis and microsimulation
-- Energy and transport poverty
-- Environmental and agricultural policy evaluation
-- Revealed preference and consumer demand
-- Welfare measurement and inequality
-- Meta-analysis and research synthesis
 :::
 
 ::: {.section-head}
@@ -108,30 +136,32 @@ listing:
 :::
 
 ::: {.section-head}
-## Latest notes
-
-[All notes →](notes/index.qmd)
+## Beyond the university
 :::
 
-::: {#latest-notes}
-:::
-
-::: {.section-head}
-## On the farm
-:::
-
-<!-- CONFIRM wording; the farm and family are described in the bio above -->
-A look at the family farm in Šumava, the Bohemian Forest.
+<!-- CONFIRM: Sciencecon text (from sciencecon.cz) and photo captions -->
 
 ```{=html}
-<div class="photo-grid">
-  <figure>
+<div class="beyond-grid">
+  <article class="feature-card">
+    <span class="eyebrow">Founder · Science communication</span>
+    <h3>Sciencecon</h3>
+    <p class="feature-quote" lang="cs">„Mít názor nestačí.“<span lang="en">Having an opinion is not enough.</span></p>
+    <p>Researchers working in Czechia talk about their work directly with the public: two 20-minute
+      talks and an open discussion, free entry. The pilot series started in Klatovy in March 2026,
+      with Matej's opening talk on how class size affects pupils' results.</p>
+    <a class="feature-link" href="https://sciencecon.cz/en.html">sciencecon.cz <span aria-hidden="true">→</span></a>
+  </article>
+  <figure class="photo-card">
     <img src="assets/img/farm-pasture.jpg" alt="Brown cows grazing on a green pasture below wooded hills in Šumava" width="1200" height="900" loading="lazy" decoding="async">
-    <figcaption>On pasture in Šumava</figcaption>
+    <figcaption><strong>The family farm</strong>On pasture in Šumava, the Bohemian Forest</figcaption>
   </figure>
-  <figure>
+  <figure class="photo-card">
     <img src="assets/img/farm-cow.jpg" alt="Matej Opatrny reaching over a metal cattle fence to touch a brown cow" width="1200" height="900" loading="lazy" decoding="async">
-    <figcaption>With one of the cows</figcaption>
+    <figcaption><strong>His own herd</strong>With one of the cows</figcaption>
   </figure>
 </div>
 ```
+
+::: {#latest-notes}
+:::

@@ -3,12 +3,30 @@ pagetitle: "Ekonom na Univerzitě Karlově, Praha"
 image: ../assets/img/og.jpg
 description: "Matej Opatrny je ekonom na Institutu ekonomických studií a v Centru pro otázky životního prostředí Univerzity Karlovy. Zabývá se distribučními analýzami, mikrosimulacemi a environmentální a zemědělskou politikou."
 listing:
+  - id: stats
+    contents: ../data/publications.yml
+    template: ../templates/stats.ejs.md
+    template-params:
+      lang: cs
+      tiles:
+        - value: articles
+          unit: [článek, články, článků]
+          label: "v recenzovaných časopisech, mezi nimi Journal of Labor Economics"
+        - value: 4
+          unit: kontinenty
+          label: "výzkumných pobytů: Chile, Kalifornie, Nový Zéland a Španělsko"
+        - value: 2
+          unit: ministerstva
+          label: "s analytickou podporou z jeho mikrosimulačních modelů domácností"
+        - value: 20
+          unit: ha
+          label: "rodinná farma na Šumavě s vlastními kravami"
   - id: news
     contents: ../data/news.yml
     template: ../templates/news.ejs.md
     template-params:
       lang: cs
-      limit: 5
+      limit: 6
   - id: featured
     contents: ../data/publications.yml
     template: ../templates/featured.ejs.md
@@ -22,57 +40,80 @@ listing:
     template: ../templates/notes.ejs.md
     template-params:
       lang: cs
+      home: true
     sort: "date desc"
     max-items: 3
 ---
 
-<!-- CONFIRM: Czech wording of the bio and research interests -->
+<!-- CONFIRM: Czech wording of the lede, bio, research interests and the four numbers -->
 
 ```{=html}
-<section class="hero" aria-label="Úvod">
-  <div class="hero-photo">
-    <img src="../assets/img/profile.jpg" alt="Portrét: Matej Opatrny" width="600" height="800" fetchpriority="high">
-  </div>
-  <div class="hero-text">
-    <span class="eyebrow">Ekonom · Univerzita Karlova, Praha</span>
-    <h1>Matej Opatrny <span class="titles">Mgr., Ph.D.</span></h1>
-    <p class="bio">
-      Matej Opatrny je ekonom na Institutu ekonomických studií Fakulty sociálních věd Univerzity
-      Karlovy a výzkumník Centra pro otázky životního prostředí UK. Zabývá se mikroekonomií,
-      environmentální ekonomií, hodnocením zemědělské politiky a mikrosimulačním modelováním,
-      především distribučními dopady klimatické a fiskální politiky na domácnosti. Jeho mikrosimulační
-      modely domácností slouží jako analytická podpora Ministerstvu životního prostředí a Ministerstvu
-      zemědělství. Mimo akademickou sféru pracoval ve společnosti McKinsey &amp; Company a jako
-      ekonomický analytik v Expobank.
-    </p>
-    <p class="bio">
-      Zemědělskou politiku zná i z druhé strany plotu. S rodiči, bratrem a jeho ženou hospodaří na
-      malé rodinné farmě o rozloze zhruba 20 hektarů na Šumavě, kde chová vlastní krávy a sám se
-      o ně stará. Je ženatý a má dvě děti.
-    </p>
-    <ul class="affiliations">
-      <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institut ekonomických studií</a>, Fakulta sociálních věd UK</span></li>
-      <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Centrum pro otázky životního prostředí UK</span></li>
-      <li><i class="bi bi-award" aria-hidden="true"></i><span>Čestné uznání v soutěži Mladý ekonom roku 2016 (Česká společnost ekonomická) · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">rozhovor ve vlogu ČNB</a></span></li>
-      <li><i class="bi bi-people" aria-hidden="true"></i><span>Řádný člen <a href="https://www.cse.cz/">České společnosti ekonomické</a></span></li>
-    </ul>
-    <div class="hero-actions">
-      <a class="btn-primary-solid" href="../files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Stáhnout CV</a>
-      <a class="btn-outline" href="research.html">Výzkum</a>
+<section class="hero column-screen" aria-label="Úvod">
+  <div class="hero-inner">
+    <div class="hero-photo">
+      <img src="../assets/img/profile.jpg" alt="Portrét: Matej Opatrny" width="600" height="800" fetchpriority="high">
+    </div>
+    <div class="hero-main">
+      <span class="eyebrow">Ekonom · Univerzita Karlova, Praha</span>
+      <h1>Matej Opatrny <span class="titles">Mgr., Ph.D.</span></h1>
+      <p class="lede">Kdo <em>platí</em> a kdo <em>získá</em>, když se mění klimatická a zemědělská&nbsp;politika.</p>
+      <p class="bio">
+        Matej Opatrny je ekonom na Institutu ekonomických studií Fakulty sociálních věd Univerzity
+        Karlovy a výzkumník Centra pro otázky životního prostředí UK. Zabývá se mikroekonomií,
+        environmentální ekonomií, hodnocením zemědělské politiky a mikrosimulačním modelováním,
+        především distribučními dopady klimatické a fiskální politiky na domácnosti. Jeho mikrosimulační
+        modely domácností slouží jako analytická podpora Ministerstvu životního prostředí a Ministerstvu
+        zemědělství. Mimo akademickou sféru pracoval ve společnosti McKinsey &amp; Company a jako
+        ekonomický analytik v Expobank.
+      </p>
+      <p class="bio">
+        Zemědělskou politiku zná i z druhé strany plotu. S rodiči, bratrem a jeho ženou hospodaří na
+        malé rodinné farmě o rozloze zhruba 20 hektarů na Šumavě, kde chová vlastní krávy a sám se
+        o ně stará. Je ženatý a má dvě děti.
+      </p>
+      <div class="interests">
+        <h2 class="interests-label">Výzkumné zájmy</h2>
+        <div class="chips">
+          <ul>
+            <li>Distribuční analýzy a mikrosimulace</li>
+            <li>Energetická a dopravní chudoba</li>
+            <li>Hodnocení environmentální a zemědělské politiky</li>
+            <li>Odhalené preference a spotřebitelská poptávka</li>
+            <li>Měření blahobytu a nerovnosti</li>
+            <li>Metaanalýzy a syntéza výzkumu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hero-side">
+      <ul class="affiliations">
+        <li><i class="bi bi-bank" aria-hidden="true"></i><span><a href="https://ies.fsv.cuni.cz/contacts/institute-members/95950822">Institut ekonomických studií</a>, Fakulta sociálních věd UK</span></li>
+        <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Centrum pro otázky životního prostředí UK</span></li>
+        <li><i class="bi bi-megaphone" aria-hidden="true"></i><span>Zakladatel <a href="https://sciencecon.cz/">Scienceconu</a></span></li>
+        <li><i class="bi bi-people" aria-hidden="true"></i><span>Řádný člen <a href="https://www.cse.cz/">České společnosti ekonomické</a></span></li>
+        <li><i class="bi bi-award" aria-hidden="true"></i><span>Čestné uznání v soutěži Mladý ekonom roku 2016 · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">rozhovor ve vlogu ČNB</a></span></li>
+      </ul>
+      <div class="hero-actions">
+        <a class="btn-primary-solid" href="../files/cv.pdf"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>Stáhnout CV</a>
+        <a class="btn-outline" href="research.html">Výzkum</a>
+      </div>
       <span class="icon-row">
         <a class="icon-btn" href="#contact" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://orcid.org/0000-0003-2322-6187" aria-label="ORCID"><i class="bi bi-orcid" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://scholar.google.com/citations?user=sQzpsG8AAAAJ" aria-label="Google Scholar"><i class="bi bi-google-scholar" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://ideas.repec.org/e/pop35.html" aria-label="RePEc / IDEAS"><i class="bi bi-ideas-repec" aria-hidden="true"></i></a>
       </span>
+      <p class="contact-line" id="contact">
+        <i class="bi bi-envelope" aria-hidden="true"></i>
+        <a class="js-email" href="#contact">matej.opatrny [zavináč] gmail [tečka] com</a>
+      </p>
     </div>
-    <p class="contact-line" id="contact">
-      <i class="bi bi-envelope" aria-hidden="true"></i>
-      <a class="js-email" href="#contact">matej.opatrny [zavináč] gmail [tečka] com</a>
-    </p>
   </div>
 </section>
 ```
+
+::: {#stats}
+:::
 
 ::: {.section-head}
 ## Novinky
@@ -81,19 +122,6 @@ listing:
 :::
 
 ::: {#news}
-:::
-
-::: {.section-head}
-## Výzkumné zájmy
-:::
-
-::: {.chips}
-- Distribuční analýzy a mikrosimulace
-- Energetická a dopravní chudoba
-- Hodnocení environmentální a zemědělské politiky
-- Odhalené preference a spotřebitelská poptávka
-- Měření blahobytu a nerovnosti
-- Metaanalýzy a syntéza výzkumu
 :::
 
 ::: {.section-head}
@@ -106,30 +134,32 @@ listing:
 :::
 
 ::: {.section-head}
-## Nejnovější poznámky
-
-[Všechny poznámky →](notes.qmd)
+## Mimo univerzitu
 :::
 
-::: {#latest-notes}
-:::
-
-::: {.section-head}
-## Na farmě
-:::
-
-<!-- CONFIRM wording; farma a rodina jsou popsané v medailonku nahoře -->
-Pohled na rodinnou farmu na Šumavě.
+<!-- CONFIRM: text o Scienceconu (podle sciencecon.cz) a popisky fotek -->
 
 ```{=html}
-<div class="photo-grid">
-  <figure>
+<div class="beyond-grid">
+  <article class="feature-card">
+    <span class="eyebrow">Zakladatel · popularizace vědy</span>
+    <h3>Sciencecon</h3>
+    <p class="feature-quote">„Mít názor nestačí.“</p>
+    <p>Vědci působící v Česku mluví o svém výzkumu přímo s veřejností: dvě dvacetiminutové
+      přednášky a otevřená diskuze, vstup zdarma. Pilotní série začala v březnu 2026 v Klatovech
+      a úvodní přednášku o vlivu velikosti třídy na výsledky žáků měl Matej.</p>
+    <a class="feature-link" href="https://sciencecon.cz/">sciencecon.cz <span aria-hidden="true">→</span></a>
+  </article>
+  <figure class="photo-card">
     <img src="../assets/img/farm-pasture.jpg" alt="Hnědé krávy na zelené pastvině pod zalesněnými šumavskými kopci" width="1200" height="900" loading="lazy" decoding="async">
-    <figcaption>Na pastvě na Šumavě</figcaption>
+    <figcaption><strong>Rodinná farma</strong>Na pastvě na Šumavě</figcaption>
   </figure>
-  <figure>
+  <figure class="photo-card">
     <img src="../assets/img/farm-cow.jpg" alt="Matej Opatrny natahuje ruku přes kovovou ohradu ke hnědé krávě" width="1200" height="900" loading="lazy" decoding="async">
-    <figcaption>S jednou z krav</figcaption>
+    <figcaption><strong>Vlastní stádo</strong>S jednou z krav</figcaption>
   </figure>
 </div>
 ```
+
+::: {#latest-notes}
+:::

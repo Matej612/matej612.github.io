@@ -6,7 +6,7 @@
 # - id: 2027-01-short-name
 #   start: 2027-01-05           # YYYY-MM-DD, or YYYY-MM if the day does not matter
 #   end: 2027-01-19             # optional; same format as start
-#   kind: conference            # conference | talk | publication | stay | award | policy | other
+#   kind: conference            # conference | talk | publication | stay | award | policy | outreach | other
 #   title_en: "What happened"
 #   title_cs: "Co se stalo"     # optional; the English title is used if empty (e.g. paper titles)
 #   detail_en: "One short line"  # optional
@@ -75,6 +75,16 @@
   detail_en: "Published in Resource and Energy Economics"
   detail_cs: "Vyšlo v časopise Resource and Energy Economics"
   url: https://doi.org/10.1016/j.reseneeco.2026.101572
+  visible: true
+
+- id: 2026-03-sciencecon-1
+  start: 2026-03-19
+  kind: outreach
+  title_en: "Sciencecon #1: opening talk of the new public science series in Klatovy"
+  title_cs: "Sciencecon #1: úvodní přednáška nového popularizačního cyklu v Klatovech"
+  detail_en: "“How class size affects student outcomes” · Sciencecon, which he founded, brings researchers working in Czechia to talk directly with the public"
+  detail_cs: "„Vliv velikosti třídy na výsledky žáků“ · Sciencecon, který založil, přivádí vědce působící v Česku přímo mezi veřejnost"
+  url: https://sciencecon.cz/
   visible: true
 
 - id: 2026-01-jrc-seville

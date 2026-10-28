@@ -60,6 +60,13 @@ listing:
 - [2021–dosud]{.when} [[Analytická podpora]{.what} Ministerstvu životního prostředí a Ministerstvu zemědělství (SEEPIA)]{}
 :::
 
+## Popularizace vědy
+
+::: {.timeline-wrap}
+- [2026–dosud]{.when} [[Zakladatel]{.what} [Scienceconu](https://sciencecon.cz/) · popularizační přednášky vědců působících v Česku, pilotní série v Klatovech]{}
+- [březen 2026]{.when} [[Úvodní přednáška]{.what}, Sciencecon #1, Klatovy · „Vliv velikosti třídy na výsledky žáků“]{}
+:::
+
 ## Praxe mimo akademickou sféru
 
 ::: {.timeline-wrap}

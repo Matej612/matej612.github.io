@@ -87,6 +87,6 @@ format:
     link-external-newwindow: false
     email-obfuscation: javascript
     grid:
-      body-width: 860px
+      body-width: 1120px
       margin-width: 0px
       sidebar-width: 0px

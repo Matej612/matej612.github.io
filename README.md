@@ -13,11 +13,12 @@ Czech pages in `cs/`; the **CS / EN** button in the menu switches between the tw
 | see what is missing | `python scripts/sync_orcid.py` lists ORCID works not on the site (it changes nothing) |
 | write a note | `python scripts/new_note.py "Title"`, write in the new `notes/…/index.qmd`, set `draft: false` |
 | add a talk | add a block to `data/talks.yml` (template at the top) |
-| add news (conference, new paper, research stay) | add a block to `data/news.yml`; the home page shows what is coming up and the five latest past items, `news.qmd` shows all |
+| add news (conference, new paper, research stay) | add a block to `data/news.yml`; the home page shows what is coming up and the six latest past items, `news.qmd` shows all |
 | change a project | edit `data/projects.yml` (English and Czech text side by side) |
 | update the CV | replace `files/cv.pdf` (keep the name) |
 | link a PDF, data or slides | put the file in `files/papers/`, then e.g. `links: {pdf: files/papers/x.pdf, code: "https://github.com/…"}` |
 | change text on a page | edit the `.qmd` file and its Czech twin in `cs/` |
+| change the four numbers on the home page | `tiles` under the `stats` listing at the top of `index.qmd` and `cs/index.qmd` (the article count is computed) |
 | change name, email or IDs | `_variables.yml` (the email also sits in `assets/html/site-script.html`) |
 
 Then check, preview and publish:

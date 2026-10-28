@@ -30,6 +30,9 @@ Personal academic website of Matej Opatrny (Quarto website → GitHub Pages, use
 - `news.yml` uses `start`/`end` (YYYY-MM-DD or YYYY-MM). `templates/news.ejs.md` splits items into
   "Coming up" and past at build time; `site-script.html` re-checks against today's date in the
   browser. Keep news to highlights (major conferences, publications, stays); talks.yml keeps the full list.
+- Home page: the hero is a full-width `.column-screen` band; `.hero-inner` sits on Quarto's
+  `body-content` grid lines via `subgrid`, and the stats row (`templates/stats.ejs.md`, tiles in
+  the page's `template-params`) overlaps its bottom edge. Body width is 1120px (`_quarto.yml`).
 - Listing templates are lodash templates: `<%= %>` outputs raw HTML, `<%- %>` HTML-escapes.
   Text that already went through `esc()` must use `<%= %>`, or it is escaped twice.
 - `scripts/build_stamp.py` runs after every render and writes "Last updated" into the footers.

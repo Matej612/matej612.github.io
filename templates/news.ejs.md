@@ -20,6 +20,7 @@ const kinds = {
   stay:        { icon: 'geo-alt',      en: 'Research stay',  cs: 'Výzkumný pobyt' },
   award:       { icon: 'award',        en: 'Award',          cs: 'Ocenění' },
   policy:      { icon: 'bank',         en: 'Policy',         cs: 'Veřejná politika' },
+  outreach:    { icon: 'megaphone',    en: 'Public engagement', cs: 'Popularizace vědy' },
   other:       { icon: 'dot',          en: 'News',           cs: 'Novinka' },
 };
 const now = new Date();
