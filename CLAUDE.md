@@ -1,7 +1,7 @@
 # Maintenance notes for Claude Code
 
 Personal academic website of Matej Opatrny (Quarto website → GitHub Pages, user site
-`matej612.github.io`). The owner is the only author; he reviews every change.
+`matej612.github.io`, custom domain `matejopatrny.cz` via the `CNAME` file). The owner is the only author; he reviews every change.
 
 ## Ground rules
 

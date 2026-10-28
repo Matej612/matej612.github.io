@@ -1,7 +1,8 @@
 # matej612.github.io
 
 Personal academic website of Matej Opatrny, built with [Quarto](https://quarto.org) and
-published on GitHub Pages at <https://matej612.github.io>. English pages sit in the root and
+published on GitHub Pages at <https://matejopatrny.cz> (repository `matej612.github.io`; the old
+address redirects). English pages sit in the root and
 Czech pages in `cs/`; the **CS / EN** button in the menu switches between the two.
 
 ## Everyday updates
@@ -55,6 +56,16 @@ On Windows with Python 3.15, run `$env:PYYAML_FORCE_LIBYAML = "0"` before `pip i
 
 1. On GitHub, create an empty public repository named `matej612.github.io`.
 2. `git remote add origin https://github.com/matej612/matej612.github.io.git` and `git push -u origin main`.
-3. `quarto publish gh-pages` (once, from this folder).
+3. `quarto publish gh-pages` (once, from this folder). With `--no-prompt` it needs an existing
+   `gh-pages` branch: create an empty orphan branch and push it first.
 4. In the repository settings: **Pages → Source: branch `gh-pages`**, tick **Enforce HTTPS**;
    **Actions → General → Workflow permissions: Read and write**.
+
+## Custom domain
+
+`matejopatrny.cz` is registered at WEDOS. The `CNAME` file in the root (copied into the site by
+`resources` in `_quarto.yml`) tells GitHub Pages the domain. DNS at WEDOS: four `A` records for the
+bare domain (185.199.108.153, .109.153, .110.153, .111.153), four `AAAA` records
+(2606:50c0:8000::153 … 8003::153) and `www` CNAME `matej612.github.io`. In the repository settings:
+Pages → Custom domain `matejopatrny.cz`, Enforce HTTPS. If the domain ever changes, update `CNAME`,
+`site-url` in `_quarto.yml` and `site_url` in `_variables.yml` together.

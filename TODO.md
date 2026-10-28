@@ -73,7 +73,10 @@ Open points from the initial build (27 Oct 2026). Pages mark them with `<!-- CON
 
 ## Going live
 
-- [ ] Approve the local preview (`quarto preview`).
-- [ ] Create the GitHub repository, push, run `quarto publish gh-pages` once, then set
-      Pages → gh-pages, Enforce HTTPS, and workflow permissions to "Read and write" (see README).
-- [ ] After the first deploy: check that the *Checks* workflow (link check) passes, and run Lighthouse.
+- [x] Approve the local preview (28 Oct 2026).
+- [x] Repository created, pushed, `gh-pages` published, Pages source set to `gh-pages` (28 Oct 2026).
+- [x] *Checks* workflow (link check) passed on the first push.
+- [ ] Custom domain `matejopatrny.cz` (bought 28 Oct 2026 at WEDOS): DNS records, Pages → Custom
+      domain, Enforce HTTPS (see README, "Custom domain"). Verify the domain in the GitHub account
+      settings (Settings → Pages → Add a domain, TXT record).
+- [ ] Run Lighthouse on the live site.
