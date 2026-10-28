@@ -51,7 +51,7 @@ Open points from the initial build (27 Oct 2026). Pages mark them with `<!-- CON
       Society)" (cse.cz list of award winners: "ČU – Honorable Mention"; "bachelor's thesis" is from
       the ČNB vlog page). Shown on the home page, the CV page and as a Video link on CJEF 2017.
 - [ ] Research interests (index.qmd, cs/index.qmd); "Meta-analysis and research synthesis" was added.
-- [ ] Featured papers: JOLE, JEI, Empirical Economics, Resource and Energy Economics (`featured: true`).
+- [ ] Featured papers: JOLE, JEI, Empirical Economics, Resource and Energy Economics, Empirica (Brexit), CJEF 2017 (ČNB exchange-rate commitment) (`featured: true`).
 - [ ] Topic categories and their Czech labels (data/publications.yml, cs/research.qmd).
 - [ ] Project texts (data/projects.yml). The FE3M English text and the Czech SEEPIA work-package
       title are translations.

@@ -76,12 +76,12 @@ listing:
         <h2 class="interests-label">Výzkumné zájmy</h2>
         <div class="chips">
           <ul>
-            <li>Metaanalýzy a publikační zkreslení</li>
             <li>Hodnocení politik a kauzální inference</li>
             <li>Mikrosimulace a distribuční analýzy</li>
             <li>Odhalené preference a spotřebitelská poptávka</li>
             <li>Měření blahobytu a nerovnosti</li>
             <li>Aplikace: vzdělávání, měnová, energetická a zemědělská politika</li>
+            <li>Metaanalýzy a publikační zkreslení</li>
           </ul>
         </div>
       </div>

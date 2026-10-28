@@ -20,5 +20,3 @@ github_user: "matej612"
 repo_url: "https://github.com/matej612/matej612.github.io"
 site_url: "https://matej612.github.io"
 
-# Contact address sent to the Crossref API ("polite pool"), used by add_paper.py.
-crossref_mailto: "matej.opatrny@gmail.com"

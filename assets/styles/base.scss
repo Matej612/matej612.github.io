@@ -495,6 +495,7 @@ main .hero.column-screen { z-index: 0; }  // Quarto gives .column-screen z-index
   padding: 0;
   margin: 0;
 }
+@media (min-width: 992px) { .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 767.98px) { .card-grid { grid-template-columns: 1fr; } }
 .card-pub {
   position: relative;

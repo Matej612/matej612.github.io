@@ -438,7 +438,7 @@
   status: published
   visible: true
   needs_review: true
-  featured: false
+  featured: true
   title: "The impact of the Brexit vote on UK financial markets: a synthetic control method approach"
   authors: [Matej Opatrny]
   coauthors_display: ""
@@ -499,7 +499,7 @@
   status: published
   visible: true
   needs_review: false
-  featured: false
+  featured: true
   title: "Quantifying the Effects of the CNB's Exchange Rate Commitment: A Synthetic Control Method Approach"
   authors: [Matej Opatrny]
   coauthors_display: ""

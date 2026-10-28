@@ -79,12 +79,12 @@ listing:
         <h2 class="interests-label">Research interests</h2>
         <div class="chips">
           <ul>
-            <li>Meta-analysis and publication bias</li>
             <li>Policy evaluation and causal inference</li>
             <li>Microsimulation and distributional analysis</li>
             <li>Revealed preference and consumer demand</li>
             <li>Welfare measurement and inequality</li>
             <li>Applications: education, monetary, energy and agricultural policy</li>
+            <li>Meta-analysis and publication bias</li>
           </ul>
         </div>
       </div>

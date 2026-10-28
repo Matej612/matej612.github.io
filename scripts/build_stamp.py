@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Quarto post-render step: write the build date and copyright year into the page footers.
+"""Quarto post-render step: write the build date and copyright year into the page footers,
+and drop the <!-- CONFIRM ... --> / <!-- TODO ... --> notes-to-self from the published HTML.
 
 Runs automatically after `quarto render` (see post-render in _quarto.yml). Standard
 library only, so it works in CI without installing anything.
@@ -11,6 +12,7 @@ import re
 from pathlib import Path
 
 PLACEHOLDER = '<span class="build-stamp"></span>'
+NOTES = re.compile(r"[ \t]*<!--\s*(?:CONFIRM|TODO)\b.*?-->[ \t]*\n?", re.S)
 EN_MONTHS = ("January February March April May June July August September October November December").split()
 CS_MONTHS = ("ledna února března dubna května června července srpna září října listopadu prosince").split()
 
@@ -33,11 +35,12 @@ def main() -> None:
         if not f.is_file():
             continue
         html = f.read_text(encoding="utf-8")
-        if PLACEHOLDER not in html:
-            continue
-        m = re.search(r'<html[^>]*\blang="([^"]+)"', html)
-        f.write_text(html.replace(PLACEHOLDER, stamp(m.group(1) if m else "en", today)),
-                     encoding="utf-8", newline="\n")
+        new = NOTES.sub("", html)
+        if PLACEHOLDER in new:
+            m = re.search(r'<html[^>]*\blang="([^"]+)"', new)
+            new = new.replace(PLACEHOLDER, stamp(m.group(1) if m else "en", today))
+        if new != html:
+            f.write_text(new, encoding="utf-8", newline="\n")
 
 
 if __name__ == "__main__":

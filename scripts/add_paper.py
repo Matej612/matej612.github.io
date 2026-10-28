@@ -142,9 +142,10 @@ def main() -> None:
         die(f"{doi} is already in {PUBLICATIONS.name}")
 
     config = load_vars()
-    mailto = config.get("crossref_mailto")
-    if not mailto:
-        die("set crossref_mailto in _variables.yml (Crossref asks for a contact address)")
+    # Crossref asks for a contact address ("polite pool"); it is assembled from the split email.
+    if not (config.get("email_user") and config.get("email_domain")):
+        die("set email_user and email_domain in _variables.yml (Crossref asks for a contact address)")
+    mailto = f"{config['email_user']}@{config['email_domain']}"
 
     msg = fetch_crossref(doi, mailto)
     entry = build_entry(msg, doi, {p.get("id") for p in pubs}, config.get("name", ""),
