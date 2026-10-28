@@ -26,7 +26,10 @@ listing:
 ## Vzdělání
 
 ::: {.timeline-wrap}
-- [2017–2021]{.when} [[Ph.D. v oboru ekonomie]{.what} · Institut ekonomických studií UK, Praha]{}
+- [2017–2021]{.when} [[Ph.D. v oboru ekonomie]{.what} · Institut ekonomických studií UK, Praha\
+  [Disertační práce: [„Evaluating Economic Policy Using the Synthetic Control Method“](https://hdl.handle.net/20.500.11956/152827) · školitel: prof. Tomáš Havránek]{.note}]{}
+- [2016–2017]{.when} [[MSc v oboru Economics and Business]{.what}, specializace behaviorální ekonomie · Erasmus School of Economics, Erasmus University Rotterdam, Nizozemsko\
+  [Diplomová práce: [„Extent of Irrationality of the Consumer: Combining the Critical Cost Efficiency and Hautman Maks Indices“](https://thesis.eur.nl/pub/38276/) · vedoucí: Jan Heufer]{.note}]{}
 :::
 
 ## Ocenění

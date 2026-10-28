@@ -371,7 +371,7 @@ main .hero.column-screen { z-index: 0; }  // Quarto gives .column-screen z-index
   .hero-photo::before { inset: 12px -12px -12px 12px; border-radius: 18px; }
 }
 
-// ── Home: the four numbers ──────────────────────────────────────────────────
+// ── Home: the six numbers (3 × 2; 2 × 3 below lg) ───────────────────────────
 .stat-grid {
   position: relative;
   z-index: 2;
@@ -380,7 +380,7 @@ main .hero.column-screen { z-index: 0; }  // Quarto gives .column-screen z-index
   margin: -3.5rem 0 0;
   max-width: none;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   background: var(--c-surface);
   border: 1px solid var(--c-border);
   border-radius: 20px;
@@ -393,6 +393,8 @@ main .hero.column-screen { z-index: 0; }  // Quarto gives .column-screen z-index
   max-width: none;
   padding: 1.35rem 1.5rem 1.4rem;
   & + & { border-left: 1px solid var(--c-border); }
+  &:nth-child(3n + 1) { border-left: 0; }
+  &:nth-child(n + 4) { border-top: 1px solid var(--c-border); }
 }
 .stat-value {
   font-family: $font-family-display;
@@ -413,7 +415,8 @@ main .hero.column-screen { z-index: 0; }  // Quarto gives .column-screen z-index
 .stat-label { font-size: 0.87rem; line-height: 1.45; color: var(--c-muted); }
 @media (max-width: 991.98px) {
   .stat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .stat:nth-child(3) { border-left: 0; }
+  .stat:nth-child(odd) { border-left: 0; }
+  .stat:nth-child(even) { border-left: 1px solid var(--c-border); }
   .stat:nth-child(n + 3) { border-top: 1px solid var(--c-border); }
 }
 @media (max-width: 575.98px) {

@@ -3,7 +3,7 @@
 
 name: "Matej Opatrny"
 titles_en: "MSc, PhD"
-name_cs: "Mgr. Matej Opatrny, Ph.D."
+name_cs: "Matej Opatrny, MSc, Ph.D."
 
 # The email is split so it never appears as one string in the HTML (anti-scraper).
 email_user: "matej.opatrny"
@@ -14,6 +14,7 @@ orcid_url: "https://orcid.org/0000-0003-2322-6187"
 scholar_url: "https://scholar.google.com/citations?user=sQzpsG8AAAAJ"
 repec_id: "pop35"
 repec_url: "https://ideas.repec.org/e/pop35.html"
+linkedin_url: "https://www.linkedin.com/in/matej-opatrny-172303a8/"
 ies_profile_url: "https://ies.fsv.cuni.cz/contacts/institute-members/95950822"
 
 github_user: "matej612"

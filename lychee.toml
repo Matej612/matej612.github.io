@@ -8,9 +8,11 @@ no_progress = true
 # A real 404 still fails the check.
 accept = [200, 203, 204, 206, 403, 429]
 
+# LinkedIn answers automated requests with its own status 999.
 exclude = [
   "^mailto:",
   "^https://scholar\\.google\\.com/",
+  "^https://www\\.linkedin\\.com/",
 ]
 
 exclude_path = ["_site/site_libs"]

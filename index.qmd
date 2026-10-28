@@ -12,6 +12,12 @@ listing:
         - value: articles
           unit: articles
           label: "in peer-reviewed journals, including the Journal of Labor Economics"
+        - value: 176
+          unit: [citation, citations]
+          label: "on Google Scholar (October 2026)"
+        - value: 8
+          unit: h-index
+          label: "8 papers cited at least 8 times each (Google Scholar)"
         - value: 4
           unit: continents
           label: "of research stays: Chile, California, New Zealand and Spain"
@@ -103,6 +109,7 @@ listing:
         <a class="icon-btn" href="https://orcid.org/0000-0003-2322-6187" aria-label="ORCID"><i class="bi bi-orcid" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://scholar.google.com/citations?user=sQzpsG8AAAAJ" aria-label="Google Scholar"><i class="bi bi-google-scholar" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://ideas.repec.org/e/pop35.html" aria-label="RePEc / IDEAS"><i class="bi bi-ideas-repec" aria-hidden="true"></i></a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/matej-opatrny-172303a8/" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
       </span>
       <p class="contact-line" id="contact">
         <i class="bi bi-envelope" aria-hidden="true"></i>

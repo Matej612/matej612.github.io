@@ -1,8 +1,9 @@
 ```{=html}
 <%
-// The row of four numbers under the home-page hero. The tiles come from template-params in
-// index.qmd / cs/index.qmd; "value: articles" is replaced by the number of visible published or
-// forthcoming journal articles in data/publications.yml, so it stays current by itself.
+// The numbers under the home-page hero (six tiles, three per row). The tiles come from
+// template-params in index.qmd / cs/index.qmd; "value: articles" is replaced by the number of
+// visible published or forthcoming journal articles in data/publications.yml, so it stays current
+// by itself. Citations and h-index are copied by hand from Google Scholar, with the month.
 // "unit" is a word, or a list of plural forms: [one, many] in English, [1, 2–4, 5+] in Czech.
 const p = templateParams || {};
 const cs = p.lang === 'cs';

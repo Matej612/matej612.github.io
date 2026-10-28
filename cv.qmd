@@ -26,7 +26,10 @@ listing:
 ## Education
 
 ::: {.timeline-wrap}
-- [2017–2021]{.when} [[PhD in Economics]{.what} · Institute of Economic Studies, Charles University, Prague]{}
+- [2017–2021]{.when} [[PhD in Economics]{.what} · Institute of Economic Studies, Charles University, Prague\
+  [Dissertation: [“Evaluating Economic Policy Using the Synthetic Control Method”](https://hdl.handle.net/20.500.11956/152827) · supervisor: Prof. Tomáš Havránek]{.note}]{}
+- [2016–2017]{.when} [[MSc in Economics and Business]{.what}, specialisation in behavioural economics · Erasmus School of Economics, Erasmus University Rotterdam, the Netherlands\
+  [Master's thesis: [“Extent of Irrationality of the Consumer: Combining the Critical Cost Efficiency and Hautman Maks Indices”](https://thesis.eur.nl/pub/38276/) · supervisor: Jan Heufer]{.note}]{}
 :::
 
 ## Awards

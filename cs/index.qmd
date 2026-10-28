@@ -12,6 +12,12 @@ listing:
         - value: articles
           unit: [článek, články, článků]
           label: "v recenzovaných časopisech, mezi nimi Journal of Labor Economics"
+        - value: 176
+          unit: [citace, citace, citací]
+          label: "podle Google Scholar (říjen 2026)"
+        - value: 8
+          unit: h-index
+          label: "8 prací s nejméně 8 citacemi (Google Scholar)"
         - value: 4
           unit: kontinenty
           label: "výzkumných pobytů: Chile, Kalifornie, Nový Zéland a Španělsko"
@@ -53,7 +59,7 @@ listing:
     </div>
     <div class="hero-main">
       <span class="eyebrow">Ekonom · Univerzita Karlova, Praha</span>
-      <h1>Matej Opatrny <span class="titles">Mgr., Ph.D.</span></h1>
+      <h1>Matej Opatrny <span class="titles">MSc, Ph.D.</span></h1>
       <p class="lede">Správnými <em>metodami</em> zjistit, co v <em>datech</em> opravdu&nbsp;je.</p>
       <p class="bio">
         Matej Opatrny je ekonom na Institutu ekonomických studií Fakulty sociálních věd Univerzity
@@ -101,6 +107,7 @@ listing:
         <a class="icon-btn" href="https://orcid.org/0000-0003-2322-6187" aria-label="ORCID"><i class="bi bi-orcid" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://scholar.google.com/citations?user=sQzpsG8AAAAJ" aria-label="Google Scholar"><i class="bi bi-google-scholar" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://ideas.repec.org/e/pop35.html" aria-label="RePEc / IDEAS"><i class="bi bi-ideas-repec" aria-hidden="true"></i></a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/matej-opatrny-172303a8/" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
       </span>
       <p class="contact-line" id="contact">
         <i class="bi bi-envelope" aria-hidden="true"></i>
