@@ -8,11 +8,14 @@ no_progress = true
 # A real 404 still fails the check.
 accept = [200, 203, 204, 206, 403, 429]
 
-# LinkedIn answers automated requests with its own status 999.
+# LinkedIn answers automated requests with its own status 999. Charles University's
+# repository (handle prefix 20.500.11956) times out from GitHub's runners although the
+# pages open normally.
 exclude = [
   "^mailto:",
   "^https://scholar\\.google\\.com/",
   "^https://www\\.linkedin\\.com/",
+  "^https://hdl\\.handle\\.net/20\\.500\\.11956/",
 ]
 
 exclude_path = ["_site/site_libs"]
