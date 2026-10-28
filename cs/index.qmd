@@ -158,7 +158,7 @@ listing:
     <img src="../assets/img/farm-pasture.jpg" alt="Hnědé krávy na zelené pastvině pod zalesněnými šumavskými kopci" width="1200" height="900" loading="lazy" decoding="async">
     <figcaption><strong>Rodinná farma</strong>Na pastvě na Šumavě</figcaption>
   </figure>
-  <figure class="photo-card">
+  <figure class="photo-card focus-right">
     <img src="../assets/img/farm-cow.jpg" alt="Matej Opatrny natahuje ruku přes kovovou ohradu ke hnědé krávě" width="1200" height="900" loading="lazy" decoding="async">
     <figcaption><strong>Vlastní stádo</strong>S jednou z krav</figcaption>
   </figure>

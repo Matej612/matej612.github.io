@@ -470,6 +470,7 @@ main .hero.column-screen { z-index: 0; }  // Quarto gives .column-screen z-index
   overflow: hidden;
   background: var(--c-surface-2);
   img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  &.focus-right img { object-position: 90% center; }  // subject near the right edge of the photo
   figcaption {
     position: absolute;
     inset: auto 0 0 0;

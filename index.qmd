@@ -160,7 +160,7 @@ listing:
     <img src="assets/img/farm-pasture.jpg" alt="Brown cows grazing on a green pasture below wooded hills in Šumava" width="1200" height="900" loading="lazy" decoding="async">
     <figcaption><strong>The family farm</strong>On pasture in Šumava, the Bohemian Forest</figcaption>
   </figure>
-  <figure class="photo-card">
+  <figure class="photo-card focus-right">
     <img src="assets/img/farm-cow.jpg" alt="Matej Opatrny reaching over a metal cattle fence to touch a brown cow" width="1200" height="900" loading="lazy" decoding="async">
     <figcaption><strong>His own herd</strong>With one of the cows</figcaption>
   </figure>
