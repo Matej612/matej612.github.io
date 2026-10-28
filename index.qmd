@@ -60,7 +60,7 @@ listing:
     <div class="hero-main">
       <span class="eyebrow">Economist · Charles University, Prague</span>
       <h1>Matej Opatrny <span class="titles">MSc, PhD</span></h1>
-      <p class="lede">Using the right <em>methods</em> to find out what the <em>data</em> really&nbsp;show.</p>
+      <p class="lede">I use the right <em>methods</em> to find out what the <em>data</em> really&nbsp;show.</p>
       <p class="bio">
         Matej Opatrny is an economist at the Institute of Economic Studies, Faculty of Social Sciences,
         Charles University, Prague, and a researcher at the Charles University Environment Centre.
@@ -73,7 +73,7 @@ listing:
         economic analyst at Expobank.
       </p>
       <p class="bio">
-        He also knows agricultural policy from the other side of the fence. Together with his parents,
+        He also knows agricultural policy first-hand. Together with his parents,
         his brother and sister-in-law, he runs a small family farm of around 20 hectares in Šumava,
         where the cows are his own and looking after them is his job. He is married and has two
         children.

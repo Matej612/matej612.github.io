@@ -60,7 +60,7 @@ listing:
     <div class="hero-main">
       <span class="eyebrow">Ekonom · Univerzita Karlova, Praha</span>
       <h1>Matej Opatrny <span class="titles">MSc, Ph.D.</span></h1>
-      <p class="lede">Správnými <em>metodami</em> zjistit, co v <em>datech</em> opravdu&nbsp;je.</p>
+      <p class="lede">Správnými <em>metodami</em> zjišťuji, co v <em>datech</em> opravdu&nbsp;je.</p>
       <p class="bio">
         Matej Opatrny je ekonom na Institutu ekonomických studií Fakulty sociálních věd Univerzity
         Karlovy a výzkumník Centra pro otázky životního prostředí UK. Je pozitivní ekonom: ať jde o
@@ -72,7 +72,7 @@ listing:
         ekonomický analytik v Expobank.
       </p>
       <p class="bio">
-        Zemědělskou politiku zná i z druhé strany plotu. S rodiči, bratrem a jeho ženou hospodaří na
+        Zemědělskou politiku zná i z vlastní praxe. S rodiči, bratrem a jeho ženou hospodaří na
         malé rodinné farmě o rozloze zhruba 20 hektarů na Šumavě, kde chová vlastní krávy a sám se
         o ně stará. Je ženatý a má dvě děti.
       </p>
