@@ -62,6 +62,9 @@ website:
       - icon: ideas-repec
         href: "https://ideas.repec.org/e/pop35.html"
         aria-label: RePEc / IDEAS
+      - icon: researcherid
+        href: "https://www.webofscience.com/wos/author/record/E-9766-2018"
+        aria-label: Web of Science ResearcherID
       - icon: linkedin
         href: "https://www.linkedin.com/in/matej-opatrny-172303a8/"
         aria-label: LinkedIn

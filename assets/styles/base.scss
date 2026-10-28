@@ -80,6 +80,10 @@ p, li { max-width: 72ch; }
   }
 }
 .navbar .nav-link .bi { font-size: 1.05rem; }
+@media (min-width: 992px) and (max-width: 1099.98px) {
+  // The longer Czech menu and six profile icons only just fit: tighter icon spacing here.
+  .navbar #navbarCollapse > ul.ms-auto .nav-link { padding-left: 0.35rem; padding-right: 0.35rem; }
+}
 .navbar .nav-link.lang-switch {
   .menu-text {
     display: inline-block;

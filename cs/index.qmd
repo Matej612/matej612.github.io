@@ -107,6 +107,7 @@ listing:
         <a class="icon-btn" href="https://orcid.org/0000-0003-2322-6187" aria-label="ORCID"><i class="bi bi-orcid" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://scholar.google.com/citations?user=sQzpsG8AAAAJ" aria-label="Google Scholar"><i class="bi bi-google-scholar" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://ideas.repec.org/e/pop35.html" aria-label="RePEc / IDEAS"><i class="bi bi-ideas-repec" aria-hidden="true"></i></a>
+        <a class="icon-btn" href="https://www.webofscience.com/wos/author/record/E-9766-2018" aria-label="Web of Science ResearcherID"><i class="bi bi-researcherid" aria-hidden="true"></i></a>
         <a class="icon-btn" href="https://www.linkedin.com/in/matej-opatrny-172303a8/" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
       </span>
       <p class="contact-line" id="contact">

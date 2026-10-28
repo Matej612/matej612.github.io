@@ -53,7 +53,8 @@
    colour in light and dark mode. Used as `icon: orcid` etc. in the navbar. */
 .bi-orcid::before,
 .bi-google-scholar::before,
-.bi-ideas-repec::before {
+.bi-ideas-repec::before,
+.bi-researcherid::before {
   content: "" !important;
   display: inline-block;
   width: 1em;
@@ -66,3 +67,4 @@
 .bi-orcid { --icon: url("../img/icons/orcid.svg"); }
 .bi-google-scholar { --icon: url("../img/icons/google-scholar.svg"); }
 .bi-ideas-repec { --icon: url("../img/icons/ideas-repec.svg"); }
+.bi-researcherid { --icon: url("../img/icons/researcherid.svg"); }

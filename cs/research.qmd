@@ -68,5 +68,6 @@ listing:
 
 ::: {.muted}
 Citační profily: [Google Scholar](https://scholar.google.com/citations?user=sQzpsG8AAAAJ) ·
-[RePEc/IDEAS](https://ideas.repec.org/e/pop35.html) · [ORCID](https://orcid.org/0000-0003-2322-6187)
+[RePEc/IDEAS](https://ideas.repec.org/e/pop35.html) · [ORCID](https://orcid.org/0000-0003-2322-6187) ·
+[Web of Science](https://www.webofscience.com/wos/author/record/E-9766-2018) (ResearcherID E-9766-2018)
 :::
