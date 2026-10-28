@@ -91,6 +91,12 @@ code span.cf {
   font-style: inherit;
 }
 
+/* Char */
+code span.ch {
+  color: #20794D;
+  font-style: inherit;
+}
+
 /* Constant */
 code span.cn {
   color: #8f5902;
@@ -147,12 +153,6 @@ code span.fl {
 /* Function */
 code span.fu {
   color: #4758AB;
-  font-style: inherit;
-}
-
-/* Char */
-code span.ch {
-  color: #20794D;
   font-style: inherit;
 }
 
@@ -233,4 +233,4 @@ code span.wa {
   content: "</";
 }
 
-/*# sourceMappingURL=12730fcee6ca51df52e602f65ea39705.css.map */
+/*# sourceMappingURL=8be38f48d34c45af72792cbd699585e7.css.map */
