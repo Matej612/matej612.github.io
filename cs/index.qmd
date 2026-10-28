@@ -96,6 +96,7 @@ listing:
         <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Centrum pro otázky životního prostředí UK</span></li>
         <li><i class="bi bi-megaphone" aria-hidden="true"></i><span>Zakladatel <a href="https://sciencecon.cz/">Scienceconu</a></span></li>
         <li><i class="bi bi-people" aria-hidden="true"></i><span>Řádný člen <a href="https://www.cse.cz/">České společnosti ekonomické</a></span></li>
+        <li><i class="bi bi-award" aria-hidden="true"></i><span>Ocenění České společnosti ekonometrické 2018 · <a href="https://ideas.repec.org/p/fau/wpaper/wp2018_11.html">oceněná práce</a></span></li>
         <li><i class="bi bi-award" aria-hidden="true"></i><span>Čestné uznání v soutěži Mladý ekonom roku 2016 · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">rozhovor ve vlogu ČNB</a></span></li>
       </ul>
       <div class="hero-actions">

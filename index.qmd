@@ -98,6 +98,7 @@ listing:
         <li><i class="bi bi-globe-europe-africa" aria-hidden="true"></i><span>Charles University Environment Centre</span></li>
         <li><i class="bi bi-megaphone" aria-hidden="true"></i><span>Founder, <a href="https://sciencecon.cz/en.html">Sciencecon</a></span></li>
         <li><i class="bi bi-people" aria-hidden="true"></i><span>Full member, <a href="https://cse.cz/en">Czech Economic Society</a></span></li>
+        <li><i class="bi bi-award" aria-hidden="true"></i><span>Czech Econometric Society Award 2018 · <a href="https://ideas.repec.org/p/fau/wpaper/wp2018_11.html">awarded paper</a></span></li>
         <li><i class="bi bi-award" aria-hidden="true"></i><span>Honourable mention, Young Economist of the Year 2016 · <a href="https://www.cnb.cz/cs/o_cnb/vlog-cnb/Autor-ocenene-prace-Matej-Opatrny-Me-propocty-ukazuji-na-priznivy-dopad-kurzoveho-zavazku">ČNB video interview</a></span></li>
       </ul>
       <div class="hero-actions">
