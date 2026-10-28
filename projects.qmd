@@ -9,7 +9,5 @@ listing:
       lang: en
 ---
 
-<!-- CONFIRM: project descriptions (data/projects.yml) and your role in MARCHES and FE3M -->
-
 ::: {#projects}
 :::

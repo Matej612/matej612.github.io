@@ -14,7 +14,6 @@
 #   url: https://…              # optional; makes the title a link
 #   visible: true
 
-# CONFIRM: which paper will you present at the CES conference? Add it to talks.yml afterwards.
 - id: 2026-11-ces-biennial
   start: 2026-11-27
   end: 2026-11-28

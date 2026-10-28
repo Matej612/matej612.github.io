@@ -16,8 +16,6 @@ listing:
 </div>
 ```
 
-<!-- CONFIRM every line below (Czech mirror of cv.qmd). -->
-
 ## Pozice
 
 ::: {.timeline-wrap}

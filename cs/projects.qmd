@@ -9,7 +9,5 @@ listing:
       lang: cs
 ---
 
-<!-- CONFIRM: Czech project descriptions (summary_cs in data/projects.yml) -->
-
 ::: {#projects}
 :::

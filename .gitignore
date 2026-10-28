@@ -15,3 +15,8 @@ desktop.ini
 *.tmp
 
 **/*.quarto_ipynb
+
+# Private notes stay outside the public repo (see the OneDrive CV folder)
+/TODO.md
+/CLAUDE.md
+/CLAUDE.local.md

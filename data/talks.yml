@@ -1,6 +1,5 @@
 # Conference and seminar presentations, rendered on cv.qmd and cs/cv.qmd (newest first).
-# Only presentations with a documented title are listed. "source" records where each entry
-# came from (trip reports in the shared drive "Cesťáky/Matej_O"); it is not shown on the site.
+# Only presentations with a documented title are listed.
 #
 # - id: 2027-01-short-name
 #   month: 2027-01              # YYYY-MM
@@ -11,7 +10,6 @@
 #   coauthors: [Ščasný]        # surnames, shown as "with …"
 #   role: presenter            # presenter | discussant | invited
 #   visible: true
-#   source: "folder/file"
 
 - id: 2026-06-wcere
   month: 2026-06
@@ -22,7 +20,6 @@
   coauthors: [Zvěřinová, Spyropoulou, Ščasný, Okwoche]
   role: presenter
   visible: true
-  source: "Lisabon_6_2026/WCERE 2026_ Notification of acceptance.pdf; Zapis (WCERE).docx"
 
 - id: 2025-06-iew
   month: 2025-06
@@ -33,7 +30,6 @@
   coauthors: []
   role: presenter
   visible: true
-  source: "Nara_6_2025/Invitation_email.pdf; Zapis_Opatrny.docx"
 
 - id: 2025-06-waseda
   month: 2025-06
@@ -44,7 +40,6 @@
   coauthors: []
   role: presenter
   visible: true
-  source: "Nara_6_2025/Zapis_Opatrny.docx (report: 'Schůzka a prezentace výstupu'; whether it was an invited seminar is not stated)"
 
 - id: 2024-11-fsr-climate
   month: 2024-11
@@ -55,7 +50,6 @@
   coauthors: []
   role: presenter
   visible: true
-  source: "Florence_11_2024/Zapis_Florencie_Opatrny.docx; Florence_acceptance.pdf"
 
 - id: 2024-10-south-caucasus
   month: 2024-10
@@ -66,7 +60,6 @@
   coauthors: []
   role: presenter
   visible: true
-  source: "Gruzie_9_2024/Gruzie_Zaver_zprava_MO_MSc.docx"
 
 - id: 2024-02-ponacee
   month: 2024-02
@@ -77,7 +70,6 @@
   coauthors: [Čechura, et al.]
   role: presenter
   visible: true
-  source: "Kodan_2_2024/Zpráva o zahraniční pracovní cestě_Kodan.pdf"
 
 - id: 2023-06-eaere
   month: 2023-06
@@ -88,7 +80,6 @@
   coauthors: []
   role: presenter
   visible: true
-  source: "Limassol - June 2023/Acceptance_email_confirmation.pdf (the trip report says 'land use diversity'); Certificate_Opatrny.pdf"
 
 - id: 2023-03-eu-microdata
   month: 2023-03
@@ -99,7 +90,6 @@
   coauthors: [Ščasný]
   role: presenter
   visible: true
-  source: "Mannheim_3_2023/Zpráva o zahraniční pracovní cestě_Mannheim.docx (the preliminary programme lists a different title under Ščasný)"
 
 - id: 2022-06-eaere
   month: 2022-06
@@ -110,4 +100,3 @@
   coauthors: [Ščasný]
   role: presenter
   visible: true
-  source: "Rimini_6_2022/Zpráva o zahraniční pracovní cestě_Rimini.docx"

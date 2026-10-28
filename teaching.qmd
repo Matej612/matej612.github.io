@@ -3,8 +3,6 @@ title: Teaching
 description: "Courses at the Institute of Economic Studies, Charles University."
 ---
 
-<!-- CONFIRM: course description; TODO: link to the course page in SIS or Moodle, if public -->
-
 ::: {.project}
 ::: {.project-head}
 ## Microeconomics I

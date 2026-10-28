@@ -3,7 +3,7 @@ title: Poznámky a komentáře
 description: "Krátké texty o veřejné politice a výzkumu pro širší publikum. Každá poznámka je psaná v jednom jazyce."
 listing:
   - id: notes
-    contents: "../notes/*/index.qmd"
+    contents: ["../notes/*/index.qmd", "../notes/listing-placeholder.yml"]
     template: ../templates/notes.ejs.md
     template-params:
       lang: cs

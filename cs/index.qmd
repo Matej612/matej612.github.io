@@ -36,7 +36,7 @@ listing:
       featured: true
       visible: true
   - id: latest-notes
-    contents: "../notes/*/index.qmd"
+    contents: ["../notes/*/index.qmd", "../notes/listing-placeholder.yml"]
     template: ../templates/notes.ejs.md
     template-params:
       lang: cs
@@ -44,8 +44,6 @@ listing:
     sort: "date desc"
     max-items: 3
 ---
-
-<!-- CONFIRM: Czech wording of the lede, bio, research interests and the four numbers -->
 
 ```{=html}
 <section class="hero column-screen" aria-label="Úvod">
@@ -137,8 +135,6 @@ listing:
 ::: {.section-head}
 ## Mimo univerzitu
 :::
-
-<!-- CONFIRM: text o Scienceconu (podle sciencecon.cz) a popisky fotek -->
 
 ```{=html}
 <div class="beyond-grid">

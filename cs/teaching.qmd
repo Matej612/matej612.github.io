@@ -3,8 +3,6 @@ title: Výuka
 description: "Kurzy na Institutu ekonomických studií Univerzity Karlovy."
 ---
 
-<!-- CONFIRM: Czech course name and description -->
-
 ::: {.project}
 ::: {.project-head}
 ## Mikroekonomie I

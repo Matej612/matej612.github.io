@@ -1,0 +1,3 @@
+# Empty on purpose: keeps the notes listings valid (no "matches no files" warning)
+# while there are no notes yet. Notes themselves live in notes/YYYY-MM-DD-slug/index.qmd.
+[]

@@ -16,8 +16,6 @@ listing:
 </div>
 ```
 
-<!-- CONFIRM every line below. TODO: your position title at IES and since when; MSc (institution, year); McKinsey (role, years). -->
-
 ## Positions
 
 ::: {.timeline-wrap}

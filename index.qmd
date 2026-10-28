@@ -36,7 +36,7 @@ listing:
       featured: true
       visible: true
   - id: latest-notes
-    contents: "notes/*/index.qmd"
+    contents: ["notes/*/index.qmd", "notes/listing-placeholder.yml"]
     template: templates/notes.ejs.md
     template-params:
       lang: en
@@ -44,9 +44,6 @@ listing:
     sort: "date desc"
     max-items: 3
 ---
-
-<!-- CONFIRM: the one-line lede, bio wording, research interests, the four numbers
-     (the article count is computed from data/publications.yml) and the featured papers. -->
 
 ```{=html}
 <section class="hero column-screen" aria-label="Introduction">
@@ -140,8 +137,6 @@ listing:
 ::: {.section-head}
 ## Beyond the university
 :::
-
-<!-- CONFIRM: Sciencecon text (from sciencecon.cz) and photo captions -->
 
 ```{=html}
 <div class="beyond-grid">
