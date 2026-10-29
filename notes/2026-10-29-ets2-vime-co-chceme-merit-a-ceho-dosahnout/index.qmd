@@ -1,7 +1,7 @@
 ---
 title: "ETS2: víme, co chceme měřit a čeho dosáhnout?"
 date: 2026-10-29
-description: "Výnosy z ETS2 by měly jít do větší energetické soběstačnosti a Evropa i Česko by měly uvolnit regulace, které výrobky zdražují."
+description: "Výnosy z ETS2 by měly jít hlavně do vlastních zdrojů energie. A úspěch je potřeba měřit tak, aby ukazatele ukazovaly to, o co nám jde."
 categories: [Energie, Veřejná politika]
 lang: cs
 date-format: "D. M. YYYY"
@@ -10,132 +10,156 @@ include-in-header:
 draft: false
 ---
 
-Od roku 2028 začne Evropská unie zpoplatňovat emise CO₂ z vytápění budov a z pohonných hmot. Nový
-systém emisních povolenek ETS2 měl startovat už v roce 2027, EU ho ale letos o rok odložila[^odklad]
-a Česko s Itálií teď prosazují jeho pozastavení[^pozastaveni]. Pokud ETS2 začne platit, získá stát
-z prodeje povolenek nové příjmy, které musí použít na klimatická a sociální opatření[^pravidla]. Než
-rozhodneme, co s nimi, měli bychom mít jasno ve dvou věcech: čeho chceme dosáhnout a podle čeho
-poznáme, že se to povedlo.
+Od roku 2028 začne Evropská unie zpoplatňovat emise CO₂ z vytápění budov a z pohonných hmot.
+Povolenky v novém systému ETS2 nebudou kupovat domácnosti, ale dodavatelé paliv[^ets2]. Náklady se
+však promítnou do cen: podle našeho výpočtu zaplatí průměrná česká domácnost v roce 2032 kvůli ETS2
+za energie o 218 eur ročně víc, necelé procento svého čistého příjmu[^wp-dopady]. EU start systému
+letos o rok odložila[^odklad] a Česko s Itálií teď prosazují jeho pozastavení[^pozastaveni].
 
-## Evropa platí víc a reguluje víc
+Pokud ETS2 začne platit, získá stát z prodeje povolenek nové příjmy, které musí použít na klimatická
+a sociální opatření[^pravidla]. Než rozhodneme, co s nimi, měli bychom mít jasno ve dvou věcech:
+čeho chceme dosáhnout a podle čeho poznáme, že se to povedlo. Na první otázku odpovídá situace,
+v jaké se Evropa nachází. U druhé pomůže [náš
+výzkum](https://ies.fsv.cuni.cz/assessing-impacts-eu-ets-2-and-direct-compensations-households-czechia-linked-e3me-dasmod):
+ukazatele, podle kterých se bude úspěch posuzovat, mohou stejnou pomoc vyhodnotit velmi různě.
 
-Snižovat emise CO₂ je obecně rozumný cíl. Evropa na této cestě ale není sama a měla by pozorně
-sledovat, jak ji vidí její hlavní rivalové. Spojené státy od ledna 2026 nejsou součástí Pařížské
-dohody[^pariz] a americká vláda vyhlásila „národní energetickou nouzi“, aby rozšířila domácí těžbu
-a výrobu energie včetně ropy a zemního plynu[^usa]. Čína sice rozšířila svůj trh s povolenkami na
-ocel, cement a hliník, zatím ale reguluje jen emise na jednotku výroby, ne jejich celkové množství.
-Pevné stropy chce zavádět postupně od roku 2027[^cina].
+## Čeho chceme dosáhnout
 
-Evropské firmy přitom za energii platí mnohem víc než jejich konkurenti. Draghiho zpráva
-o budoucnosti evropské konkurenceschopnosti z roku 2024 uvádí, že firmy v EU platí za elektřinu
-dvakrát až třikrát víc než v USA a za zemní plyn čtyřikrát až pětkrát víc. Za hlavní příčinu
-označuje nedostatek vlastních přírodních zdrojů, ale také vady společného trhu s energií a vysoké
-daně. A varuje, že pokud Evropa své politiky nesladí, hrozí, že dekarbonizace půjde proti
-konkurenceschopnosti a růstu[^draghi-energie].
+Snižovat emise CO₂ je rozumný cíl. Evropa ho ale sleduje z horší výchozí pozice než její
+konkurenti.
 
-Druhým problémem je regulace. Podle téže zprávy ji více než 60 % firem v EU považuje za překážku
-investic a 55 % malých a středních podniků označuje regulatorní překážky a administrativu za svůj
-největší problém[^draghi-regulace]. V letech 2019 až 2024 přijala EU zhruba 13 tisíc aktů, zatímco
-v USA vzniklo na federální úrovni asi 3 500 zákonů a 2 000 rezolucí[^draghi-akty]. Draghi zároveň
-upozorňuje, že EU nemá společnou metodiku, jak náklady regulace měřit[^draghi-metodika]. Spolehlivé
-souhrnné číslo o tom, o kolik regulace zdražuje evropské výrobky, proto chybí. Dílčí odhady ano: podle studie pro
-Evropskou komisi stála legislativa EU z let 2004 až 2014 chemický průmysl zhruba 12 % jeho přidané
-hodnoty a až 30 % hrubého provozního přebytku, tedy přibližně zisku[^chemie]. Sama Komise si dala za
-cíl snížit opakované administrativní náklady firem do roku 2029 o 37,5 miliardy eur ročně[^komise].
+**Energie je v Evropě drahá a většinu jí dovážíme.** Draghiho zpráva o budoucnosti evropské
+konkurenceschopnosti z roku 2024 uvádí, že firmy v EU platí za elektřinu dvakrát až třikrát víc než
+v USA a za zemní plyn čtyřikrát až pětkrát víc. Za hlavní příčinu označuje nedostatek vlastních
+přírodních zdrojů, ale také vady společného trhu s energií a vysoké daně. A varuje, že pokud Evropa
+své politiky nesladí, hrozí, že dekarbonizace půjde proti konkurenceschopnosti a
+růstu[^draghi-energie]. V roce 2024 EU dovezla 57 % energie, kterou měla k dispozici, a dvě třetiny
+dovozu tvořila ropa a ropné produkty[^eurostat].
 
-Část problému je ale doma. Předsedkyně Evropské komise Ursula von der Leyenová letos v říjnu navrhla
-„pakt proti nadměrné regulaci“: členské státy by měly ukázat, které povinnosti pocházejí z práva EU
-a které si přidaly samy[^pakt]. U nových zákonů se Česko zlepšilo. Od roku 2016 platí vládní
-metodika, podle níž se směrnice přebírají v minimální podobě a každé přitvrzení je třeba zdůvodnit.
-Neodůvodněné přitvrzování z nových zákonů od té doby téměř zmizelo[^kral]. Zůstává ale ve starších
-předpisech, v poslaneckých pozměňovacích návrzích a v praxi[^amo-zbytky].
-Například při prodeji nebo pronájmu budovy postavené a naposledy větší měrou upravené před rokem 1947
-se průkaz energetické náročnosti nemusí pořizovat, pokud se na tom obě strany písemně
-dohodnou[^penb]. Podle analýzy AMO ale média a firmy zpracovávající posudky takové výjimky často
-zamlčují[^amo]. Výjimky, které lidem ušetří administrativu, jsou správné; lidé se o nich však musí
-dozvědět. Administrativa podle Hospodářské komory stojí české podnikatele zhruba 72 miliard
-korun ročně a vláda ji chce do roku 2029 snížit o pětinu[^hk].
+**Hlavní konkurenti si stejné náklady neukládají.** Spojené státy od ledna 2026 nejsou součástí
+Pařížské dohody[^pariz] a vyhlásily „národní energetickou nouzi“, aby rozšířily domácí výrobu energie
+včetně ropy a zemního plynu[^usa]. Čína má trh s povolenkami, firmám ale zatím neurčuje, kolik smějí
+vypustit celkem[^cina].
 
-Zároveň platí, že vlastních fosilních zdrojů má Evropa málo[^draghi-zdroje]. V roce 2024 dovezla 57 %
-energie, kterou měla k dispozici, a dvě třetiny dovozu tvořila ropa a ropné produkty[^eurostat]. Snižovat závislost
-na dovozu fosilních paliv je proto správné i bez ohledu na klima.
+**K drahé energii se přidává regulace.** Podle Draghiho zprávy ji více než 60 % firem v EU považuje za
+překážku investic[^draghi-regulace]. V letech 2019 až 2024 přijala EU zhruba 13 tisíc aktů, zatímco
+v USA vzniklo na federální úrovni asi 3 500 zákonů a 2 000 rezolucí[^draghi-akty]. Souhrnné číslo
+o tom, o kolik regulace evropské výrobky zdražuje, chybí[^draghi-metodika]. Dílčí odhady ale existují: chemický průmysl
+stála legislativa EU z let 2004 až 2014 zhruba 2 % tržeb a 12 % přidané hodnoty, tedy zhruba každé
+osmé euro, které odvětví samo vytvořilo[^chemie].
 
-## Co ukazatele uvidí a co ne
+**Část regulace si přidáváme sami.** Předsedkyně Evropské komise Ursula von der Leyenová letos
+v říjnu navrhla „pakt proti nadměrné regulaci“: členské státy by měly ukázat, které povinnosti
+pocházejí z práva EU a které si přidaly samy[^pakt]. Česko se u nových zákonů zlepšilo: podle vládní
+metodiky z roku 2016 přebírá směrnice v minimální podobě a neodůvodněné přitvrzování z nových zákonů
+téměř zmizelo[^kral]. Zůstává ale ve starších předpisech, v poslaneckých pozměňovacích návrzích
+a v praxi[^amo-zbytky]. Například
+při prodeji nebo pronájmu budovy postavené a naposledy větší měrou upravené před rokem 1947 se průkaz
+energetické náročnosti nemusí pořizovat, pokud se na tom obě strany písemně dohodnou[^penb]. Podle
+analýzy AMO ale média a firmy zpracovávající posudky takové výjimky často zamlčují[^amo]. Výjimky,
+které lidem ušetří administrativu, jsou správné; lidé se o nich však musí dozvědět. Administrativa
+přitom podle Hospodářské komory stojí české podnikatele zhruba 72 miliard korun ročně[^hk].
 
-Pravidla pro peníze z ETS2 mají dvě části. Výnos z části povolenek jde do Sociálního klimatického
-fondu, který má na roky 2026 až 2032 k dispozici nejvýše 65 miliard eur[^scf-fond]; Česko z něj může
-získat až 50 miliard korun[^scf-cr]. Stát k tomu musí přidat nejméně 25 % nákladů svého Sociálního
-klimatického plánu[^scf-25]. Na dočasnou přímou podporu příjmů domácností smí jít nejvýše 37,5 % těchto
-nákladů, většina tedy musí jít do opatření s trvalým účinkem, jako jsou renovace budov, čisté
-vytápění nebo bezemisní doprava[^scf-pravidla]. Zbývající výnosy z ETS2 si stát ponechá a musí je
-použít na klimatické účely, přednostně s ohledem na sociální dopady[^pravidla2]. Komise přitom peníze
-z fondu vyplácí, jen pokud stát plní cíle svého plánu, a mezi nimi musí být i snížení počtu
-domácností v energetické chudobě[^scf].
+Čeho tedy chceme dosáhnout? Aby EU i Česko méně závisely na dovozu fosilních paliv, což je správné
+i bez ohledu na klima, a aby výrobky vyrobené v Evropě zbytečně nezdražovaly předpisy. Peníze z ETS2
+k tomu mohou přispět, záleží ale na tom, kam půjdou a podle čeho se bude posuzovat jejich přínos.
 
-Dopady ETS2 na české domácnosti jsme spočítali v modelu, který propojuje dvě úrovně. Makroekonomický
-model E3ME počítá, jak ETS2 změní ceny a příjmy v celé ekonomice, a dynamická mikrosimulace DASMOD
-tyto změny promítá do rozpočtů 3 233 domácností z výběrových šetření, které zastupují 4,62 milionu
-českých domácností. Na rozdíl od statických odhadů, které vyšší ceny jen přepočítají na dnešní
-spotřebu, domácnosti v modelu na změny cen a příjmů reagují tak, jak to ukazují data o jejich
-výdajích. Model sleduje i jejich úspory a dluhy, takže zachytí, jak se renovace financuje, a u každého
-výsledku uvádíme, jak přesně ho data dokážou změřit[^wp-model]. Hlavní zjištění zní: to, co
-ukazatele energetické chudoby zaznamenají, závisí na jejich konstrukci stejně jako na samotné
-politice[^wp-zaver].
+## Jak poznáme, že se to daří
 
-V našem scénáři zaplatí průměrná česká domácnost v roce 2032 kvůli ETS2 za energie o 218 eur ročně
-víc, tedy 0,73 % čistého příjmu. Nejvíc to zasáhne domácnosti, které topí plynem, a osaměle žijící
-důchodce[^wp-dopady]. Porovnali jsme, co se stane, když stejných 745 milionů eur v letech 2028 až
-2032 půjde na zateplení a tepelná čerpadla, a pro srovnání i na přímé platby domácnostem[^wp-obalka].
-Přímá platba lidem uleví, ale ukazatel, který vysoké náklady na energie posuzuje podle výše výdajů,
-si část peněz utracenou za teplo vyloží jako zhoršení, a 87 % úlevy v něm tak zmizí[^wp-87].
-Oficiální ukazatele se pohnou jen o zlomky procentního bodu[^wp-oficialni]. Zateplení a tepelná
-čerpadla snižují energetickou chudobu měřenou ukazateli, které kombinují nízký příjem a vysoké
-náklady, o 7,1 až 10,5 % a ještě tři roky po skončení programu je pokles nejméně 5,4 %[^wp-renovace].
+Pravidla pro peníze z ETS2 mají dvě části. Část výnosů jde do evropského Sociálního klimatického
+fondu, ze kterého může Česko v letech 2026 až 2032 získat až 50 miliard korun[^scf-cr]. Stát k tomu
+musí přidat nejméně čtvrtinu nákladů
+svého Sociálního klimatického plánu[^scf-25]. Na dočasnou přímou podporu příjmů domácností smí jít
+nejvýše 37,5 % těchto nákladů, většina tedy musí jít do opatření s trvalým účinkem, jako jsou
+renovace budov, čisté vytápění nebo bezemisní doprava[^scf-pravidla]. Zbývající výnosy z ETS2 si stát
+ponechá a musí je použít na klimatické účely, přednostně s ohledem na sociální dopady[^pravidla2].
 
-Výsledek ovlivňuje i to, jak se renovace zaplatí. Ukazatel, který vedle příjmu a nákladů sleduje
-i úspory domácnosti, zaznamená, zda domácnost zaplatila spoluúčast z úspor, nebo z půjčky. Když sáhne
-do úspor, ukazatel to vyhodnotí jako zhoršení: u tepelného čerpadla tak úbytek úspor smaže 36 %
-zlepšení, které přinesly nižší účty. Uspořená část přímé platby se v něm naopak projeví jako
-úleva[^wp-uspory]. Stejná renovace tak může vyjít lépe nebo hůř jen podle toho, jak byla zaplacena.
-Cíle a pravidla měření je proto potřeba stanovit dřív, než peníze začnou proudit, a místo jednoho
-čísla sledovat několik ukazatelů, každý i s jeho přesností[^wp-doporuceni].
+U fondu přitom rozhoduje měření. Komise peníze vyplácí, jen pokud stát plní cíle svého plánu, a mezi
+nimi musí být i snížení počtu domácností v energetické chudobě[^scf]. Energetickou chudobu ale nelze
+změřit přímo. Statistici ji odhadují pomocí ukazatelů, které za energeticky chudou považují například
+domácnost s nízkým příjmem a zároveň vysokými náklady na energie. Co přesně jsou „vysoké náklady“,
+určuje každý ukazatel jinak, a právě na tom záleží.
 
-## Výnosy z ETS2 do odolnosti ekonomiky
+Jak ukazatele na pomoc domácnostem reagují, jsme zkoumali v modelu, který promítá dopady ETS2 na ceny
+a příjmy v celé ekonomice do rozpočtů 3 233 domácností z výběrových šetření. Ty dohromady zastupují
+všechny české domácnosti. Na rozdíl
+od jednoduchých odhadů, které vyšší ceny jen přepočítají na dnešní spotřebu, domácnosti v modelu na
+změny cen a příjmů reagují tak, jak to ukazují data o jejich výdajích. Model sleduje i jejich úspory
+a dluhy, takže zachytí, jak se renovace financuje, a u každého výsledku uvádíme, jak přesně ho data
+dokážou změřit[^wp-model].
+
+Porovnali jsme, co se stane, když stejných 745 milionů eur v letech 2028 až 2032 půjde na zateplení
+a tepelná čerpadla, a pro srovnání i na přímé platby domácnostem[^wp-obalka]. Hlavní zjištění zní:
+to, co ukazatele zaznamenají, závisí na jejich konstrukci stejně jako na samotné
+politice[^wp-zaver]. Ukazují to tři příklady.
+
+- **Přímá platba** domácnostem uleví. Část peněz ale utratí za teplo, a ukazatel, který vysoké
+  náklady posuzuje podle výše výdajů za energie, si to vyloží jako zhoršení. Z úlevy v něm tak zmizí
+  87 %[^wp-87]. Dopadne to podobně jako s váhou u člověka, který začal cvičit: ukáže víc kilogramů,
+  přestože je na tom lépe.
+- **Zateplení a tepelná čerpadla** snižují energetickou chudobu měřenou ukazateli, které kombinují
+  nízký příjem a vysoké náklady, o 7,1 až 10,5 %. Mění samotný dům, a proto jejich účinek trvá: ještě
+  tři roky po skončení programu je pokles nejméně 5,4 %[^wp-renovace].
+- **Způsob placení** hraje roli také. Ukazatel, který vedle příjmu a nákladů sleduje i úspory
+  domácnosti, zaznamená, zda domácnost zaplatila spoluúčast na renovaci z úspor, nebo z půjčky. Když
+  sáhne do úspor, vyhodnotí to jako zhoršení: u tepelného čerpadla tak úbytek úspor smaže 36 %
+  zlepšení, které přinesly nižší účty[^wp-uspory]. Stejná renovace tak může vyjít lépe nebo hůř jen
+  podle toho, jak byla zaplacena.
+
+Oficiální ukazatele se přitom u všech programů pohnou jen o zlomky procentního
+bodu[^wp-oficialni]. Cíle a pravidla měření je proto potřeba stanovit dřív, než peníze začnou
+proudit, a místo jednoho čísla sledovat několik ukazatelů, každý i s jeho přesností[^wp-doporuceni].
+
+## Kam s penězi z ETS2
+
+Pomoc, která mění samotný dům, působí i po skončení plateb. Podobně by měly působit i peníze z ETS2
+v celé ekonomice: trvale snižovat závislost na dovážených palivech.
 
 Výnosy, které si stát z ETS2 ponechá, smí už dnes jít mimo jiné na obnovitelné zdroje, přenosové sítě
 a další technologie přispívající k přechodu na bezpečnou a udržitelnou nízkouhlíkovou
-ekonomiku[^ets-10-3]. Jaderné zdroje tato ustanovení výslovně nezmiňují. Výnosy ze stávajícího systému
-povolenek pro průmysl a energetiku, ETS1, jdou od letošního roku převážně do
-Státního fondu životního prostředí. Podle ministerstva mají financovat například nové obnovitelné
-zdroje, modernizaci tepláren, úspory energie v podnicích a budovách i podporu domácností s nižšími
-a středními příjmy[^ets1]. Stejnou logiku bych uplatnil i u ETS2, a to odvážněji. Většina peněz
-z povolenek by měla posilovat odolnost ekonomiky jako celku, tedy financovat vlastní zdroje energie,
-jaderné i obnovitelné, a sítě, které je propojí. Menší část by měla jít na cílenou pomoc
-domácnostem, které ETS2 zasáhne nejvíc. S oběma druhy zdrojů s nízkými provozními náklady počítá
-i Draghiho zpráva[^draghi-jadro].
+ekonomiku[^ets-10-3]. Jaderné zdroje tato ustanovení výslovně nezmiňují. Výnosy ze stávajícího
+systému povolenek pro průmysl a energetiku, ETS1, jdou od letošního roku převážně do Státního fondu
+životního prostředí. Podle ministerstva z nich půjdou peníze například na nové obnovitelné zdroje,
+modernizaci tepláren, úspory energie i podporu domácností s nižšími a středními příjmy[^ets1].
 
-Že se to dá dělat ve velkém, ukazuje Čína, která do obnovitelných zdrojů investuje masivně. Jen
-v roce 2025 v ní podle Mezinárodní energetické agentury přibylo téměř 500 gigawattů obnovitelných
-zdrojů, přes 60 % celosvětového přírůstku, z toho téměř 370 GW solárních a 117 GW větrných
-elektráren[^cina-oze].
+Stejnou logiku bych uplatnil i u ETS2, a to odvážněji. Většina peněz z povolenek by měla posilovat
+odolnost ekonomiky jako celku, tedy financovat vlastní zdroje energie, jaderné i obnovitelné, a sítě,
+které je propojí. S oběma druhy zdrojů s nízkými provozními náklady počítá i Draghiho
+zpráva[^draghi-jadro]. Menší část by měla jít na cílenou pomoc domácnostem, které ETS2 zasáhne
+nejvíc. Podle našeho modelu jsou to hlavně domácnosti, které topí plynem, a osaměle žijící
+důchodci[^wp-skupiny].
 
-Takové investice jsou drahé. Za dva nové bloky v Dukovanech zaplatí stát korejské firmě KHNP
-407 miliard korun v současných cenách[^khnp]. Stavbu má pokrýt státní půjčka, kterou Evropská komise
-odhaduje na 23 až 30 miliard eur a od prosince 2025 ji podrobně prověřuje[^dukovany-komise]. Ministr
-průmyslu Karel Havlíček letos v srpnu připustil, že s cenou peněz vyjdou oba bloky na 600 až 700
-miliard korun[^havlicek].
+Že se do vlastních zdrojů dá investovat ve velkém, ukazuje Čína. Jen v roce 2025 v ní podle
+Mezinárodní energetické agentury přibylo téměř 500 gigawattů obnovitelných zdrojů, přes 60 %
+celosvětového přírůstku[^cina-oze]. Takové investice jsou ale drahé. Za dva nové bloky v Dukovanech
+zaplatí stát korejské firmě KHNP 407 miliard korun v současných cenách[^khnp] a ministr průmyslu
+Karel Havlíček letos v srpnu připustil, že i s cenou peněz vyjdou na 600 až 700 miliard
+korun[^havlicek]. Stavbu má pokrýt státní půjčka, kterou od prosince 2025 podrobně prověřuje
+Evropská komise[^dukovany-komise].
 
-## Jaký mix dává smysl
+## Odpověď na úvodní otázku
 
-Ideální mix by podle mě měl uvolnit regulace, které výrobky zbytečně zdražují, v Bruselu i doma.
-Stát by měl sloužit občanům a firmám, nikoli naopak: pokud potřebuje určité údaje, měl by si je
-opatřit sám, a nepřenášet tuto povinnost na domácnosti a podniky. Zároveň je potřeba trvale snižovat závislost na dovozu fosilních paliv. Výnosy z ETS2 by měly jít hlavně do
-vlastních zdrojů energie a infrastruktury. Domácnosti, které ETS2 zasáhne nejvíc, potřebují cílenou
-pomoc, nejlépe takovou, která jim natrvalo sníží účty.
+Čeho bychom tedy měli chtít dosáhnout? Podle mě větší soběstačnosti v energetických zdrojích
+a výroby, kterou zbytečně nezdražují předpisy. Vede k tomu mix tří kroků: uvolnit regulace, které
+výrobky zbytečně zdražují, v Bruselu i doma; posílat výnosy z ETS2 hlavně do vlastních zdrojů energie
+a sítí; a domácnostem, které ETS2 zasáhne nejvíc, pomáhat tak, aby jim natrvalo klesly účty. Stát
+by přitom měl sloužit občanům a firmám, nikoli naopak: pokud potřebuje určité údaje, měl by si je
+opatřit sám, a nepřenášet tuto povinnost na domácnosti a podniky.
 
-A odpověď na otázku z úvodu? Dosáhnout bychom měli větší soběstačnosti v energetických zdrojích.
-A že se to povedlo, poznáme podle toho, že se výkyvy cen na světových burzách promítnou do účtů
-domácností jen velmi málo.
+A jak poznáme, že se to povedlo? Podle toho, že se výkyvy cen na světových burzách promítnou do účtů
+domácností jen velmi málo. Takové měřítko sleduje přímo to, o co nám jde, a na rozdíl od ukazatelů
+energetické chudoby nezávisí na tom, zda domácnost zaplatila renovaci z úspor, nebo z půjčky.
+
+[^ets2]: Evropská komise: [ETS2: buildings, road transport and additional
+    sectors](https://climate.ec.europa.eu/eu-action/carbon-markets/ets2-buildings-road-transport-and-additional-sectors_en):
+    „the ETS2 will cover emissions upstream. It will be fuel suppliers, rather than end consumers
+    such as households or car users, that will be required to monitor and report their emissions.“
+
+[^wp-dopady]: M. Opatrny a M. Ščasný: [Assessing Impacts of the EU ETS 2 and Direct Compensations for
+    Households in Czechia: A Linked E3ME-DASMOD
+    Microsimulation](https://ies.fsv.cuni.cz/assessing-impacts-eu-ets-2-and-direct-compensations-households-czechia-linked-e3me-dasmod),
+    IES Working Paper 31/2026, s. 18: 218 eur ročně, 0,73 % čistého příjmu. Scénář vychází z modelu
+    E3ME s cenou povolenky 121 eur za tunu v roce 2032 (s. 9); při nižší ceně jsou dopady menší.
 
 [^odklad]: Nařízení Evropského parlamentu a Rady (EU) 2026/667 ze dne 11. března 2026 (klimatický
     cíl Unie pro rok 2040), čl. 2: start ETS2 odložen na rok 2028.
@@ -152,29 +176,22 @@ domácností jen velmi málo.
     Chapter, or for one or more of the following“. Následuje výčet: dekarbonizace vytápění a chlazení
     budov včetně podpory domácností s nízkými příjmy v nejhorších budovách, bezemisní doprava
     a podpora uživatelů dopravy s nízkými a středními příjmy, financování Sociálního klimatického plánu.
-    Shrnutí viz Evropská komise: [ETS2: buildings, road transport and additional
-    sectors](https://climate.ec.europa.eu/eu-action/carbon-markets/ets2-buildings-road-transport-and-additional-sectors_en).
 
-[^scf-fond]: Nařízení (EU) 2023/955 o Sociálním klimatickém fondu, čl. 10 odst. 1 ([přijaté znění,
-    PE-CONS 11/23](https://data.consilium.europa.eu/doc/document/PE-11-2023-INIT/en/pdf), s. 51):
-    „A maximum amount of EUR 65 000 000 000 for the period from 1 January 2026 to 31 December 2032 in
-    current prices shall be made available“. Fond plní výnos z dražby 150 milionů povolenek ETS2,
-    dalšího objemu povolenek ETS2 a 50 milionů povolenek ETS1 (směrnice 2003/87/ES, čl. 30d odst. 3
-    a 4 a čl. 10a odst. 8b; PE-CONS 9/23, s. 185).
+[^draghi-energie]: M. Draghi: [The future of European competitiveness, Part
+    A](https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en), Evropská komise,
+    září 2024, s. 6: „If Europe's ambitious climate targets are matched by a coherent plan to achieve
+    them, decarbonisation will be an opportunity for Europe. But if we fail to coordinate our
+    policies, there is a risk that decarbonisation could run contrary to competitiveness and growth.
+    Even though energy prices have fallen considerably from their peaks, EU companies still face
+    electricity prices that are 2-3 times those in the US. Natural gas prices paid are 4-5 times
+    higher. This price gap is primarily driven by Europe's lack of natural resources, but also by
+    fundamental issues with our common energy market. […] High taxes and rents captured by financial
+    traders raise energy costs for our economy.“
 
-[^scf-cr]: Ministerstvo životního prostředí: [Sociální klimatický
-    fond](https://mzp.gov.cz/cz/agenda/prehled-dotaci/socialni-klimaticky-fond): „V letech 2026–2032
-    může Česko získat až 50 miliard korun“.
-
-[^scf-25]: Nařízení (EU) 2023/955, čl. 15 (PE-CONS 11/23, s. 57): „Member States shall contribute at
-    least to 25 % of the estimated total costs of their Plans.“
-
-[^scf-pravidla]: Nařízení (EU) 2023/955, čl. 8 odst. 2 (PE-CONS 11/23, s. 50): přímá podpora příjmů
-    má být dočasná a postupně klesat a „The costs of measures providing temporary
-    direct income support shall not represent more than 37,5 % of the estimated total costs of the
-    Plan“. Čl. 8 odst. 1 (s. 48–49) vyjmenovává opatření „with lasting impacts“: renovace budov,
-    dostupné energeticky úsporné bydlení, dekarbonizace vytápění a chlazení, poradenství, bezemisní
-    a nízkoemisní vozidla a veřejná doprava.
+[^eurostat]: Eurostat: [Energy in Europe: imports
+    dependency](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/wdn-20260318-1),
+    18. 3. 2026: „The energy imports dependency rate in the EU was 57%“; ropa a ropné produkty
+    „accounting for 67% of energy imports into the EU“.
 
 [^pariz]: Harvard Environmental & Energy Law Program: [Paris Climate Agreement: Current
     Status](https://eelp.law.harvard.edu/tracker/paris-climate-agreement). Vystoupení USA je účinné od
@@ -191,36 +208,21 @@ domácností jen velmi málo.
     and emissions efficiency“; „China plans to introduce absolute emissions caps to cover major
     industrial sectors by 2027“.
 
-[^draghi-energie]: M. Draghi: [The future of European competitiveness, Part
-    A](https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en), Evropská komise,
-    září 2024, s. 6: „If Europe's ambitious climate targets are matched by a coherent plan to achieve
-    them, decarbonisation will be an opportunity for Europe. But if we fail to coordinate our
-    policies, there is a risk that decarbonisation could run contrary to competitiveness and growth.
-    Even though energy prices have fallen considerably from their peaks, EU companies still face
-    electricity prices that are 2-3 times those in the US. Natural gas prices paid are 4-5 times
-    higher. This price gap is primarily driven by Europe's lack of natural resources, but also by
-    fundamental issues with our common energy market. […] High taxes and rents captured by financial
-    traders raise energy costs for our economy.“
+[^draghi-regulace]: Draghi (2024), Part A, s. 18: „Regulation is seen by more than 60% of EU
+    companies as an obstacle to investment, with 55% of SMEs flagging regulatory obstacles and the
+    administrative burden as their greatest challenge.“
 
-[^draghi-regulace]: Tamtéž, s. 18: „Regulation is seen by more than 60% of EU companies as an obstacle
-    to investment, with 55% of SMEs flagging regulatory obstacles and the administrative burden as
-    their greatest challenge.“
+[^draghi-akty]: Draghi (2024), Part A, s. 69: „around 3,500 pieces of legislation were enacted and
+    around 2,000 resolutions were passed in the US at the federal level over the past three Congress
+    mandates (2019-2024). During the same period, around 13,000 acts were passed by the EU.“
 
-[^draghi-akty]: Tamtéž, s. 69: „around 3,500 pieces of legislation were enacted and around 2,000
-    resolutions were passed in the US at the federal level over the past three Congress mandates
-    (2019-2024). During the same period, around 13,000 acts were passed by the EU.“
-
-[^draghi-metodika]: Tamtéž, s. 68: „The regulatory burden on European companies is high and continues
-    to grow, but the EU lacks a common methodology to assess it.“
+[^draghi-metodika]: Draghi (2024), Part A, s. 68: „The regulatory burden on European companies is
+    high and continues to grow, but the EU lacks a common methodology to assess it.“
 
 [^chemie]: Evropská komise, REFIT Scoreboard: [Cumulative Cost Assessment for the EU chemical
     industry](https://op.europa.eu/webpub/com/refit-scoreboard/en/policy/10/10-29.html), studie
     dokončená v roce 2016 o legislativě EU z let 2004 až 2014: náklady „represent around 2% of their
     turnover and 12% of the value added“; vůči hrubému provoznímu přebytku „as much as 30%“.
-
-[^komise]: Evropská komise: [Simplification](https://commission.europa.eu/law/law-making-process/better-regulation/simplification-implementation-and-enforcement/simplification_en):
-    „The Commission aims to cut recurring administrative costs by €37.5 billion by the end of the
-    2024-2029 Commission mandate.“
 
 [^pakt]: Demócrata: [Von der Leyen proposes a pact against „gold plating“ to put an end to the 27
     versions of the Single
@@ -236,16 +238,16 @@ domácností jen velmi málo.
     cases of inadvertent (blind) gold-plating as well as gold-plating lacking any justification
     whatsoever“.
 
-[^penb]: Zákon č. 406/2000 Sb., o hospodaření energií, [§ 7a odst.
-    10](https://www.zakonyprolidi.cz/cs/2000-406): „Průkaz se neopatřuje při prodeji nebo pronájmu
-    budovy nebo ucelené části budovy, pokud se tak obě strany písemně dohodnou a jde o budovu, která
-    byla vystavěna a poslední větší změna dokončené budovy na ní byla provedena před 1. lednem 1947.“
-
 [^amo-zbytky]: AMO: [Gold plating – vývoj fenoménu a jak s ním pracovat: vybrané příklady zahraniční
     dobré praxe](https://www.amo.cz/wp-content/uploads/2025/12/AMO_Goldplating_web.pdf), prosinec
     2025, s. 3: zátěž zůstává „zejména v právních předpisech přijatých před novou metodikou“;
     k přitvrzení „dochází často prostřednictvím poslaneckých pozměňovacích návrhů“; jev se vyskytuje
     i „při širší implementační praxi“ a v „interpretační praxi“.
+
+[^penb]: Zákon č. 406/2000 Sb., o hospodaření energií, [§ 7a odst.
+    10](https://www.zakonyprolidi.cz/cs/2000-406): „Průkaz se neopatřuje při prodeji nebo pronájmu
+    budovy nebo ucelené části budovy, pokud se tak obě strany písemně dohodnou a jde o budovu, která
+    byla vystavěna a poslední větší změna dokončené budovy na ní byla provedena před 1. lednem 1947.“
 
 [^amo]: AMO (2025), s. 3–4: „média a konzultantské firmy / firmy zpracovávající různé posudky […]
     často upozorňují na striktnější interpretaci přijatých povinností, či dokonce zamlčují existující
@@ -259,45 +261,57 @@ domácností jen velmi málo.
     administrativní zátěž podnikatelů na 72 miliard korun ročně.“ Cíl vlády: snížení o 20 % do roku
     2029.
 
-[^eurostat]: Eurostat: [Energy in Europe: imports
-    dependency](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/wdn-20260318-1),
-    18. 3. 2026: „The energy imports dependency rate in the EU was 57%“; ropa a ropné produkty
-    „accounting for 67% of energy imports into the EU“.
+[^scf-cr]: Ministerstvo životního prostředí: [Sociální klimatický
+    fond](https://mzp.gov.cz/cz/agenda/prehled-dotaci/socialni-klimaticky-fond): „V letech 2026–2032
+    může Česko získat až 50 miliard korun“. Celý fond má podle nařízení (EU) 2023/955
+    o Sociálním klimatickém fondu, čl. 10 odst. 1 ([přijaté znění, PE-CONS
+    11/23](https://data.consilium.europa.eu/doc/document/PE-11-2023-INIT/en/pdf), s. 51) k dispozici
+    nejvýše 65 miliard eur: „A maximum amount of EUR 65 000 000 000 for the period from 1 January 2026
+    to 31 December 2032 in current prices shall be made available“. Fond plní výnos z dražby 150 milionů povolenek ETS2,
+    dalšího objemu povolenek ETS2 a 50 milionů povolenek ETS1 (směrnice 2003/87/ES, čl. 30d odst. 3
+    a 4 a čl. 10a odst. 8b; PE-CONS 9/23, s. 185).
+
+[^scf-25]: Nařízení (EU) 2023/955, čl. 15 (PE-CONS 11/23, s. 57): „Member States shall contribute at
+    least to 25 % of the estimated total costs of their Plans.“
+
+[^scf-pravidla]: Nařízení (EU) 2023/955, čl. 8 odst. 2 (PE-CONS 11/23, s. 50): přímá podpora příjmů
+    má být dočasná a postupně klesat a „The costs of measures providing temporary
+    direct income support shall not represent more than 37,5 % of the estimated total costs of the
+    Plan“. Čl. 8 odst. 1 (s. 48–49) vyjmenovává opatření „with lasting impacts“: renovace budov,
+    dostupné energeticky úsporné bydlení, dekarbonizace vytápění a chlazení, poradenství, bezemisní
+    a nízkoemisní vozidla a veřejná doprava.
+
+[^pravidla2]: Směrnice 2003/87/ES ve znění směrnice (EU) 2023/959, čl. 30d odst. 6 (PE-CONS 9/23,
+    s. 189–190).
 
 [^scf]: Nařízení (EU) 2023/955, čl. 7 odst. 2 (PE-CONS 11/23, s. 47): „Payment of financial support
     […] to each Member State shall be conditional upon that Member State achieving the milestones and
     targets“, které musí pokrývat mimo jiné „reductions in the number of vulnerable households, in
     particular households in energy poverty“.
 
-[^draghi-zdroje]: Draghi (2024), Part A, s. 6: „This price gap is primarily driven by Europe's lack of
-    natural resources“.
+[^wp-model]: IES WP 31/2026, s. 2, 7 a 8: makroekonomický model E3ME a dynamická mikrosimulace
+    DASMOD; 3 233 domácností z výběrových šetření zastupuje 4,62 milionu českých domácností. Výsledky
+    jsou modelové a programy jsou stylizované podle pravidel Nové zelené úsporám Light z roku 2026,
+    nejde o český Sociální klimatický plán.
 
-[^wp-model]: M. Opatrny a M. Ščasný: [Assessing Impacts of the EU ETS 2 and Direct Compensations for
-    Households in Czechia: A Linked E3ME-DASMOD
-    Microsimulation](https://ies.fsv.cuni.cz/assessing-impacts-eu-ets-2-and-direct-compensations-households-czechia-linked-e3me-dasmod),
-    IES Working Paper 31/2026, s. 2, 7 a 8. Výsledky jsou modelové a programy jsou stylizované podle
-    pravidel Nové zelené úsporám Light z roku 2026, nejde o český Sociální klimatický plán.
+[^wp-obalka]: IES WP 31/2026, s. 2 a 9: tři programy podle pravidel Nové zelené úsporám Light a dvě
+    přímé platby „as benchmarks“, všechny ze stejné obálky 745 milionů eur na roky 2028 až 2032.
 
-[^wp-zaver]: Tamtéž, s. 23.
+[^wp-zaver]: IES WP 31/2026, s. 23.
 
-[^wp-dopady]: Tamtéž, s. 18: domácnosti topící plynem 1,61 % příjmu, osaměle žijící důchodci 1,37 %.
-    Scénář vychází z modelu E3ME s cenou povolenky 121 eur za tunu v roce 2032 (s. 9); při nižší
-    ceně jsou dopady menší.
+[^wp-87]: IES WP 31/2026, s. 16. Jde o ukazatel LIHC (nízký příjem, vysoké náklady): platba sama by
+    jeho upravenou mezeru chudoby snížila o 0,44 %, výdaje za energie, které vyvolá, přidají zpět
+    0,38 %.
 
-[^wp-obalka]: Tamtéž, s. 2 a 9: tři programy podle pravidel Nové zelené úsporám Light a dvě přímé
-    platby „as benchmarks“, všechny ze stejné obálky 745 milionů eur na roky 2028 až 2032.
+[^wp-renovace]: IES WP 31/2026, s. 2 a 15: ukazatele LIHC a M2LIHC. Jde o změnu upravené mezery
+    chudoby, která kombinuje počet domácností pod hranicí a to, jak daleko pod ní jsou.
 
-[^wp-87]: Tamtéž, s. 16. Jde o ukazatel LIHC (nízký příjem, vysoké náklady).
+[^wp-uspory]: IES WP 31/2026, s. 2 a 23: ukazatel LILAHC, který kromě příjmu a nákladů sleduje
+    i úspory.
 
-[^wp-oficialni]: Tamtéž, s. 23.
+[^wp-oficialni]: IES WP 31/2026, s. 23.
 
-[^wp-renovace]: Tamtéž, s. 2 a 15: ukazatele LIHC a M2LIHC.
-
-[^wp-uspory]: Tamtéž, s. 2 a 23: ukazatel LILAHC, který kromě příjmu a nákladů sleduje i úspory.
-
-[^wp-doporuceni]: Tamtéž, s. 23.
-
-[^pravidla2]: Viz poznámka 3.
+[^wp-doporuceni]: IES WP 31/2026, s. 23.
 
 [^ets-10-3]: Směrnice 2003/87/ES ve znění směrnice (EU) 2023/959, čl. 10 odst. 3 písm. b) (PE-CONS
     9/23, s. 114), na který odkazuje čl. 30d odst. 6: „to develop renewable energies and grids for
@@ -313,6 +327,9 @@ domácností jen velmi málo.
 [^draghi-jadro]: Draghi (2024), Part A, s. 40: „massive deployment of clean energy sources with low
     marginal generation costs, such as renewables and nuclear“.
 
+[^wp-skupiny]: IES WP 31/2026, s. 18: domácnosti topící plynem 1,61 % příjmu, osaměle žijící důchodci
+    1,37 %.
+
 [^cina-oze]: IEA: [Global Energy Review 2026: Solar PV and
     wind](https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind):
     „nearly 500 GW of additions, accounting for over 60% of global growth“; „China alone commissioned
@@ -322,11 +339,11 @@ domácností jen velmi málo.
     palivo](https://www.ceskenoviny.cz/zpravy/stat-zaplati-firme-khnp-za-dva-bloky-dukovan-407-miliard-a-15-miliard-za-palivo/2699577),
     18. 7. 2025.
 
-[^dukovany-komise]: Nuclear Engineering International: [EU probes Czech Dukovany
-    aid](https://www.neimagazine.com/news/eu-probes-czech-dukovany-aid/), 7. 1. 2026. Šetření Komise
-    bylo zahájeno 22. 12. 2025.
-
 [^havlicek]: Kurzy.cz: [Havlíček připustil, že dostavba Dukovan vyjde o stamiliardy dráž oproti
     původnímu plánu. Místo 400 to bude 600-700 mld.
     Kč](https://zpravy.kurzy.cz/871355-dopo-cetba-havlicek-pripustil-ze-dostavba-dukovan-vyjde-o-stamiliardy-draz-oproti-puvodnimu/),
     14. 8. 2026.
+
+[^dukovany-komise]: Nuclear Engineering International: [EU probes Czech Dukovany
+    aid](https://www.neimagazine.com/news/eu-probes-czech-dukovany-aid/), 7. 1. 2026. Šetření Komise
+    bylo zahájeno 22. 12. 2025. Státní půjčku Komise odhaduje na 23 až 30 miliard eur.
