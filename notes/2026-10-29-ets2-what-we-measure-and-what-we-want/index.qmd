@@ -1,0 +1,357 @@
+---
+title: "ETS2: do we know what we want to measure and achieve?"
+date: 2026-10-29
+description: "ETS2 revenue should go into greater energy self-sufficiency, and both the EU and Czechia should ease the regulations that make products more expensive."
+categories: [Energy, Public policy]
+lang: en
+include-in-header:
+  text: '<link rel="alternate" hreflang="cs" href="../2026-10-29-ets2-vime-co-chceme-merit-a-ceho-dosahnout/">'
+draft: false
+---
+
+From 2028 the European Union will put a price on CO₂ emissions from heating buildings and from motor
+fuels. The new emissions trading system, ETS2, was originally due to start in 2027, but this year the
+EU postponed it by a year[^odklad], and Czechia and Italy are now pushing for it to be
+suspended[^pozastaveni]. If ETS2 does go ahead, the state will earn new revenue from selling
+allowances, which it must spend on climate and social measures[^pravidla]. Before we decide what to do
+with that money, we should be clear about two things: what we want to achieve, and how we will know
+that we have achieved it.
+
+## Europe pays more and regulates more
+
+Reducing CO₂ emissions is, in general, a sensible goal. But Europe is not alone on this path, and it
+should pay close attention to how its main rivals see it. Since January 2026 the United States has not
+been a party to the Paris Agreement[^pariz], and the US government has declared a “national energy
+emergency” to expand domestic energy production, including oil and natural gas[^usa]. China has
+extended its emissions trading system to steel, cement and aluminium, but for now it regulates only
+emissions per unit of output, not their total amount. It plans to introduce absolute caps gradually
+from 2027[^cina].
+
+European firms, meanwhile, pay far more for energy than their competitors. The 2024 Draghi report on
+the future of European competitiveness states that EU companies pay two to three times more for
+electricity than companies in the US, and four to five times more for natural gas. It names Europe's
+lack of natural resources as the main cause, but also flaws in the common energy market and high
+taxes. And it warns that if Europe fails to coordinate its policies, decarbonisation risks running
+contrary to competitiveness and growth[^draghi-energie].
+
+The second problem is regulation. According to the same report, more than 60% of EU companies see it
+as an obstacle to investment, and 55% of small and medium-sized enterprises name regulatory obstacles
+and administrative burden as their greatest challenge[^draghi-regulace]. Between 2019 and 2024 the EU
+passed around 13,000 acts, while around 3,500 laws and 2,000 resolutions were adopted at federal level
+in the US[^draghi-akty]. Draghi also points out that the EU has no common methodology for measuring the
+cost of regulation[^draghi-metodika]. A reliable overall figure for how much regulation adds to the
+price of European products is therefore missing. Partial estimates do exist: according to a study for
+the European Commission, EU legislation from 2004 to 2014 cost the chemical industry about 12% of its
+value added and as much as 30% of its gross operating surplus, roughly its profit[^chemie]. The
+Commission itself aims to cut firms' recurring administrative costs by €37.5 billion a year by
+2029[^komise].
+
+Part of the problem, however, is at home. In October this year the President of the European
+Commission, Ursula von der Leyen, proposed a “pact against overregulation”: member states should show
+which obligations come from EU law and which they have added themselves[^pakt]. Czechia has improved
+as far as new laws are concerned. Since 2016 a government methodology has required directives to be
+transposed in their minimal form and any additional requirement to be justified. Unjustified
+gold-plating has since almost disappeared from new legislation[^kral]. It persists, however, in older
+laws, in MPs' amendments and in practice[^amo-zbytky]. For example, when a building that was built and
+last substantially altered before 1947 is sold or let, no energy performance certificate is needed if
+both parties agree in writing[^penb]. According to an analysis by the Association for International
+Affairs (AMO), however, the media and firms that prepare such assessments often keep quiet about
+exemptions of this kind[^amo]. Exemptions that spare people administrative burden are welcome; people
+must, however, be made aware of them. According to the Czech Chamber of Commerce, administration costs
+Czech businesses around CZK 72 billion a year, and the government wants to cut this by a fifth by
+2029[^hk].
+
+At the same time, Europe has few fossil resources of its own[^draghi-zdroje]. In 2024 it imported 57%
+of the energy available to it, and two thirds of these imports were oil and petroleum
+products[^eurostat]. Reducing dependence on imported fossil fuels is therefore the right thing to do
+regardless of the climate.
+
+## What the indicators see and what they miss
+
+The rules for ETS2 money have two parts. Revenue from some of the allowances goes to the Social Climate
+Fund, which has at most €65 billion available for 2026 to 2032[^scf-fond]; Czechia can receive up to
+CZK 50 billion from it[^scf-cr]. The state must add at least 25% of the costs of its Social Climate
+Plan[^scf-25]. At most 37.5% of these costs may go to temporary direct income support for households,
+so most of the money must go to measures with a lasting effect, such as building renovation, clean
+heating or zero-emission transport[^scf-pravidla]. The state keeps the remaining ETS2 revenue and must
+use it for climate purposes, giving priority to social impacts[^pravidla2]. Moreover, the Commission
+pays out money from the Fund only if the state meets the targets of its plan, and these must include a
+reduction in the number of households in energy poverty[^scf].
+
+We calculated the impact of ETS2 on Czech households with a model that links two levels. The
+macroeconomic model E3ME calculates how ETS2 changes prices and incomes across the whole economy, and
+the dynamic microsimulation DASMOD carries these changes through to the budgets of 3,233 households
+from household surveys, which represent 4.62 million Czech households. Unlike static estimates, which
+simply apply higher prices to today's consumption, households in the model respond to changes in
+prices and incomes in the way the data on their spending show. The model also tracks their savings and
+debts, so it captures how a renovation is financed, and for every result we report how precisely the
+data can measure it[^wp-model]. The main finding is that what energy poverty indicators record depends
+as much on how they are constructed as on the policy itself[^wp-zaver].
+
+In our scenario, the average Czech household will pay €218 a year more for energy in 2032 because of
+ETS2, or 0.73% of its net income. Households heating with gas and pensioners living alone will be hit
+hardest[^wp-dopady]. We compared what happens when the same €745 million over 2028 to 2032 goes to
+insulation and heat pumps and, for comparison, to direct payments to households[^wp-obalka]. A direct
+payment brings people relief, but an indicator that judges high energy costs by the level of spending
+reads the part of the money spent on heating as a deterioration, so 87% of the relief disappears from
+it[^wp-87]. The official indicators move by only fractions of a percentage point[^wp-oficialni].
+Insulation and heat pumps reduce energy poverty, as measured by indicators that combine low income and
+high costs, by 7.1 to 10.5%, and three years after the programme ends the reduction is still at least
+5.4%[^wp-renovace].
+
+The result also depends on how a renovation is paid for. An indicator that tracks a household's
+savings as well as its income and costs records whether the household paid its co-payment from savings
+or with a loan. If it draws on its savings, the indicator counts this as a deterioration: for a heat
+pump, the fall in savings wipes out 36% of the improvement brought by lower bills. Conversely, the
+saved part of a direct payment shows up in it as relief[^wp-uspory]. The same renovation can therefore
+come out better or worse simply depending on how it was paid for. Goals and measurement rules need to
+be set before the money starts to flow, and instead of a single number we should track several
+indicators, each with its precision[^wp-doporuceni].
+
+## ETS2 revenue for a more resilient economy
+
+The revenue the state keeps from ETS2 may already be used, among other things, for renewable energy,
+transmission grids and other technologies that contribute to the transition to a safe and sustainable
+low-carbon economy[^ets-10-3]. These provisions do not mention nuclear power explicitly. Revenue from
+the existing allowance system for industry and power generation, ETS1, has gone mainly to the State
+Environmental Fund since this year. According to the Ministry of the Environment, it is to finance, for
+example, new renewable sources, the modernisation of heating plants, energy savings in businesses and
+buildings, and support for low- and middle-income households[^ets1]. I would apply the same logic to
+ETS2, and more boldly. Most of the money from allowances should strengthen the resilience of the
+economy as a whole, that is, finance our own energy sources, both nuclear and renewable, and the grids
+that connect them. A smaller part should go to targeted support for the households hit hardest by ETS2.
+The Draghi report, too, counts on both kinds of sources with low running costs[^draghi-jadro].
+
+China shows that this can be done on a large scale: it is investing massively in renewables. In 2025
+alone, according to the International Energy Agency, it added almost 500 gigawatts of renewable
+capacity, more than 60% of global growth, including nearly 370 GW of solar and 117 GW of
+wind[^cina-oze].
+
+Such investments are expensive. For the two new units at Dukovany the state will pay the Korean
+company KHNP CZK 407 billion at current prices[^khnp]. Construction is to be covered by a state loan,
+which the European Commission estimates at €23 to 30 billion and has been examining in depth since
+December 2025[^dukovany-komise]. In August this year the Minister of Industry, Karel Havlíček,
+acknowledged that, including the cost of money, the two units will cost CZK 600 to 700
+billion[^havlicek].
+
+## What mix makes sense
+
+In my view, the ideal mix should ease the regulations that make products unnecessarily expensive, in
+Brussels and at home. The state should serve citizens and businesses, not the other way round: if it
+needs certain data, it should obtain them itself rather than shifting that obligation onto households
+and firms. At the same time, we need to reduce our dependence on imported fossil fuels for good. ETS2
+revenue should go mainly into our own energy sources and infrastructure. The households hit hardest
+by ETS2 need targeted help, ideally of a kind that lowers their bills permanently.
+
+So what is the answer to the question we started with? We should aim for greater self-sufficiency in
+energy. And we will know we have succeeded when price swings on world markets feed through to
+household bills only very slightly.
+
+[^odklad]: Regulation (EU) 2026/667 of the European Parliament and of the Council of 11 March 2026
+    (Union climate target for 2040), Article 2: the start of ETS2 is postponed to 2028.
+
+[^pozastaveni]: Quantum Commodity Intelligence: [Czechia, Italy take lead in renewed push to suspend
+    EU ETS2](https://www.qcintel.com/carbon/article/czechia-italy-take-lead-in-renewed-push-to-suspend-eu-ets2-75132.html),
+    October 2026.
+
+[^pravidla]: Directive 2003/87/EC as amended by Directive (EU) 2023/959, Article 30d(6) ([adopted text,
+    PE-CONS 9/23](https://data.consilium.europa.eu/doc/document/PE-9-2023-INIT/en/pdf), pp. 189–190):
+    “Member States shall use their revenues or the equivalent in financial value of those revenues for
+    one or more of the purposes referred to in Article 10(3) of this Directive, giving priority to
+    activities that can contribute to addressing social aspects of the emissions trading under this
+    Chapter, or for one or more of the following”. The list that follows covers decarbonising the
+    heating and cooling of buildings, including support for low-income households in the
+    worst-performing buildings; zero-emission transport and support for low- and middle-income
+    transport users; and financing the Social Climate Plan. Summary: European Commission, [ETS2:
+    buildings, road transport and additional
+    sectors](https://climate.ec.europa.eu/eu-action/carbon-markets/ets2-buildings-road-transport-and-additional-sectors_en).
+
+[^scf-fond]: Regulation (EU) 2023/955 on the Social Climate Fund, Article 10(1) ([adopted text,
+    PE-CONS 11/23](https://data.consilium.europa.eu/doc/document/PE-11-2023-INIT/en/pdf), p. 51):
+    “A maximum amount of EUR 65 000 000 000 for the period from 1 January 2026 to 31 December 2032 in
+    current prices shall be made available”. The Fund is financed by auctioning 150 million ETS2
+    allowances, a further volume of ETS2 allowances and 50 million ETS1 allowances (Directive
+    2003/87/EC, Article 30d(3) and (4) and Article 10a(8b); PE-CONS 9/23, p. 185).
+
+[^scf-cr]: Czech Ministry of the Environment: [Sociální klimatický
+    fond](https://mzp.gov.cz/cz/agenda/prehled-dotaci/socialni-klimaticky-fond) (in Czech): “V letech
+    2026–2032 může Česko získat až 50 miliard korun” (Czechia can receive up to CZK 50 billion in
+    2026–2032).
+
+[^scf-25]: Regulation (EU) 2023/955, Article 15 (PE-CONS 11/23, p. 57): “Member States shall
+    contribute at least to 25 % of the estimated total costs of their Plans.”
+
+[^scf-pravidla]: Regulation (EU) 2023/955, Article 8(2) (PE-CONS 11/23, p. 50): direct income support
+    is to be temporary and decrease over time, and “The costs of measures providing temporary direct
+    income support shall not represent more than 37,5 % of the estimated total costs of the Plan”.
+    Article 8(1) (pp. 48–49) lists measures “with lasting impacts”: building renovation, affordable
+    energy-efficient housing, decarbonisation of heating and cooling, advice, zero- and low-emission
+    vehicles and public transport.
+
+[^pariz]: Harvard Environmental & Energy Law Program: [Paris Climate Agreement: Current
+    Status](https://eelp.law.harvard.edu/tracker/paris-climate-agreement). The US withdrawal took
+    effect on 27 January 2026.
+
+[^usa]: The White House: [Declaring a National Energy
+    Emergency](https://www.whitehouse.gov/presidential-actions/2025/01/declaring-a-national-energy-emergency/),
+    executive order of 20 January 2025, sections 2(a) and 8(a).
+
+[^cina]: Eco-Business: [China's carbon market set to introduce absolute emissions caps by
+    2027](https://www.eco-business.com/news/chinas-carbon-market-set-to-introduce-absolute-emissions-caps-by-2027/),
+    30 August 2025: the market “was officially expanded in 2025 to include steel, cement and
+    aluminium”; “Currently, China's ETS is intensity-based, allocating allowances according to a
+    company's output and emissions efficiency”; “China plans to introduce absolute emissions caps to
+    cover major industrial sectors by 2027”.
+
+[^draghi-energie]: M. Draghi: [The future of European competitiveness, Part
+    A](https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en), European Commission,
+    September 2024, p. 6: “If Europe's ambitious climate targets are matched by a coherent plan to
+    achieve them, decarbonisation will be an opportunity for Europe. But if we fail to coordinate our
+    policies, there is a risk that decarbonisation could run contrary to competitiveness and growth.
+    Even though energy prices have fallen considerably from their peaks, EU companies still face
+    electricity prices that are 2-3 times those in the US. Natural gas prices paid are 4-5 times
+    higher. This price gap is primarily driven by Europe's lack of natural resources, but also by
+    fundamental issues with our common energy market. […] High taxes and rents captured by financial
+    traders raise energy costs for our economy.”
+
+[^draghi-regulace]: Ibid., p. 18: “Regulation is seen by more than 60% of EU companies as an obstacle
+    to investment, with 55% of SMEs flagging regulatory obstacles and the administrative burden as
+    their greatest challenge.”
+
+[^draghi-akty]: Ibid., p. 69: “around 3,500 pieces of legislation were enacted and around 2,000
+    resolutions were passed in the US at the federal level over the past three Congress mandates
+    (2019-2024). During the same period, around 13,000 acts were passed by the EU.”
+
+[^draghi-metodika]: Ibid., p. 68: “The regulatory burden on European companies is high and continues
+    to grow, but the EU lacks a common methodology to assess it.”
+
+[^chemie]: European Commission, REFIT Scoreboard: [Cumulative Cost Assessment for the EU chemical
+    industry](https://op.europa.eu/webpub/com/refit-scoreboard/en/policy/10/10-29.html), a study
+    completed in 2016 on EU legislation from 2004 to 2014: the costs “represent around 2% of their
+    turnover and 12% of the value added”; relative to gross operating surplus, “as much as 30%”.
+
+[^komise]: European Commission: [Simplification](https://commission.europa.eu/law/law-making-process/better-regulation/simplification-implementation-and-enforcement/simplification_en):
+    “The Commission aims to cut recurring administrative costs by €37.5 billion by the end of the
+    2024-2029 Commission mandate.”
+
+[^pakt]: Demócrata: [Von der Leyen proposes a pact against “gold plating” to put an end to the 27
+    versions of the Single
+    Market](https://www.democrata.es/en/europe/von-der-leyen-proposes-a-pact-against-gold-plating-to-end-the-27-versions-of-the-single-market/),
+    12 October 2026: “When a member state decides to go beyond what Union law requires, that choice
+    must be clear for all to see.”
+
+[^kral]: R. Král: [Gold-plating of EU Law in the Czech Republic
+    Revisited](https://ideas.repec.org/a/vrs/wrolae/v14y2024i1p39-51n1001.html), Wroclaw Review of
+    Law, Administration & Economics 14(1), 2024, p. 50: the government's 2016 methodological guidelines
+    stipulate that gold-plating “should always be a justified exception to the principle of
+    minimalistic implementation of EU law”; p. 47: “almost a total eradication in Czech legislative
+    practice of cases of inadvertent (blind) gold-plating as well as gold-plating lacking any
+    justification whatsoever”.
+
+[^penb]: Act No. 406/2000 Coll., on Energy Management, [Section 7a(10)](https://www.zakonyprolidi.cz/cs/2000-406)
+    (in Czech): “Průkaz se neopatřuje při prodeji nebo pronájmu budovy nebo ucelené části budovy,
+    pokud se tak obě strany písemně dohodnou a jde o budovu, která byla vystavěna a poslední větší
+    změna dokončené budovy na ní byla provedena před 1. lednem 1947.” (No certificate is obtained on
+    the sale or letting of a building or a self-contained part of one if both parties so agree in
+    writing and the building was built, and last substantially altered, before 1 January 1947.)
+
+[^amo-zbytky]: Association for International Affairs (AMO): [Gold plating – vývoj fenoménu a jak s ním
+    pracovat: vybrané příklady zahraniční dobré
+    praxe](https://www.amo.cz/wp-content/uploads/2025/12/AMO_Goldplating_web.pdf) (in Czech),
+    December 2025, p. 3: the burden remains “zejména v právních předpisech přijatých před novou
+    metodikou” (above all in laws adopted before the new methodology); gold-plating “dochází často
+    prostřednictvím poslaneckých pozměňovacích návrhů” (often comes through MPs' amendments); it also
+    appears “při širší implementační praxi” and in “interpretační praxi” (in wider implementation and
+    in interpretation).
+
+[^amo]: AMO (2025), pp. 3–4: “média a konzultantské firmy / firmy zpracovávající různé posudky […]
+    často upozorňují na striktnější interpretaci přijatých povinností, či dokonce zamlčují existující
+    výjimky […] (např. častá praxe zamlčování existujících výjimek z povinnosti mít PENB pro některé
+    starší budovy, které jsou dány existující legislativou na úrovni EU i ČR)” (the media and
+    consultancies or firms preparing assessments often stress a stricter reading of obligations, or
+    even keep quiet about existing exemptions, for example the frequent practice of concealing the
+    exemptions from the obligation to have an energy performance certificate for some older
+    buildings, which exist in EU and Czech law).
+
+[^hk]: BusinessInfo.cz: [Ministerstvo průmyslu a obchodu předložilo vládě zprávu o snižování
+    administrativní zátěže
+    podnikatelů](https://www.businessinfo.cz/clanky/ministerstvo-prumyslu-a-obchodu-predlozilo-vlade-zpravu-o-snizovani-administrativni-zateze-podnikatelu/)
+    (in Czech): “Hospodářská komora ČR (HK ČR) v rámci iniciativy Byrokratický detox 2025 odhadla
+    celkovou administrativní zátěž podnikatelů na 72 miliard korun ročně.” (The Czech Chamber of
+    Commerce estimated the total administrative burden on businesses at CZK 72 billion a year.)
+    Government target: a 20% reduction by 2029.
+
+[^eurostat]: Eurostat: [Energy in Europe: imports
+    dependency](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/wdn-20260318-1),
+    18 March 2026: “The energy imports dependency rate in the EU was 57%”; oil and petroleum products
+    “accounting for 67% of energy imports into the EU”.
+
+[^scf]: Regulation (EU) 2023/955, Article 7(2) (PE-CONS 11/23, p. 47): “Payment of financial support
+    […] to each Member State shall be conditional upon that Member State achieving the milestones and
+    targets”, which must cover, among other things, “reductions in the number of vulnerable households,
+    in particular households in energy poverty”.
+
+[^draghi-zdroje]: Draghi (2024), Part A, p. 6: “This price gap is primarily driven by Europe's lack of
+    natural resources”.
+
+[^wp-model]: M. Opatrny and M. Ščasný: [Assessing Impacts of the EU ETS 2 and Direct Compensations for
+    Households in Czechia: A Linked E3ME-DASMOD
+    Microsimulation](https://ies.fsv.cuni.cz/assessing-impacts-eu-ets-2-and-direct-compensations-households-czechia-linked-e3me-dasmod),
+    IES Working Paper 31/2026, pp. 2, 7 and 8. The results come from a model, and the programmes are
+    stylised designs under the 2026 rules of the New Green Savings Light scheme, not the Czech Social
+    Climate Plan.
+
+[^wp-zaver]: Ibid., p. 23.
+
+[^wp-dopady]: Ibid., p. 18: households heating with gas 1.61% of income, pensioners living alone
+    1.37%. The scenario uses the E3ME model with an allowance price of €121 per tonne in 2032 (p. 9);
+    at a lower price the impacts are smaller.
+
+[^wp-obalka]: Ibid., pp. 2 and 9: three programmes under the New Green Savings Light rules and two
+    direct payments “as benchmarks”, all from the same envelope of €745 million for 2028 to 2032.
+
+[^wp-87]: Ibid., p. 16. This is the LIHC indicator (low income, high costs).
+
+[^wp-oficialni]: Ibid., p. 23.
+
+[^wp-renovace]: Ibid., pp. 2 and 15: the LIHC and M2LIHC indicators.
+
+[^wp-uspory]: Ibid., pp. 2 and 23: the LILAHC indicator, which tracks savings as well as income and
+    costs.
+
+[^wp-doporuceni]: Ibid., p. 23.
+
+[^pravidla2]: See note 3.
+
+[^ets-10-3]: Directive 2003/87/EC as amended by Directive (EU) 2023/959, Article 10(3)(b) (PE-CONS
+    9/23, p. 114), to which Article 30d(6) refers: “to develop renewable energies and grids for
+    electricity transmission […] as well as to develop other technologies that contribute to the
+    transition to a safe and sustainable low-carbon economy”.
+
+[^ets1]: Czech Ministry of the Environment: [Peníze z emisních povolenek půjdou výhradně do
+    modernizace ekonomiky, adaptačních opatření i na pomoc
+    domácnostem](https://mzp.gov.cz/cz/pro-media-a-verejnost/aktuality/archiv-tiskovych-zprav/penize-z-emisnich-povolenek-pujdou-vyhradne)
+    (in Czech), press release of 24 April 2024: “Výnosy z emisních povolenek půjdou do Státního fondu
+    životního prostředí od roku 2026” (revenue from emission allowances will go to the State
+    Environmental Fund from 2026).
+
+[^draghi-jadro]: Draghi (2024), Part A, p. 40: “massive deployment of clean energy sources with low
+    marginal generation costs, such as renewables and nuclear”.
+
+[^cina-oze]: IEA: [Global Energy Review 2026: Solar PV and
+    wind](https://www.iea.org/reports/global-energy-review-2026/technology-solar-pv-and-wind): “nearly
+    500 GW of additions, accounting for over 60% of global growth”; “China alone commissioned nearly
+    370 GW of solar PV and 117 GW of wind capacity”.
+
+[^khnp]: ČTK, České noviny: [Stát zaplatí firmě KHNP za dva bloky Dukovan 407 miliard a 15 miliard za
+    palivo](https://www.ceskenoviny.cz/zpravy/stat-zaplati-firme-khnp-za-dva-bloky-dukovan-407-miliard-a-15-miliard-za-palivo/2699577)
+    (in Czech), 18 July 2025.
+
+[^dukovany-komise]: Nuclear Engineering International: [EU probes Czech Dukovany
+    aid](https://www.neimagazine.com/news/eu-probes-czech-dukovany-aid/), 7 January 2026. The
+    Commission opened its investigation on 22 December 2025.
+
+[^havlicek]: Kurzy.cz: [Havlíček připustil, že dostavba Dukovan vyjde o stamiliardy dráž oproti
+    původnímu plánu. Místo 400 to bude 600-700 mld.
+    Kč](https://zpravy.kurzy.cz/871355-dopo-cetba-havlicek-pripustil-ze-dostavba-dukovan-vyjde-o-stamiliardy-draz-oproti-puvodnimu/)
+    (in Czech), 14 August 2026.

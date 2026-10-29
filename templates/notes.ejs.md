@@ -14,16 +14,18 @@ const fmt = (d) => {
   return cs ? `${x.getUTCDate()}. ${months[x.getUTCMonth()]} ${x.getUTCFullYear()}` : `${x.getUTCDate()} ${months[x.getUTCMonth()]} ${x.getUTCFullYear()}`;
 };
 const iso = (d) => { const x = new Date(d); return isNaN(x) ? '' : x.toISOString().slice(0, 10); };
+// Each page lists the notes in its own language (`lang:` in a note's front matter, default en).
+const notes = items.filter((it) => (it.lang || 'en') === (cs ? 'cs' : 'en'));
 %>
-<% if (items.length && p.home) { %>
+<% if (notes.length && p.home) { %>
 <div class="section-head">
   <h2><%- cs ? 'Nejnovější poznámky' : 'Latest notes' %></h2>
   <a href="<%- cs ? 'notes.html' : 'notes/index.html' %>"><%- cs ? 'Všechny poznámky →' : 'All notes →' %></a>
 </div>
 <% } %>
-<% if (items.length) { %>
+<% if (notes.length) { %>
 <ul class="note-list list">
-<% for (const it of items) { %>
+<% for (const it of notes) { %>
   <li class="note-item" <%= metadataAttrs(it) %>>
     <time class="note-date" datetime="<%- iso(it.date) %>"><%- fmt(it.date) %></time>
     <div>
