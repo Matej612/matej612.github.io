@@ -10,6 +10,7 @@ description: "Kurzy na Institutu ekonomických studií Univerzity Karlovy."
 
 [Bakalářský kurz · Institut ekonomických studií, Fakulta sociálních věd UK]{.role}
 
-[Základní bakalářský kurz pro více než 150 studentů: teorie spotřebitele, teorie firmy a tržní
-struktury.]{.summary}
+[Základní bakalářský kurz teorie spotřebitele pro více než 150 studentů.]{.summary}
+
+[Stránka kurzu <i class="bi bi-arrow-up-right" aria-hidden="true"></i>](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=JEB104){.btn-outline}
 :::

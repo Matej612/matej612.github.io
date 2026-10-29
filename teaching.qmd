@@ -10,6 +10,7 @@ description: "Courses at the Institute of Economic Studies, Charles University."
 
 [Bachelor's course · Institute of Economic Studies, Faculty of Social Sciences, Charles University]{.role}
 
-[A foundational bachelor's course for more than 150 students, covering consumer theory, producer
-theory and market structures.]{.summary}
+[A foundational bachelor's course in consumer theory for more than 150 students.]{.summary}
+
+[Course page <i class="bi bi-arrow-up-right" aria-hidden="true"></i>](https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=JEB104){.btn-outline}
 :::
