@@ -1,6 +1,6 @@
 ---
 title: Novinky
-description: "Konference, nové publikace a výzkumné pobyty. Úplný seznam prezentací je v životopisu."
+description: "Konference, nové publikace a výzkumné pobyty. Úplný seznam konferencí je v životopisu."
 listing:
   - id: news
     contents: ../data/news.yml

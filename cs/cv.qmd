@@ -1,6 +1,6 @@
 ---
 title: Životopis
-description: "Pozice, vzdělání, výzkumné pobyty a prezentace. Úplný životopis je ke stažení v PDF."
+description: "Pozice, vzdělání, výzkumné pobyty a konference. Úplný životopis je ke stažení v PDF."
 listing:
   - id: talks
     contents: ../data/talks.yml
@@ -26,10 +26,12 @@ listing:
 ## Vzdělání
 
 ::: {.timeline-wrap}
-- [2017–2021]{.when} [[Ph.D. v oboru ekonomie]{.what} · Institut ekonomických studií UK, Praha\
+- [2017–2021]{.when} [[Ph.D. v oboru ekonomie]{.what} · Institut ekonomických studií UK, Praha · [177. místo na světě v ekonomii (QS&nbsp;2026)]{.note}\
   [Disertační práce: [„Evaluating Economic Policy Using the Synthetic Control Method“](https://hdl.handle.net/20.500.11956/152827) · školitel: prof. Tomáš Havránek]{.note}]{}
-- [2016–2017]{.when} [[MSc v oboru Economics and Business]{.what}, specializace behaviorální ekonomie · Erasmus School of Economics, Erasmus University Rotterdam, Nizozemsko\
+- [2016–2017]{.when} [[MSc v oboru Economics and Business]{.what}, specializace behaviorální ekonomie · Erasmus School of Economics, Erasmus University Rotterdam, Nizozemsko · [54. místo na světě v ekonomii (QS&nbsp;2026)]{.note}\
   [Diplomová práce: [„Extent of Irrationality of the Consumer: Combining the Critical Cost Efficiency and Hautman Maks Indices“](https://thesis.eur.nl/pub/38276/) · vedoucí: Jan Heufer]{.note}]{}
+- [2012–2016]{.when} [[Bc. v oboru ekonomie a finance]{.what} · Institut ekonomických studií UK, Praha · [177. místo na světě v ekonomii (QS&nbsp;2026)]{.note}\
+  [Bakalářská práce: [„Quantifying the Effects of the CNB's Exchange Rate Commitment: A Synthetic Control Method Approach“](https://hdl.handle.net/20.500.11956/79933) · vedoucí: prof. Tomáš Havránek]{.note}]{}
 :::
 
 ## Ocenění
@@ -48,11 +50,11 @@ listing:
 ## Výzkumné pobyty
 
 ::: {.timeline-wrap}
-- [leden 2027 (plánováno)]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago · stáž v projektu M4G]{}
+- [leden 2027 (plánováno)]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago · stáž v projektu M4G · [87. místo na světě v ekonomii (QS&nbsp;2026)]{.note}]{}
 - [leden 2026]{.when} [[Společné výzkumné centrum Evropské komise (JRC)]{.what}, Sevilla]{}
-- [březen–květen 2024]{.when} [[University of California, Berkeley]{.what}, Department of Agricultural and Resource Economics · hostitel: prof. David Zilberman]{}
-- [pros. 2019–čvc. 2020]{.when} [[The University of Auckland]{.what}, Nový Zéland]{}
-- [čvc.–říj. 2018]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago]{}
+- [březen–květen 2024]{.when} [[University of California, Berkeley]{.what}, Department of Agricultural and Resource Economics · hostitel: prof. David Zilberman · [7. místo na světě v ekonomii (QS&nbsp;2026)]{.note}]{}
+- [pros. 2019–čvc. 2020]{.when} [[The University of Auckland]{.what}, Nový Zéland · [123. místo na světě v ekonomii (QS&nbsp;2026)]{.note}]{}
+- [čvc.–říj. 2018]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago · [87. místo na světě v ekonomii (QS&nbsp;2026)]{.note}]{}
 :::
 
 ## Spolupráce s veřejnou správou
@@ -72,11 +74,11 @@ listing:
 ## Praxe mimo akademickou sféru
 
 ::: {.timeline-wrap}
-- [2018–2019]{.when} [[Ekonomický analytik]{.what} · Expobank, Praha]{}
-- [ ]{.when} [[McKinsey & Company]{.what}]{}
+- [2018–2019]{.when} [[Expobank]{.what}, Praha · ekonomický analytik]{}
+- [2015–2016]{.when} [[McKinsey & Company]{.what}, Praha · analytik nákupu]{}
 :::
 
-## Prezentace
+## Konference
 
 ::: {#talks}
 :::

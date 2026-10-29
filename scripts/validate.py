@@ -159,6 +159,8 @@ def check_talks() -> None:
             err(where, "'visible' must be true or false")
         if not isinstance(t.get("coauthors", []), list):
             err(where, "'coauthors' must be a list of surnames")
+        if t.get("url"):
+            check_link(f"{where}.url", str(t["url"]))
 
 
 def news_date(value) -> str:

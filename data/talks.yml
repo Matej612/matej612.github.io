@@ -6,14 +6,16 @@
 #   event: "Official event name"
 #   place: "City, Country"
 #   place_cs: "Město, Země"
+#   url: "https://…"            # optional, event page; the event name links to it
 #   title: "Exact title of the paper presented"
-#   coauthors: [Ščasný]        # surnames, shown as "with …"
+#   coauthors: [Ščasný]        # surnames, kept for the record (not shown on the site)
 #   role: presenter            # presenter | discussant | invited
 #   visible: true
 
 - id: 2026-06-wcere
   month: 2026-06
   event: "7th World Congress of Environmental and Resource Economists (WCERE 2026)"
+  url: "https://wcere2026.org/"
   place: "Lisbon, Portugal"
   place_cs: "Lisabon, Portugalsko"
   title: "Effects of Agro-Environmental Schemes on Biodiversity Potential: A Field-Level Data Analysis of Czech Agricultural Area"
@@ -24,6 +26,7 @@
 - id: 2025-06-iew
   month: 2025-06
   event: "International Energy Workshop (IEW 2025)"
+  url: "https://www.internationalenergyworkshop.org/news/iew-2025-announcement/"
   place: "Nara, Japan"
   place_cs: "Nara, Japonsko"
   title: "Bridging the Gap: A Novel M2/LIHC Hybrid Indicator Unveils Energy Poverty Dynamics – Case Study of the Czech Republic"
@@ -44,6 +47,7 @@
 - id: 2024-11-fsr-climate
   month: 2024-11
   event: "FSR Climate Annual Conference 2024, Florence School of Regulation, European University Institute"
+  url: "https://fsr.eui.eu/event/fsr-climate-annual-conference-2024/"
   place: "Florence, Italy"
   place_cs: "Florencie, Itálie"
   title: "Bridging the Gap: A Novel M2/LIHC Hybrid Indicator Unveils Energy Poverty Dynamics – Case Study of the Czech Republic"
@@ -53,7 +57,8 @@
 
 - id: 2024-10-south-caucasus
   month: 2024-10
-  event: "Agri-food value chains in the South Caucasus (IAMO and ISET Policy Institute)"
+  event: "Improving the Functioning of Agri-Food Value Chains in the South Caucasus Region (ISET Policy Institute and IAMO)"
+  url: "https://iset-pi.ge/en/news-and-events/news/3451-international-conference-improving-the-functioning-of-agri-food-value-chains-in-the-south-caucasus-region"
   place: "Tbilisi, Georgia"
   place_cs: "Tbilisi, Gruzie"
   title: "Impact of Agricultural Subsidies on Biodiversity"
@@ -63,7 +68,8 @@
 
 - id: 2024-02-ponacee
   month: 2024-02
-  event: "PONACEE Copenhagen Workshop"
+  event: "PoNACEE Copenhagen Workshop"
+  url: "https://4euplus.eu/4EU-701.html"
   place: "Copenhagen, Denmark"
   place_cs: "Kodaň, Dánsko"
   title: "The Impact of Agricultural Subsidies on Land Use Diversity"
@@ -74,6 +80,7 @@
 - id: 2023-06-eaere
   month: 2023-06
   event: "28th Annual Conference of the European Association of Environmental and Resource Economists (EAERE 2023)"
+  url: "http://www.eaere-conferences.org/index.php?y=2023"
   place: "Limassol, Cyprus"
   place_cs: "Limassol, Kypr"
   title: "Assessment of the impact of agricultural support on crop diversity"
@@ -84,6 +91,7 @@
 - id: 2023-03-eu-microdata
   month: 2023-03
   event: "8th European User Conference for EU-Microdata (GESIS and Eurostat)"
+  url: "https://www.gesis.org/en/research/projects-and-exchange/conferences/details/article/8th-european-user-conference-for-eu-microdata"
   place: "Mannheim, Germany"
   place_cs: "Mannheim, Německo"
   title: "Elasticity of Marginal Utility of Consumption in Europe: The Absolute Equal-Sacrifice Approach"
@@ -94,6 +102,7 @@
 - id: 2022-06-eaere
   month: 2022-06
   event: "Annual Conference of the European Association of Environmental and Resource Economists (EAERE 2022)"
+  url: "http://www.eaere-conferences.org/index.php?y=2022"
   place: "Rimini, Italy"
   place_cs: "Rimini, Itálie"
   title: "Elasticity of Marginal Utility of Consumption in the European Region: The Absolute Equal-Sacrifice Approach"

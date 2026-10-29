@@ -1,6 +1,6 @@
 ---
 title: News
-description: "Conferences, new publications and research stays. The full list of presentations is on the CV page."
+description: "Conferences, new publications and research stays. The full list of conferences is on the CV page."
 listing:
   - id: news
     contents: data/news.yml

@@ -642,8 +642,8 @@ main .hero.column-screen { z-index: 0; }  // Quarto gives .column-screen z-index
 }
 .pub-year { color: var(--c-muted); font-weight: 600; font-size: 0.92rem; font-variant-numeric: tabular-nums; padding-top: 0.2rem; }
 .pub-title { font-family: $font-family-display; font-size: 1.14rem; font-weight: 600; line-height: 1.35; margin: 0; }
-.pub-title a, .card-title a, .note-title a { color: var(--c-ink); font-weight: inherit; }
-.pub-title a:hover { color: var(--c-accent); }
+.pub-title a, .card-title a, .note-title a, .timeline .what a { color: var(--c-ink); font-weight: inherit; }
+.pub-title a:hover, .timeline .what a:hover { color: var(--c-accent); }
 .pub-with { color: var(--c-muted); font-size: 0.95rem; margin: 0.2rem 0 0; }
 .pub-venue { font-size: 0.95rem; margin: 0.15rem 0 0; color: var(--c-muted); }
 .pub-venue em { color: var(--c-ink); font-style: italic; }
@@ -730,7 +730,6 @@ details.abstract {
   color: var(--c-muted);
   margin: 1.6rem 0 0.4rem;
 }
-.talk-title { font-family: $font-family-display; font-weight: 600; font-size: 1.04rem; line-height: 1.4; }
 @media (max-width: 575.98px) {
   .timeline > li, .timeline-wrap > ul > li { grid-template-columns: 1fr; gap: 0.1rem; }
 }

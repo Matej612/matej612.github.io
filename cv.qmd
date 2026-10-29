@@ -1,6 +1,6 @@
 ---
 title: Curriculum vitae
-description: "Positions, education, research stays and presentations. The full CV is a PDF download."
+description: "Positions, education, research stays and conferences. The full CV is a PDF download."
 listing:
   - id: talks
     contents: data/talks.yml
@@ -26,10 +26,12 @@ listing:
 ## Education
 
 ::: {.timeline-wrap}
-- [2017–2021]{.when} [[PhD in Economics]{.what} · Institute of Economic Studies, Charles University, Prague\
+- [2017–2021]{.when} [[PhD in Economics]{.what} · Institute of Economic Studies, Charles University, Prague · [177th in the world in economics (QS&nbsp;2026)]{.note}\
   [Dissertation: [“Evaluating Economic Policy Using the Synthetic Control Method”](https://hdl.handle.net/20.500.11956/152827) · supervisor: Prof. Tomáš Havránek]{.note}]{}
-- [2016–2017]{.when} [[MSc in Economics and Business]{.what}, specialisation in behavioural economics · Erasmus School of Economics, Erasmus University Rotterdam, the Netherlands\
+- [2016–2017]{.when} [[MSc in Economics and Business]{.what}, specialisation in behavioural economics · Erasmus School of Economics, Erasmus University Rotterdam, the Netherlands · [54th in the world in economics (QS&nbsp;2026)]{.note}\
   [Master's thesis: [“Extent of Irrationality of the Consumer: Combining the Critical Cost Efficiency and Hautman Maks Indices”](https://thesis.eur.nl/pub/38276/) · supervisor: Jan Heufer]{.note}]{}
+- [2012–2016]{.when} [[Bc. in Economics and Finance]{.what} · Institute of Economic Studies, Charles University, Prague · [177th in the world in economics (QS&nbsp;2026)]{.note}\
+  [Bachelor's thesis: [“Quantifying the Effects of the CNB's Exchange Rate Commitment: A Synthetic Control Method Approach”](https://hdl.handle.net/20.500.11956/79933) · supervisor: Prof. Tomáš Havránek]{.note}]{}
 :::
 
 ## Awards
@@ -48,11 +50,11 @@ listing:
 ## Research stays
 
 ::: {.timeline-wrap}
-- [Jan 2027 (planned)]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago · M4G secondment]{}
+- [Jan 2027 (planned)]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago · M4G secondment · [87th in the world in economics (QS&nbsp;2026)]{.note}]{}
 - [Jan 2026]{.when} [[European Commission Joint Research Centre (JRC)]{.what}, Seville]{}
-- [Mar–May 2024]{.when} [[University of California, Berkeley]{.what}, Department of Agricultural and Resource Economics · host: Prof. David Zilberman]{}
-- [Dec 2019–Jul 2020]{.when} [[The University of Auckland]{.what}, New Zealand]{}
-- [Jul–Oct 2018]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago]{}
+- [Mar–May 2024]{.when} [[University of California, Berkeley]{.what}, Department of Agricultural and Resource Economics · host: Prof. David Zilberman · [7th in the world in economics (QS&nbsp;2026)]{.note}]{}
+- [Dec 2019–Jul 2020]{.when} [[The University of Auckland]{.what}, New Zealand · [123rd in the world in economics (QS&nbsp;2026)]{.note}]{}
+- [Jul–Oct 2018]{.when} [[Pontificia Universidad Católica de Chile]{.what}, Santiago · [87th in the world in economics (QS&nbsp;2026)]{.note}]{}
 :::
 
 ## Policy engagement
@@ -72,11 +74,11 @@ listing:
 ## Experience outside academia
 
 ::: {.timeline-wrap}
-- [2018–2019]{.when} [[Economic analyst]{.what} · Expobank, Prague]{}
-- [ ]{.when} [[McKinsey & Company]{.what}]{}
+- [2018–2019]{.when} [[Expobank]{.what}, Prague · economic analyst]{}
+- [2015–2016]{.when} [[McKinsey & Company]{.what}, Prague · sourcing analyst]{}
 :::
 
-## Presentations
+## Conferences
 
 ::: {#talks}
 :::
