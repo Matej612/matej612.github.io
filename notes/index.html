@@ -74,9 +74,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-execute','listing-lang','listing-website','listing-format','listing-engines','listing-_quarto-vars','listing-language','listing-title-block-categories','listing-date-format','listing-title','listing-date','listing-description','listing-categories','listing-include-in-header','listing-draft','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-execute","listing-lang","listing-website","listing-format","listing-engines","listing-_quarto-vars","listing-language","listing-title-block-categories","listing-date-format","listing-title","listing-date","listing-description","listing-categories","listing-include-in-header","listing-draft","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -413,8 +413,18 @@ window.Quarto = {
 
 <div id="listing-notes" class="quarto-listing quarto-listing-container-custom">
 
-<p class="empty-state">The first notes and commentaries will appear here soon.</p>
-<ul class="list" hidden=""></ul>
+<ul class="note-list list">
+
+  <li class="note-item" data-index="0" data-categories="RW5lcmd5JTJDUHVibGljJTIwcG9saWN5" data-listing-date-sort="1793232000000" data-listing-file-modified-sort="1793264751143" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3702">
+    <time class="note-date" datetime="2026-10-29">29 October 2026</time>
+    <div>
+      <h3 class="note-title"><a href="../notes/2026-10-29-ets2-what-we-measure-and-what-we-want/index.html">ETS2: do we know what we want to measure and achieve?</a></h3>
+      <p class="note-desc">ETS2 revenue should go into greater energy self-sufficiency, and both the EU and Czechia should ease the regulations that make products more expensive.</p>
+    </div>
+  </li>
+
+</ul>
+<div class="listing-no-matching d-none">No notes on this topic yet.</div>
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -439,21 +449,25 @@ window.Quarto = {
 
   // 2. Czech pages: translate the shared navbar and point it at the Czech pages.
   //    English and Czech pages share file names: research.html <-> cs/research.html,
-  //    except the notes page (notes/ <-> cs/notes.html).
+  //    except the notes page (notes/ <-> cs/notes.html). Notes all live in notes/; a
+  //    Czech note is recognised by lang="cs", and a note names its other-language
+  //    version with <link rel="alternate" hreflang> (include-in-header in its front matter).
   const brand = document.querySelector("a.navbar-brand")?.getAttribute("href") || "./";
   const root = new URL(".", new URL(brand, location.href));
   const rel = (url) => decodeURI(new URL(url, location.href).pathname)
     .slice(decodeURI(root.pathname).length).replace(/index\.html$/, "");
   const here = rel(location.href);
-  const isCs = here === "cs/" || here.startsWith("cs/");
+  const isCs = here === "cs/" || here.startsWith("cs/") || document.documentElement.lang === "cs";
+  const alternate = document.querySelector('link[rel="alternate"][hreflang="en"], link[rel="alternate"][hreflang="cs"]');
   const pages = ["", "research.html", "projects.html", "teaching.html", "notes/", "cv.html", "news.html"];
   const toCs = (p) => (p === "notes/" ? "cs/notes.html" : "cs/" + p);
   const toEn = (p) => (p === "cs/notes.html" ? "notes/" : p.replace(/^cs\//, ""));
   const labels = { Home: "Domů", Research: "Výzkum", Projects: "Projekty", Teaching: "Výuka",
                    Notes: "Poznámky", CV: "Životopis", Source: "Zdrojový kód" };
 
-  const counterpart = isCs
-    ? (pages.includes(toEn(here)) ? toEn(here) : "")
+  const counterpart = alternate ? rel(alternate.href)
+    : isCs
+    ? (pages.includes(toEn(here)) ? toEn(here) : here.startsWith("notes/") ? "notes/" : "")
     : (pages.includes(here) ? toCs(here) : here.startsWith("notes/") ? "cs/notes.html" : "cs/");
 
   // The language switch is the text-only navbar link pointing at the Czech home page.

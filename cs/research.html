@@ -871,21 +871,25 @@ window.Quarto = {
 
   // 2. Czech pages: translate the shared navbar and point it at the Czech pages.
   //    English and Czech pages share file names: research.html <-> cs/research.html,
-  //    except the notes page (notes/ <-> cs/notes.html).
+  //    except the notes page (notes/ <-> cs/notes.html). Notes all live in notes/; a
+  //    Czech note is recognised by lang="cs", and a note names its other-language
+  //    version with <link rel="alternate" hreflang> (include-in-header in its front matter).
   const brand = document.querySelector("a.navbar-brand")?.getAttribute("href") || "./";
   const root = new URL(".", new URL(brand, location.href));
   const rel = (url) => decodeURI(new URL(url, location.href).pathname)
     .slice(decodeURI(root.pathname).length).replace(/index\.html$/, "");
   const here = rel(location.href);
-  const isCs = here === "cs/" || here.startsWith("cs/");
+  const isCs = here === "cs/" || here.startsWith("cs/") || document.documentElement.lang === "cs";
+  const alternate = document.querySelector('link[rel="alternate"][hreflang="en"], link[rel="alternate"][hreflang="cs"]');
   const pages = ["", "research.html", "projects.html", "teaching.html", "notes/", "cv.html", "news.html"];
   const toCs = (p) => (p === "notes/" ? "cs/notes.html" : "cs/" + p);
   const toEn = (p) => (p === "cs/notes.html" ? "notes/" : p.replace(/^cs\//, ""));
   const labels = { Home: "Domů", Research: "Výzkum", Projects: "Projekty", Teaching: "Výuka",
                    Notes: "Poznámky", CV: "Životopis", Source: "Zdrojový kód" };
 
-  const counterpart = isCs
-    ? (pages.includes(toEn(here)) ? toEn(here) : "")
+  const counterpart = alternate ? rel(alternate.href)
+    : isCs
+    ? (pages.includes(toEn(here)) ? toEn(here) : here.startsWith("notes/") ? "notes/" : "")
     : (pages.includes(here) ? toCs(here) : here.startsWith("notes/") ? "cs/notes.html" : "cs/");
 
   // The language switch is the text-only navbar link pointing at the Czech home page.

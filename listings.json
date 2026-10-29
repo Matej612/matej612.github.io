@@ -17,11 +17,17 @@
   },
   {
     "listing": "/cs/notes.html",
-    "items": []
+    "items": [
+      "/notes/2026-10-29-ets2-vime-co-chceme-merit-a-ceho-dosahnout/index.html",
+      "/notes/2026-10-29-ets2-what-we-measure-and-what-we-want/index.html"
+    ]
   },
   {
     "listing": "/cs/index.html",
-    "items": []
+    "items": [
+      "/notes/2026-10-29-ets2-vime-co-chceme-merit-a-ceho-dosahnout/index.html",
+      "/notes/2026-10-29-ets2-what-we-measure-and-what-we-want/index.html"
+    ]
   },
   {
     "listing": "/cs/cv.html",
@@ -37,11 +43,17 @@
   },
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/notes/2026-10-29-ets2-vime-co-chceme-merit-a-ceho-dosahnout/index.html",
+      "/notes/2026-10-29-ets2-what-we-measure-and-what-we-want/index.html"
+    ]
   },
   {
     "listing": "/notes/index.html",
-    "items": []
+    "items": [
+      "/notes/2026-10-29-ets2-vime-co-chceme-merit-a-ceho-dosahnout/index.html",
+      "/notes/2026-10-29-ets2-what-we-measure-and-what-we-want/index.html"
+    ]
   },
   {
     "listing": "/research.html",
